@@ -100,11 +100,16 @@ async function fetchRSS(url, category) {
 
 // ==================== AI 摘要生成 ====================
 
-async function generateSummary(title, description) {
-    if (!DOUBAO_API_KEY) {
-        console.warn('未配置豆包 API Key，跳过摘要生成');
-        return description.substring(0, 100) + '...';
-    }
+ async function generateSummary(title, description) {
+      // 暂时跳过 AI 摘要，直接使用原始描述
+      return description.substring(0, 100) + '...';yaode
+
+      // 下面的代码暂时不执行
+      /*
+      if (!DOUBAO_API_KEY) {
+      ...
+      */
+  }
 
     const prompt = `请用一句话（100字以内）概括以下汽车材料技术文章的核心内容，只提炼关键技术信息：
 
