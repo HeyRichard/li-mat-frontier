@@ -1,0 +1,13 @@
+{
+  "name": "li-mat-frontier-rss-fetcher",
+  "version": "1.0.0",
+  "description": "RSS抓取和处理脚本 for Li-Mat Frontier",
+  "main": "fetch-rss.js",
+  "scripts": {
+    "fetch": "node fetch-rss.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "node-fetch": "^2.7.0"
+  }
+}
