@@ -291,15 +291,13 @@
                 console.log(`📥 正在抓取分类: ${category}`);
 
                 for (const url of urls) {
-                    try {
-                        // 抓取单个 RSS 源
-                        const items = await fetchRSS(url, category);
+                    const items = await fetchRSS(url, category);
+
+                    if (items.length > 0) {
                         articles.push(...items);
                         successCount++;
-                        console.log(`✓ ${url} - 成功获取 ${items.length} 条`);
-                    } catch (error) {
+                    } else {
                         failCount++;
-                        console.error(`✗ ${url} - 抓取失败:`, error.message);
                     }
                 }
             }
@@ -332,64 +330,42 @@
 
         // ========== 抓取单个 RSS 源 ==========
         async function fetchRSS(url, category) {
-            // 方案1: 使用 RSS2JSON API (最稳定)
-            try {
-                console.log(`尝试 RSS2JSON: ${url}`);
-                const rss2jsonUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}&api_key=xhtkox0acqvpgsdmznqwywf0lclcmafyqhknwdvg&count=50`;
+            // 新方案：使用 Cloudflare Workers CORS代理
+            // 这是一个开源的、更稳定的CORS代理服务
+            const corsProxies = [
+                `https://workers.cloudflare-cn.com/cors?${url}`,
+                `https://rssproxy.migor.org/api/rss?url=${encodeURIComponent(url)}`,
+                url // 直接尝试（有些RSS源支持CORS）
+            ];
 
-                const response = await fetch(rss2jsonUrl);
+            for (const proxyUrl of corsProxies) {
+                try {
+                    console.log(`尝试: ${proxyUrl.substring(0, 60)}...`);
 
-                if (response.ok) {
-                    const data = await response.json();
+                    const response = await fetch(proxyUrl, {
+                        method: 'GET',
+                        headers: { 'Accept': 'application/xml, text/xml, application/rss+xml, */*' },
+                        mode: 'cors'
+                    });
 
-                    if (data.status === 'ok' && data.items && data.items.length > 0) {
-                        const articles = [];
+                    if (response.ok) {
+                        const text = await response.text();
+                        const articles = await parseRSSContent(text, url, category);
 
-                        data.items.forEach(item => {
-                            const title = item.title || '';
-                            const link = item.link || '';
-                            const pubDate = item.pubDate || '';
-                            const description = item.description || item.content || '';
-
-                            // 过滤：只保留与材料业务相关的文章
-                            if (isRelevant(title, description, category)) {
-                                articles.push({
-                                    title: title.trim(),
-                                    link: link.trim(),
-                                    date: pubDate ? new Date(pubDate) : new Date(),
-                                    category: category,
-                                    description: stripHtml(description).trim(),
-                                    summary: ''
-                                });
-                            }
-                        });
-
-                        console.log(`✓ RSS2JSON 成功: ${url} - ${articles.length} 条`);
-                        return articles;
+                        if (articles.length > 0) {
+                            console.log(`✓ 成功: ${url} - ${articles.length} 条`);
+                            return articles;
+                        }
                     }
+                } catch (error) {
+                    console.log(`失败: ${error.message}`);
+                    continue;
                 }
-            } catch (error) {
-                console.log(`RSS2JSON 失败: ${error.message}`);
             }
 
-            // 方案2: 使用 AllOrigins (备用)
-            try {
-                console.log(`尝试 AllOrigins: ${url}`);
-                const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
-                const response = await fetch(proxyUrl);
-
-                if (response.ok) {
-                    const data = await response.json();
-                    if (data.contents) {
-                        return await parseRSSContent(data.contents, url, category);
-                    }
-                }
-            } catch (error) {
-                console.log(`AllOrigins 失败: ${error.message}`);
-            }
-
-            // 所有方法都失败
-            throw new Error(`无法获取: ${url}`);
+            // 所有方法都失败，返回空数组而不是抛出错误
+            console.log(`⚠️ 跳过: ${url}`);
+            return [];
         }
 
         // ========== 解析 RSS 内容 ==========
