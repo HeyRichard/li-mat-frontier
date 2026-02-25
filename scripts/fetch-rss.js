@@ -1,19 +1,14 @@
-// RSS 抓取和处理脚本
-// 用于 Li-Mat Frontier 汽车材料资讯聚合
+ // RSS 抓取和处理脚本
+  // 用于 Li-Mat Frontier 汽车材料资讯聚合
 
-const Parser = require('rss-parser');
-const fetch = require('node-fetch');
-const fs = require('fs');
-const path = require('path');
+  const Parser = require('rss-parser');
+  const fs = require('fs');
+  const path = require('path');
 
-// ==================== 配置区域 ====================
+  // ==================== 配置区域 ====================
 
-// 豆包 API Key（从环境变量读取）
-const DOUBAO_API_KEY = process.env.DOUBAO_API_KEY;
-const DOUBAO_MODEL = 'doubao-lite-4k';
-
-// RSS 源配置
-const RSS_SOURCES = {
+  // RSS 源配置 - 使用可靠的通用RSS源
+  const RSS_SOURCES = {
       '综合新闻': [
           'https://hnrss.org/frontpage',
           'https://rss.cnn.com/rss/cnn_topstories.rss',
@@ -29,230 +24,141 @@ const RSS_SOURCES = {
       ]
   };
 
-// 分类关键词
-const CATEGORY_KEYWORDS = {
-      '综合新闻': ['news', 'world', 'business'],
-      '科技资讯': ['tech', 'ai', 'software'],
-      '汽车新闻': ['car', 'auto', 'vehicle']
-  };
+  // ==================== 工具函数 ====================
 
-// ==================== 工具函数 ====================
-
-// 延时函数
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-// 去除 HTML 标签
-function stripHtml(html) {
-    if (!html) return '';
-    return html.replace(/<[^>]*>/g, '').trim();
-}
-
-// 判断文章是否相关
-function isRelevant(title, description, category) {
-      return true;  // 暂时允许所有文章通过
+  // 延时函数
+  function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
   }
 
-// ==================== RSS 抓取 ====================
-
-async function fetchRSS(url, category) {
-    const parser = new Parser({
-        timeout: 10000,
-        headers: {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        }
-    });
-
-    try {
-        console.log(`抓取: ${url}`);
-        const feed = await parser.parseURL(url);
-
-        const articles = [];
-
-        for (const item of feed.items) {
-            const title = item.title || '';
-            const link = item.link || '';
-            const description = stripHtml(item.contentSnippet || item.content || item.description || '');
-            const pubDate = item.pubDate || item.isoDate || new Date().toISOString();
-
-            // 过滤相关内容
-            if (isRelevant(title, description, category)) {
-                articles.push({
-                    title: title.trim(),
-                    link: link.trim(),
-                    date: new Date(pubDate).toISOString(),
-                    category: category,
-                    description: description.substring(0, 500),
-                    summary: '' // 稍后生成
-                });
-            }
-        }
-
-        console.log(`✓ ${url} - 成功获取 ${articles.length} 条`);
-        return articles;
-
-    } catch (error) {
-        console.error(`✗ ${url} - 失败: ${error.message}`);
-        return [];
-    }
-}
-
-// ==================== AI 摘要生成 ====================
-
- async function generateSummary(title, description) {
-      // 暂时跳过 AI 摘要，直接使用原始描述
-      return description.substring(0, 100) + '...';yaode
-
-      // 下面的代码暂时不执行
-      /*
-      if (!DOUBAO_API_KEY) {
-      ...
-      */
+  // 去除 HTML 标签
+  function stripHtml(html) {
+      if (!html) return '';
+      return html.replace(/<[^>]*>/g, '').trim();
   }
 
-    const prompt = `请用一句话（100字以内）概括以下汽车材料技术文章的核心内容，只提炼关键技术信息：
+  // ==================== RSS 抓取 ====================
 
-标题：${title}
-内容：${description.substring(0, 500)}`;
+  async function fetchRSS(url, category) {
+      const parser = new Parser({
+          timeout: 15000,
+          headers: {
+              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+          }
+      });
 
-    try {
-        const response = await fetch('https://ark.cn-beijing.volces.com/api/v3/chat/completions', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${DOUBAO_API_KEY}`
-            },
-            body: JSON.stringify({
-                model: DOUBAO_MODEL,
-                messages: [{
-                    role: 'user',
-                    content: prompt
-                }],
-                max_tokens: 150,
-                temperature: 0.3
-            })
-        });
+      try {
+          console.log(`抓取: ${url}`);
+          const feed = await parser.parseURL(url);
 
-        if (!response.ok) {
-            throw new Error(`API 错误: ${response.status}`);
-        }
+          const articles = [];
 
-        const data = await response.json();
-        return data.choices[0].message.content.trim();
+          for (const item of feed.items) {
+              const title = item.title || '';
+              const link = item.link || '';
+              const description = stripHtml(item.contentSnippet || item.content || item.description || '');
+              const pubDate = item.pubDate || item.isoDate || new Date().toISOString();
 
-    } catch (error) {
-        console.error(`生成摘要失败: ${error.message}`);
-        return description.substring(0, 100) + '...';
-    }
-}
+              articles.push({
+                  title: title.trim(),
+                  link: link.trim(),
+                  date: new Date(pubDate).toISOString(),
+                  category: category,
+                  description: description.substring(0, 500),
+                  summary: description.substring(0, 150) + '...' // 直接使用描述前150字
+              });
+          }
 
-// 批量生成摘要
-async function generateSummaries(articles) {
-    console.log('\n开始生成 AI 摘要...');
+          console.log(`✓ ${url} - 成功获取 ${articles.length} 条`);
+          return articles;
 
-    const batchSize = 5;
-    let processed = 0;
+      } catch (error) {
+          console.error(`✗ ${url} - 失败: ${error.message}`);
+          return [];
+      }
+  }
 
-    for (let i = 0; i < articles.length; i += batchSize) {
-        const batch = articles.slice(i, i + batchSize);
+  // ==================== 主函数 ====================
 
-        await Promise.all(batch.map(async (article) => {
-            article.summary = await generateSummary(article.title, article.description);
-            processed++;
-            console.log(`[${processed}/${articles.length}] ${article.title.substring(0, 30)}...`);
-        }));
+  async function main() {
+      console.log('========================================');
+      console.log('Li-Mat Frontier RSS 抓取开始');
+      console.log(`时间: ${new Date().toLocaleString('zh-CN')}`);
+      console.log('========================================\n');
 
-        // 批次间隔 1 秒
-        if (i + batchSize < articles.length) {
-            await sleep(1000);
-        }
-    }
+      const allArticles = [];
+      let successCount = 0;
+      let failCount = 0;
 
-    console.log('✓ AI 摘要生成完成\n');
-}
+      // 遍历所有分类和 RSS 源
+      for (const [category, urls] of Object.entries(RSS_SOURCES)) {
+          console.log(`\n📥 分类: ${category}`);
 
-// ==================== 主函数 ====================
+          for (const url of urls) {
+              const articles = await fetchRSS(url, category);
 
-async function main() {
-    console.log('========================================');
-    console.log('Li-Mat Frontier RSS 抓取开始');
-    console.log(`时间: ${new Date().toLocaleString('zh-CN')}`);
-    console.log('========================================\n');
+              if (articles.length > 0) {
+                  allArticles.push(...articles);
+                  successCount++;
+              } else {
+                  failCount++;
+              }
 
-    const allArticles = [];
-    let successCount = 0;
-    let failCount = 0;
+              // 请求间隔，避免被限流
+              await sleep(1000);
+          }
+      }
 
-    // 遍历所有分类和 RSS 源
-    for (const [category, urls] of Object.entries(RSS_SOURCES)) {
-        console.log(`\n📥 分类: ${category}`);
+      console.log(`\n📊 抓取统计: 成功 ${successCount} 个源，失败 ${failCount} 个源`);
+      console.log(`📄 共获取 ${allArticles.length} 篇文章\n`);
 
-        for (const url of urls) {
-            const articles = await fetchRSS(url, category);
+      // 去重
+      const uniqueArticles = [];
+      const titles = new Set();
 
-            if (articles.length > 0) {
-                allArticles.push(...articles);
-                successCount++;
-            } else {
-                failCount++;
-            }
+      allArticles.forEach(article => {
+          if (!titles.has(article.title)) {
+              titles.add(article.title);
+              uniqueArticles.push(article);
+          }
+      });
 
-            // 请求间隔，避免被限流
-            await sleep(500);
-        }
-    }
+      console.log(`🔍 去重后剩余 ${uniqueArticles.length} 篇文章\n`);
 
-    console.log(`\n📊 抓取统计: 成功 ${successCount} 个源，失败 ${failCount} 个源`);
-    console.log(`📄 共获取 ${allArticles.length} 篇文章\n`);
+      // 按时间倒序排序
+      uniqueArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-    // 去重
-    const uniqueArticles = [];
-    const titles = new Set();
+      // 只保留最新的50篇
+      const limitedArticles = uniqueArticles.slice(0, 50);
+      console.log(`📌 保留最新 ${limitedArticles.length} 篇文章\n`);
 
-    allArticles.forEach(article => {
-        if (!titles.has(article.title)) {
-            titles.add(article.title);
-            uniqueArticles.push(article);
-        }
-    });
+      // 生成数据文件
+      const outputData = {
+          lastUpdated: new Date().toISOString(),
+          updateTime: new Date().toLocaleString('zh-CN'),
+          totalArticles: limitedArticles.length,
+          categories: Object.keys(RSS_SOURCES),
+          articles: limitedArticles
+      };
 
-    console.log(`🔍 去重后剩余 ${uniqueArticles.length} 篇文章\n`);
+      // 确保 data 目录存在
+      const dataDir = path.join(__dirname, '..', 'data');
+      if (!fs.existsSync(dataDir)) {
+          fs.mkdirSync(dataDir, { recursive: true });
+      }
 
-    // 按时间倒序排序
-    uniqueArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
+      // 保存 JSON 文件
+      const outputPath = path.join(dataDir, 'news.json');
+      fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 2), 'utf-8');
 
-    // 生成 AI 摘要
-    if (uniqueArticles.length > 0) {
-        await generateSummaries(uniqueArticles);
-    }
+      console.log('========================================');
+      console.log(`✅ 数据已保存到: ${outputPath}`);
+      console.log(`✅ 共 ${limitedArticles.length} 篇文章`);
+      console.log('========================================');
+  }
 
-    // 生成数据文件
-    const outputData = {
-        lastUpdated: new Date().toISOString(),
-        updateTime: new Date().toLocaleString('zh-CN'),
-        totalArticles: uniqueArticles.length,
-        categories: Object.keys(RSS_SOURCES),
-        articles: uniqueArticles
-    };
-
-    // 确保 data 目录存在
-    const dataDir = path.join(__dirname, '..', 'data');
-    if (!fs.existsSync(dataDir)) {
-        fs.mkdirSync(dataDir, { recursive: true });
-    }
-
-    // 保存 JSON 文件
-    const outputPath = path.join(dataDir, 'news.json');
-    fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 2), 'utf-8');
-
-    console.log('========================================');
-    console.log(`✅ 数据已保存到: ${outputPath}`);
-    console.log('========================================');
-}
-
-// 执行主函数
-main().catch(error => {
-    console.error('❌ 发生错误:', error);
-    process.exit(1);
-});
+  // 执行主函数
+  main().catch(error => {
+      console.error('❌ 发生错误:', error);
+      process.exit(1);
+  });
