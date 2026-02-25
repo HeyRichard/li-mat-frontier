@@ -62,8 +62,17 @@
         // 【重要】请在这里填写你的豆包 API Key
         // 获取方式：访问 https://console.volcengine.com/ark 注册并创建 API Key
         // 豆包（火山方舟）提供免费额度，非常适合个人使用
-        const DOUBAO_API_KEY = '在这里粘贴你的豆包API Key';
+        //
+        // 如果部署到线上，可以留空，然后在浏览器控制台设置：
+        // localStorage.setItem('DOUBAO_API_KEY', '你的API-Key');
+        // location.reload();
+        let DOUBAO_API_KEY = '在这里粘贴你的豆包API Key';
 
+        // 尝试从 localStorage 读取 API Key（用于线上部署）
+        const savedApiKey = localStorage.getItem('DOUBAO_API_KEY');
+        if (savedApiKey && savedApiKey !== '在这里粘贴你的豆包API Key') {
+            DOUBAO_API_KEY = savedApiKey;
+        }
 
         // 【可选】如果使用自定义模型，请填写你的模型 Endpoint ID
         // 默认使用 doubao-lite-4k 模型（免费额度）
