@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Li-Mat Frontier - 汽车材料行业前沿资讯</title>
+    <!-- 引入 Tailwind CSS 样式框架 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 自定义样式：科技简约风 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+        }
+
+        /* 卡片悬停效果 - Notion/Linear 风格 */
+        .article-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid #e5e7eb;
+        }
+        .article-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+            border-color: #3b82f6;
+        }
+
+        /* 分类标签悬停效果 */
+        .category-tag {
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+        .category-tag:hover {
+            transform: scale(1.05);
+        }
+
+        /* 加载动画 */
+        .loader {
+            border: 3px solid #f3f4f6;
+            border-top: 3px solid #3b82f6;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* 文字截断效果 */
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- ==================== 配置区域（唯一需要修改的地方）==================== -->
+    <script>
+        // 【重要】请在这里填写你的豆包 API Key
+        // 获取方式：访问 https://console.volcengine.com/ark 注册并创建 API Key
+        // 豆包（火山方舟）提供免费额度，非常适合个人使用
+        const DOUBAO_API_KEY = '在这里粘贴你的豆包API Key';
+
+
+        // 【可选】如果使用自定义模型，请填写你的模型 Endpoint ID
+        // 默认使用 doubao-lite-4k 模型（免费额度）
+        const DOUBAO_MODEL = 'doubao-lite-4k';
+
+        // RSS 源配置（7个业务分类，共22个RSS源）
+        // 如需添加/删除RSS源，直接在下方对应分类中修改即可
+        const RSS_SOURCES = {
+            '综合资讯': [
+                'https://auto.gasgoo.com/feed/',
+                'https://www.xincailiao.com/feed/',
+                'https://www.cnautonews.net/feed/'
+            ],
+            '金属材料': [
+                'https://www.worldmetals.com.cn/feed/',
+                'https://www.albiz.cn/feed/',
+                'https://www.steel.org/feed/',
+                'https://www.mw35.com/feed/'
+            ],
+            '非金属材料': [
+                'https://www.frp.cn/feed/',
+                'https://www.21cp.com/feed/',
+                'https://www.tanxianwei.cn/feed/'
+            ],
+            '汽车防腐': [
+                'https://www.csea.com.cn/feed/',
+                'https://www.ffw.com.cn/feed/',
+                'https://www.coatingol.com/feed/'
+            ],
+            '车内健康': [
+                'https://www.chenei.org/feed/',
+                'https://www.chevoc.com/feed/',
+                'https://www.qcnsw.com/feed/'
+            ],
+            '紧固件': [
+                'https://www.chinafastener.biz/feed/',
+                'https://www.fastener-world.com.cn/feed/',
+                'https://www.luosi.com/feed/'
+            ],
+            '环保合规': [
+                'https://www.caam.org.cn/feed/',
+                'https://www.autoep.net/feed/',
+                'https://www.catarc.ac.cn/feed/'
+            ]
+        };
+
+        // 分类关键词配置（用于自动过滤和归类文章）
+        // 只有包含这些关键词的文章才会被保留和显示
+        const CATEGORY_KEYWORDS = {
+            '综合资讯': ['汽车', '新能源', '智能', '行业', '市场', '技术', '材料'],
+            '金属材料': ['高强钢', '铝合金', '镁合金', '铜合金', '非晶', '金属', '钢材', '铝材', '镁', '铜'],
+            '非金属材料': ['碳纤维', '玻纤', '复合材料', 'PMMA', '工程塑料', '塑料', '纤维', '树脂'],
+            '汽车防腐': ['涂层', '防腐', '涂料', '涂装', '阴极', '电泳', '镀锌', '防锈', '腐蚀'],
+            '车内健康': ['VOC', '甲醛', '异味', '散发', '空气质量', '健康', '气味', '挥发'],
+            '紧固件': ['螺栓', '螺钉', '紧固', '连接', '扭矩', '紧固件', '螺母'],
+            '环保合规': ['ELV', 'RoHS', '排放', '碳', '环保', '标准', '法规', '合规', '低碳']
+        };
+    </script>
+
+    <!-- ==================== 页面头部 ==================== -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-2xl font-bold text-gray-900">Li-Mat Frontier</h1>
+                    <p class="text-sm text-gray-500 mt-1">汽车材料行业前沿资讯 | 每日 8:50 自动更新</p>
+                </div>
+                <div class="text-right">
+                    <p class="text-xs text-gray-400">上次更新</p>
+                    <p class="text-sm font-medium text-gray-700" id="lastUpdate">加载中...</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== 分类导航栏 ==================== -->
+    <nav class="bg-white border-b sticky top-[88px] z-40 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex overflow-x-auto py-4 space-x-3 scrollbar-hide" id="categoryNav">
+                <!-- JavaScript 动态生成分类按钮 -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== 主内容区 ==================== -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- 加载状态 -->
+        <div id="loadingState" class="flex flex-col items-center justify-center py-20">
+            <div class="loader"></div>
+            <p class="mt-6 text-gray-600 font-medium">正在加载资讯，请稍候...</p>
+            <p class="mt-2 text-sm text-gray-400">首次加载需要生成 AI 摘要，可能需要 1-2 分钟</p>
+        </div>
+
+        <!-- 文章列表容器 -->
+        <div id="articleList" class="space-y-4 hidden">
+            <!-- JavaScript 动态生成文章卡片 -->
+        </div>
+
+        <!-- 空状态提示 -->
+        <div id="emptyState" class="text-center py-20 hidden">
+            <svg class="mx-auto h-16 w-16 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <p class="mt-4 text-lg text-gray-500">暂无相关资讯</p>
+            <p class="mt-2 text-sm text-gray-400">请尝试切换其他分类查看</p>
+        </div>
+    </main>
+
+    <!-- ==================== 页面底部 ==================== -->
+    <footer class="bg-white border-t mt-16 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm text-gray-500">Li-Mat Frontier | 新势力车企材料技术前沿资讯聚合</p>
+            <p class="text-xs text-gray-400 mt-1">数据来源于各网站官方 RSS 源 | 仅供个人学习研究使用</p>
+        </div>
+    </footer>
+
+    <!-- ==================== 核心功能 JavaScript 代码 ==================== -->
+    <script>
+        // ========== 全局变量 ==========
+        let allArticles = []; // 存储所有抓取的文章数据
+        let currentCategory = '全部'; // 当前选中的分类
+
+        // ========== 页面初始化函数 ==========
+        async function init() {
+            console.log('🚀 Li-Mat Frontier 初始化中...');
+
+            // 第一步：检查 API Key 是否已配置
+            if (!DOUBAO_API_KEY || DOUBAO_API_KEY.includes('在这里粘贴')) {
+                showError('请先配置豆包 API Key！',
+                    '请在代码第 65 行左右找到 DOUBAO_API_KEY 变量，填入你的 API Key。\n\n' +
+                    '获取方式：\n' +
+                    '1. 访问 https://console.volcengine.com/ark\n' +
+                    '2. 注册/登录火山引擎账号\n' +
+                    '3. 创建 API Key\n' +
+                    '4. 豆包提供免费额度，无需付费！');
+                return;
+            }
+
+            // 第二步：生成分类导航栏
+            generateCategoryNav();
+
+            // 第三步：检查是否需要更新数据
+            await checkAndUpdate();
+
+            // 第四步：设置定时更新任务（每天 8:50 自动执行）
+            scheduleDailyUpdate();
+
+            console.log('✅ 初始化完成');
+        }
+
+        // ========== 生成分类导航栏 ==========
+        function generateCategoryNav() {
+            const nav = document.getElementById('categoryNav');
+            const categories = ['全部', ...Object.keys(RSS_SOURCES)];
+
+            categories.forEach(category => {
+                const button = document.createElement('button');
+                button.className = `category-tag px-5 py-2 rounded-lg text-sm font-medium whitespace-nowrap ${
+                    category === currentCategory
+                        ? 'bg-blue-600 text-white shadow-md'
+                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`;
+                button.textContent = category;
+                button.onclick = () => switchCategory(category);
+                nav.appendChild(button);
+            });
+        }
+
+        // ========== 切换分类 ==========
+        function switchCategory(category) {
+            console.log(`📂 切换到分类: ${category}`);
+            currentCategory = category;
+
+            // 更新导航按钮的样式
+            const buttons = document.querySelectorAll('#categoryNav button');
+            buttons.forEach(btn => {
+                if (btn.textContent === category) {
+                    btn.className = 'category-tag px-5 py-2 rounded-lg text-sm font-medium whitespace-nowrap bg-blue-600 text-white shadow-md';
+                } else {
+                    btn.className = 'category-tag px-5 py-2 rounded-lg text-sm font-medium whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200';
+                }
+            });
+
+            // 重新渲染文章列表
+            renderArticles();
+        }
+
+        // ========== 检查并更新数据 ==========
+        async function checkAndUpdate() {
+            // 从本地存储读取上次更新时间和缓存数据
+            const lastUpdateTime = localStorage.getItem('lastUpdateTime');
+            const cachedArticles = localStorage.getItem('articles');
+            const today = new Date().toDateString();
+
+            // 如果今天已经更新过，直接使用缓存数据
+            if (lastUpdateTime === today && cachedArticles) {
+                console.log('📦 使用缓存数据');
+                allArticles = JSON.parse(cachedArticles);
+                document.getElementById('lastUpdate').textContent = new Date(lastUpdateTime).toLocaleString('zh-CN');
+                renderArticles();
+                hideLoading();
+            } else {
+                // 否则重新抓取数据
+                console.log('🔄 开始抓取最新数据...');
+                await fetchAllRSS();
+            }
+        }
+
+        // ========== 抓取所有 RSS 源 ==========
+        async function fetchAllRSS() {
+            const articles = [];
+            let successCount = 0;
+            let failCount = 0;
+
+            // 遍历所有分类和 RSS 源
+            for (const [category, urls] of Object.entries(RSS_SOURCES)) {
+                console.log(`📥 正在抓取分类: ${category}`);
+
+                for (const url of urls) {
+                    try {
+                        // 抓取单个 RSS 源
+                        const items = await fetchRSS(url, category);
+                        articles.push(...items);
+                        successCount++;
+                        console.log(`✓ ${url} - 成功获取 ${items.length} 条`);
+                    } catch (error) {
+                        failCount++;
+                        console.error(`✗ ${url} - 抓取失败:`, error.message);
+                    }
+                }
+            }
+
+            console.log(`📊 抓取完成: 成功 ${successCount} 个源，失败 ${failCount} 个源`);
+
+            // 去重：根据文章标题去重
+            const uniqueArticles = removeDuplicates(articles);
+            console.log(`🔍 去重后剩余 ${uniqueArticles.length} 条文章`);
+
+            // 按发布时间倒序排序（最新的在前面）
+            uniqueArticles.sort((a, b) => b.date - a.date);
+
+            allArticles = uniqueArticles;
+
+            // 生成 AI 摘要
+            await generateSummaries();
+
+            // 保存到本地存储
+            localStorage.setItem('articles', JSON.stringify(allArticles));
+            localStorage.setItem('lastUpdateTime', new Date().toString());
+
+            // 更新界面
+            document.getElementById('lastUpdate').textContent = new Date().toLocaleString('zh-CN');
+            renderArticles();
+            hideLoading();
+
+            console.log('✅ 所有数据处理完成');
+        }
+
+        // ========== 抓取单个 RSS 源 ==========
+        async function fetchRSS(url, category) {
+            // 使用多个 CORS 代理服务，失败时自动切换
+            const proxies = [
+                {
+                    url: `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
+                    parser: (data) => JSON.parse(data).contents
+                },
+                {
+                    url: `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`,
+                    parser: (data) => {
+                        const json = JSON.parse(data);
+                        // 将 RSS2JSON 格式转换为 RSS XML
+                        let xml = '<?xml version="1.0"?><rss><channel>';
+                        json.items.forEach(item => {
+                            xml += `<item>
+                                <title>${item.title}</title>
+                                <link>${item.link}</link>
+                                <pubDate>${item.pubDate}</pubDate>
+                                <description>${item.description || item.content || ''}</description>
+                            </item>`;
+                        });
+                        xml += '</channel></rss>';
+                        return xml;
+                    }
+                },
+                {
+                    url: `https://cors-proxy.htmldriven.com/?url=${encodeURIComponent(url)}`,
+                    parser: (data) => data
+                }
+            ];
+
+            let lastError;
+
+            // 尝试多个代理
+            for (const proxy of proxies) {
+                try {
+                    console.log(`尝试代理: ${proxy.url.substring(0, 50)}...`);
+
+                    const response = await fetch(proxy.url, {
+                        method: 'GET',
+                        headers: {
+                            'Accept': 'application/json, application/xml, text/xml, */*'
+                        }
+                    });
+
+                    if (response.ok) {
+                        const rawData = await response.text();
+                        const text = proxy.parser(rawData);
+                        return await parseRSSContent(text, url, category);
+                    }
+                } catch (error) {
+                    lastError = error;
+                    console.log(`代理失败: ${error.message}`);
+                    continue;
+                }
+            }
+
+            // 所有代理都失败，抛出错误
+            throw lastError || new Error('所有代理都失败');
+        }
+
+        // ========== 解析 RSS 内容 ==========
+        async function parseRSSContent(text, url, category) {
+            // 解析 XML 格式的 RSS
+            const parser = new DOMParser();
+            const xml = parser.parseFromString(text, 'text/xml');
+
+            // 检查是否解析出错
+            if (xml.querySelector('parsererror')) {
+                throw new Error('XML 解析失败');
+            }
+
+            // 提取所有文章条目
+            const items = xml.querySelectorAll('item');
+            const articles = [];
+
+            items.forEach(item => {
+                const title = item.querySelector('title')?.textContent || '';
+                const link = item.querySelector('link')?.textContent || '';
+                const pubDate = item.querySelector('pubDate')?.textContent || '';
+                const description = item.querySelector('description')?.textContent || '';
+
+                // 过滤：只保留与材料业务相关的文章
+                if (isRelevant(title, description, category)) {
+                    articles.push({
+                        title: title.trim(),
+                        link: link.trim(),
+                        date: pubDate ? new Date(pubDate) : new Date(),
+                        category: category,
+                        description: stripHtml(description).trim(),
+                        summary: '' // AI 摘要稍后生成
+                    });
+                }
+            });
+
+            return articles;
+        }
+
+        // ========== 判断文章是否与业务相关 ==========
+        function isRelevant(title, description, category) {
+            const content = (title + ' ' + description).toLowerCase();
+            const keywords = CATEGORY_KEYWORDS[category] || [];
+
+            // 如果标题或描述包含任一关键词，则认为相关
+            return keywords.some(keyword => content.includes(keyword.toLowerCase()));
+        }
+
+        // ========== 去除 HTML 标签（保留纯文本）==========
+        function stripHtml(html) {
+            const tmp = document.createElement('div');
+            tmp.innerHTML = html;
+            return tmp.textContent || tmp.innerText || '';
+        }
+
+        // ========== 去重函数 ==========
+        function removeDuplicates(articles) {
+            const uniqueArticles = [];
+            const titles = new Set();
+
+            articles.forEach(article => {
+                // 使用标题作为唯一标识
+                if (!titles.has(article.title)) {
+                    titles.add(article.title);
+                    uniqueArticles.push(article);
+                }
+            });
+
+            return uniqueArticles;
+        }
+
+        // ========== 生成 AI 摘要（批量处理）==========
+        async function generateSummaries() {
+            console.log('🤖 开始生成 AI 摘要...');
+
+            const batchSize = 5; // 每批处理 5 篇文章
+            let processedCount = 0;
+
+            for (let i = 0; i < allArticles.length; i += batchSize) {
+                const batch = allArticles.slice(i, i + batchSize);
+
+                // 并发处理一批文章
+                await Promise.all(batch.map(async (article) => {
+                    try {
+                        article.summary = await generateSummary(article.title, article.description);
+                        processedCount++;
+                        console.log(`✓ [${processedCount}/${allArticles.length}] ${article.title.substring(0, 30)}...`);
+                    } catch (error) {
+                        console.error('生成摘要失败:', error.message);
+                        // 失败时使用原始描述的前100字作为摘要
+                        article.summary = article.description.substring(0, 100) + '...';
+                    }
+                }));
+
+                // 批次之间暂停 1 秒，避免 API 限流
+                if (i + batchSize < allArticles.length) {
+                    await sleep(1000);
+                }
+            }
+
+            console.log('✅ AI 摘要生成完成');
+        }
+
+        // ========== 生成单篇文章的 AI 摘要 ==========
+        async function generateSummary(title, description) {
+            const prompt = `请用一句话（100字以内）概括以下汽车材料技术文章的核心内容，只提炼关键技术信息，不要多余的修饰：
+
+标题：${title}
+内容：${description.substring(0, 500)}`;
+
+            // 调用豆包（火山引擎）API
+            const response = await fetch('https://ark.cn-beijing.volces.com/api/v3/chat/completions', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${DOUBAO_API_KEY}`
+                },
+                body: JSON.stringify({
+                    model: DOUBAO_MODEL, // 使用豆包 Lite 模型（免费额度）
+                    messages: [{
+                        role: 'user',
+                        content: prompt
+                    }],
+                    max_tokens: 150,
+                    temperature: 0.3 // 较低的温度使输出更稳定
+                })
+            });
+
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`API 请求失败: ${response.status} - ${errorText}`);
+            }
+
+            const data = await response.json();
+            return data.choices[0].message.content.trim();
+        }
+
+        // ========== 渲染文章列表 ==========
+        function renderArticles() {
+            const container = document.getElementById('articleList');
+            const emptyState = document.getElementById('emptyState');
+            container.innerHTML = '';
+
+            // 根据当前选中的分类筛选文章
+            let filtered = allArticles;
+            if (currentCategory !== '全部') {
+                filtered = allArticles.filter(a => a.category === currentCategory);
+            }
+
+            // 如果没有文章，显示空状态
+            if (filtered.length === 0) {
+                container.classList.add('hidden');
+                emptyState.classList.remove('hidden');
+                return;
+            }
+
+            // 显示文章列表
+            emptyState.classList.add('hidden');
+            container.classList.remove('hidden');
+
+            // 为每篇文章创建卡片
+            filtered.forEach(article => {
+                const card = createArticleCard(article);
+                container.appendChild(card);
+            });
+
+            console.log(`📄 已渲染 ${filtered.length} 篇文章`);
+        }
+
+        // ========== 创建单个文章卡片 ==========
+        function createArticleCard(article) {
+            const card = document.createElement('div');
+            card.className = 'article-card bg-white rounded-xl p-6';
+
+            // 格式化日期
+            const dateStr = article.date.toLocaleDateString('zh-CN', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+
+            card.innerHTML = `
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex items-center space-x-3">
+                        <span class="text-xs text-gray-500">${dateStr}</span>
+                        <span class="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-medium rounded-full">
+                            ${article.category}
+                        </span>
+                    </div>
+                </div>
+
+                <h3 class="text-lg font-semibold text-gray-900 mb-3 hover:text-blue-600 cursor-pointer transition-colors"
+                    onclick="window.open('${escapeHtml(article.link)}', '_blank')">
+                    ${escapeHtml(article.title)}
+                </h3>
+
+                <p class="text-sm text-gray-600 mb-4 line-clamp-2 leading-relaxed">
+                    ${escapeHtml(article.summary || article.description.substring(0, 100) + '...')}
+                </p>
+
+                <button onclick="window.open('${escapeHtml(article.link)}', '_blank')"
+                        class="inline-flex items-center text-sm text-blue-600 hover:text-blue-700 font-medium transition-colors">
+                    查看原文
+                    <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            `;
+
+            return card;
+        }
+
+        // ========== HTML 转义（防止 XSS 攻击）==========
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // ========== 设置定时更新任务 ==========
+        function scheduleDailyUpdate() {
+            const now = new Date();
+            const target = new Date();
+            target.setHours(8, 50, 0, 0); // 设置为每天 8:50
+
+            // 如果今天的 8:50 已经过了，就设置为明天 8:50
+            if (now > target) {
+                target.setDate(target.getDate() + 1);
+            }
+
+            const delay = target - now;
+
+            setTimeout(() => {
+                console.log('⏰ 执行定时更新...');
+                fetchAllRSS(); // 执行更新
+
+                // 之后每 24 小时更新一次
+                setInterval(() => {
+                    console.log('⏰ 执行定时更新...');
+                    fetchAllRSS();
+                }, 24 * 60 * 60 * 1000);
+            }, delay);
+
+            console.log(`⏰ 下次自动更新时间: ${target.toLocaleString('zh-CN')}`);
+        }
+
+        // ========== 隐藏加载状态 ==========
+        function hideLoading() {
+            document.getElementById('loadingState').classList.add('hidden');
+            document.getElementById('articleList').classList.remove('hidden');
+        }
+
+        // ========== 显示错误信息 ==========
+        function showError(title, message) {
+            const loadingState = document.getElementById('loadingState');
+            loadingState.innerHTML = `
+                <div class="text-center">
+                    <svg class="mx-auto h-16 w-16 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                    </svg>
+                    <h3 class="mt-4 text-lg font-semibold text-red-600">${title}</h3>
+                    <p class="mt-2 text-sm text-gray-600 whitespace-pre-line max-w-md mx-auto">${message}</p>
+                </div>
+            `;
+            console.error(title, message);
+        }
+
+        // ========== 工具函数：延时 ==========
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // ========== 页面加载完成后自动执行初始化 ==========
+        window.addEventListener('DOMContentLoaded', init);
+
+        // ========== 监听页面可见性变化 ==========
+        document.addEventListener('visibilitychange', () => {
+            if (!document.hidden) {
+                // 页面重新可见时，检查是否需要更新
+                const lastUpdateTime = localStorage.getItem('lastUpdateTime');
+                const today = new Date().toDateString();
+                if (lastUpdateTime !== today) {
+                    console.log('🔄 检测到新的一天，准备更新...');
+                    checkAndUpdate();
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
