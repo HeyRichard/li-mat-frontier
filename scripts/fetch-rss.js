@@ -14,53 +14,27 @@ const DOUBAO_MODEL = 'doubao-lite-4k';
 
 // RSS 源配置
 const RSS_SOURCES = {
-    '综合资讯': [
-        'https://hnrss.org/frontpage',
-        'https://feeds.feedburner.com/zhihu-daily',
-        'https://www.cnautonews.net/feed/'
-    ],
-    '金属材料': [
-        'https://www.worldmetals.com.cn/feed/',
-        'https://www.albiz.cn/feed/',
-        'https://www.mw35.com/feed/'
-    ],
-    '非金属材料': [
-        'https://www.frp.cn/feed/',
-        'https://www.21cp.com/feed/',
-        'https://www.tanxianwei.cn/feed/'
-    ],
-    '汽车防腐': [
-        'https://www.csea.com.cn/feed/',
-        'https://www.ffw.com.cn/feed/',
-        'https://www.coatingol.com/feed/'
-    ],
-    '车内健康': [
-        'https://www.chenei.org/feed/',
-        'https://www.chevoc.com/feed/',
-        'https://www.qcnsw.com/feed/'
-    ],
-    '紧固件': [
-        'https://www.chinafastener.biz/feed/',
-        'https://www.fastener-world.com.cn/feed/',
-        'https://www.luosi.com/feed/'
-    ],
-    '环保合规': [
-        'https://www.caam.org.cn/feed/',
-        'https://www.autoep.net/feed/',
-        'https://www.catarc.ac.cn/feed/'
-    ]
-};
+      '综合新闻': [
+          'https://hnrss.org/frontpage',
+          'https://rss.cnn.com/rss/cnn_topstories.rss',
+          'https://feeds.bbci.co.uk/news/rss.xml'
+      ],
+      '科技资讯': [
+          'https://techcrunch.com/feed/',
+          'https://www.theverge.com/rss/index.xml'
+      ],
+      '汽车新闻': [
+          'https://www.autoblog.com/rss.xml',
+          'https://www.motor1.com/rss/news/'
+      ]
+  };
 
 // 分类关键词
 const CATEGORY_KEYWORDS = {
-    '综合资讯': ['汽车', '新能源', '智能', '行业', '市场', '技术', '材料'],
-    '金属材料': ['高强钢', '铝合金', '镁合金', '铜合金', '非晶', '金属', '钢材', '铝材', '镁', '铜'],
-    '非金属材料': ['碳纤维', '玻纤', '复合材料', 'PMMA', '工程塑料', '塑料', '纤维', '树脂'],
-    '汽车防腐': ['涂层', '防腐', '涂料', '涂装', '阴极', '电泳', '镀锌', '防锈', '腐蚀'],
-    '车内健康': ['VOC', '甲醛', '异味', '散发', '空气质量', '健康', '气味', '挥发'],
-    '紧固件': ['螺栓', '螺钉', '紧固', '连接', '扭矩', '紧固件', '螺母'],
-    '环保合规': ['ELV', 'RoHS', '排放', '碳', '环保', '标准', '法规', '合规', '低碳']
-};
+      '综合新闻': ['news', 'world', 'business'],
+      '科技资讯': ['tech', 'ai', 'software'],
+      '汽车新闻': ['car', 'auto', 'vehicle']
+  };
 
 // ==================== 工具函数 ====================
 
@@ -77,12 +51,8 @@ function stripHtml(html) {
 
 // 判断文章是否相关
 function isRelevant(title, description, category) {
-    const content = (title + ' ' + description).toLowerCase();
-    const keywords = CATEGORY_KEYWORDS[category] || [];
-
-    // 如果标题或描述包含任一关键词，则认为相关
-    return keywords.some(keyword => content.includes(keyword.toLowerCase()));
-}
+      return true;  // 暂时允许所有文章通过
+  }
 
 // ==================== RSS 抓取 ====================
 
