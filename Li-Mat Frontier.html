@@ -82,14 +82,13 @@
         // 如需添加/删除RSS源，直接在下方对应分类中修改即可
         const RSS_SOURCES = {
             '综合资讯': [
-                'https://auto.gasgoo.com/feed/',
-                'https://www.xincailiao.com/feed/',
+                'https://hnrss.org/frontpage', // Hacker News (测试用，肯定能用)
+                'https://feeds.feedburner.com/zhihu-daily', // 知乎日报
                 'https://www.cnautonews.net/feed/'
             ],
             '金属材料': [
                 'https://www.worldmetals.com.cn/feed/',
                 'https://www.albiz.cn/feed/',
-                'https://www.steel.org/feed/',
                 'https://www.mw35.com/feed/'
             ],
             '非金属材料': [
@@ -432,11 +431,18 @@
 
         // ========== 判断文章是否与业务相关 ==========
         function isRelevant(title, description, category) {
+            // 【临时】为了测试，先放行所有文章，不做过滤
+            // 确认能正常抓取后，再启用关键词过滤
+            console.log(`检查文章: ${title.substring(0, 30)}...`);
+            return true; // 暂时返回 true，允许所有文章通过
+
+            /* 原始过滤逻辑（暂时注释）
             const content = (title + ' ' + description).toLowerCase();
             const keywords = CATEGORY_KEYWORDS[category] || [];
 
             // 如果标题或描述包含任一关键词，则认为相关
             return keywords.some(keyword => content.includes(keyword.toLowerCase()));
+            */
         }
 
         // ========== 去除 HTML 标签（保留纯文本）==========
