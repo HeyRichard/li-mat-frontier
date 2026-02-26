@@ -240,26 +240,15 @@
                 <canvas id="categoryChart"></canvas>
             </div>
 
-            <!-- 文章日期图 -->
+            <!-- 热门标签云 -->
             <div class="chart-container">
                 <h3 class="text-lg font-bold mb-4" style="color: var(--color-deep-green)">
-                    <span class="material-icons text-sm mr-1">event</span>
-                    文章日期
+                    <span class="material-icons text-sm mr-1">local_offer</span>
+                    热门标签
                 </h3>
-                <canvas id="dateChart"></canvas>
-            </div>
-        </div>
-    </section>
-
-    <!-- 热门标签云 -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
-        <div class="bg-white rounded-xl p-6 shadow-sm">
-            <h3 class="text-lg font-bold mb-4" style="color: var(--color-deep-green)">
-                <span class="material-icons text-sm mr-1">local_offer</span>
-                热门标签
-            </h3>
-            <div id="tagCloud" class="tag-cloud">
-                <!-- 动态生成 -->
+                <div id="tagCloud" class="tag-cloud" style="height: 260px; overflow-y: auto; display: flex; flex-wrap: wrap; align-content: flex-start;">
+                    <!-- 动态生成 -->
+                </div>
             </div>
         </div>
     </section>
@@ -306,7 +295,7 @@
         let allArticles = [];
         let currentCategory = '全部';
         let categories = [];
-        let categoryChart, dateChart;
+        let categoryChart;
 
         // 初始化
         async function init() {
@@ -382,60 +371,6 @@
                     plugins: {
                         legend: {
                             position: 'bottom'
-                        }
-                    }
-                }
-            });
-
-            // 文章日期分布图
-            const dateCounts = {};
-
-            // 统计每个日期的文章数量
-            allArticles.forEach(article => {
-                const articleDate = new Date(article.date);
-                const dateStr = articleDate.toLocaleDateString('zh-CN', {
-                    month: '2-digit',
-                    day: '2-digit'
-                });
-                dateCounts[dateStr] = (dateCounts[dateStr] || 0) + 1;
-            });
-
-            // 按日期排序
-            const sortedDates = Object.keys(dateCounts).sort((a, b) => {
-                const [aMonth, aDay] = a.split('/').map(Number);
-                const [bMonth, bDay] = b.split('/').map(Number);
-                return aMonth === bMonth ? aDay - bDay : aMonth - bMonth;
-            });
-
-            const sortedCounts = sortedDates.map(date => dateCounts[date]);
-
-            const ctx2 = document.getElementById('dateChart');
-            dateChart = new Chart(ctx2, {
-                type: 'bar',
-                data: {
-                    labels: sortedDates,
-                    datasets: [{
-                        label: '文章数量',
-                        data: sortedCounts,
-                        backgroundColor: 'rgba(206, 164, 114, 0.7)',
-                        borderColor: 'rgb(206, 164, 114)',
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            display: false
-                        }
-                    },
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            ticks: {
-                                stepSize: 1
-                            }
                         }
                     }
                 }
