@@ -1,47 +1,42 @@
- name: 更新汽车材料RSS资讯
+name: 更新汽车材料RSS资讯
 
-  on:
-    schedule:
-      - cron: '50 0 * * *'
-    workflow_dispatch:
+on:
+  schedule:
+    - cron: '50 0 * * *'
+  workflow_dispatch:
 
-  permissions:
-    contents: write
-    actions: write
+permissions:
+  contents: write
 
-  jobs:
-    fetch-rss:
-      runs-on: ubuntu-latest
+jobs:
+  fetch-rss:
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: 检出仓库代码
-          uses: actions/checkout@v4
-          with:
-            token: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
 
-        - name: 设置 Node.js
-          uses: actions/setup-node@v4
-          with:
-            node-version: '20'
+      - name: 设置Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-        - name: 安装依赖
-          run: |
-            cd scripts
-            npm install
+      - name: 安装依赖
+        run: |
+          cd scripts
+          npm install
 
-        - name: 抓取 RSS 并生成摘要
-          env:
-            DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-            DOUBAO_API_KEY: ${{ secrets.DOUBAO_API_KEY }}
-            AI_PROVIDER: deepseek
-          run: |
-            cd scripts
-            node fetch-rss.js
+      - name: 抓取RSS并生成摘要
+        env:
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+        run: |
+          cd scripts
+          node fetch-rss.js
 
-        - name: 提交数据文件
-          run: |
-            git config --local user.email "github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
-            git add data/news.json
-            git diff --quiet && git diff --staged --quiet || git commit -m "🤖 自动更新RSS数据 - $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
+      - name: 提交数据文件
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 自动更新RSS数据 $(date +'%Y-%m-%d %H:%M')"
+          git push
