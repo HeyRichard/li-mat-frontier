@@ -232,12 +232,21 @@
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <!-- 分类分布图 -->
-            <div class="chart-container">
+            <div class="chart-container" style="position: relative;">
                 <h3 class="text-lg font-bold mb-4" style="color: var(--color-deep-green)">
                     <span class="material-icons text-sm mr-1">pie_chart</span>
                     分类分布
                 </h3>
-                <canvas id="categoryChart"></canvas>
+                <div style="display: flex; align-items: center; height: 240px;">
+                    <!-- 左侧图例 -->
+                    <div id="categoryLegend" style="width: 120px; display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; padding-bottom: 20px;">
+                        <!-- 动态生成图例 -->
+                    </div>
+                    <!-- 右侧图表 -->
+                    <div style="flex: 1; height: 100%;">
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+                </div>
             </div>
 
             <!-- 热门标签云 -->
@@ -350,27 +359,42 @@
                 categoryCounts[cat] = allArticles.filter(a => a.category === cat).length;
             });
 
+            const colors = [
+                'rgba(0, 45, 40, 0.8)',      // 深绿 - 材料创新
+                'rgba(206, 164, 114, 0.8)',  // 暖金 - 汽车防腐
+                'rgba(102, 102, 102, 0.8)'   // 深灰 - 车内健康
+            ];
+
+            // 生成左侧自定义图例
+            const legendContainer = document.getElementById('categoryLegend');
+            legendContainer.innerHTML = '';
+            categories.forEach((cat, index) => {
+                const legendItem = document.createElement('div');
+                legendItem.style.cssText = 'display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--color-dark-gray);';
+                legendItem.innerHTML = `
+                    <span style="width: 12px; height: 12px; background: ${colors[index]}; border-radius: 50%; display: inline-block;"></span>
+                    <span>${cat}</span>
+                `;
+                legendContainer.appendChild(legendItem);
+            });
+
             const ctx1 = document.getElementById('categoryChart');
             categoryChart = new Chart(ctx1, {
                 type: 'doughnut',
                 data: {
-                    labels: categories,  // 使用实际的3个分类
+                    labels: categories,
                     datasets: [{
                         data: Object.values(categoryCounts),
-                        backgroundColor: [
-                            'rgba(0, 45, 40, 0.8)',      // 深绿 - 材料创新
-                            'rgba(206, 164, 114, 0.8)',  // 暖金 - 汽车防腐
-                            'rgba(102, 102, 102, 0.8)'   // 深灰 - 车内健康
-                        ],
+                        backgroundColor: colors,
                         borderWidth: 0
                     }]
                 },
                 options: {
                     responsive: true,
-                    maintainAspectRatio: false,
+                    maintainAspectRatio: true,
                     plugins: {
                         legend: {
-                            position: 'bottom'
+                            display: false  // 隐藏默认图例
                         }
                     }
                 }
