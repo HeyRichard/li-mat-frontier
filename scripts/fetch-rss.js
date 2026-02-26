@@ -360,13 +360,58 @@ async function main() {
     // 按综合得分排序
     categorizedArticles.sort((a, b) => b.finalScore - a.finalScore);
 
-    const limitedArticles = categorizedArticles.slice(0, 50);
-    console.log(`📌 保留综合得分最高的 ${limitedArticles.length} 篇文章\n`);
+    // 5. 应用分类配额机制 - 确保每个分类至少3篇
+    console.log('📋 应用分类配额机制(每类至少3篇)...\n');
 
-    // 5. 生成AI摘要
+    const MIN_PER_CATEGORY = 3;
+    const TOTAL_LIMIT = 50;
+    const categories = Object.keys(CATEGORY_KEYWORDS);
+
+    const limitedArticles = [];
+    const usedArticles = new Set();
+
+    // 第一轮: 为每个分类保证最低配额
+    categories.forEach(category => {
+        const categoryArticles = categorizedArticles
+            .filter(a => a.category === category && !usedArticles.has(a.link))
+            .sort((a, b) => b.relevanceScore - a.relevanceScore); // 按相关性排序
+
+        const quota = Math.min(MIN_PER_CATEGORY, categoryArticles.length);
+
+        for (let i = 0; i < quota; i++) {
+            limitedArticles.push(categoryArticles[i]);
+            usedArticles.add(categoryArticles[i].link);
+        }
+
+        console.log(`   ${category}: 保证 ${quota} 篇 (相关性优先)`);
+    });
+
+    // 第二轮: 用综合得分最高的文章填满剩余名额
+    const remaining = TOTAL_LIMIT - limitedArticles.length;
+    const remainingArticles = categorizedArticles
+        .filter(a => !usedArticles.has(a.link))
+        .slice(0, remaining);
+
+    limitedArticles.push(...remainingArticles);
+
+    console.log(`   填充剩余: ${remaining} 篇 (综合得分优先)`);
+    console.log(`\n📌 最终保留 ${limitedArticles.length} 篇文章\n`);
+
+    // 显示最终分类统计
+    const finalStats = {};
+    limitedArticles.forEach(article => {
+        finalStats[article.category] = (finalStats[article.category] || 0) + 1;
+    });
+    console.log('📊 最终分类统计:');
+    Object.entries(finalStats).forEach(([category, count]) => {
+        console.log(`   ${category}: ${count} 篇`);
+    });
+    console.log('');
+
+    // 6. 生成AI摘要
     await generateSummariesBatch(limitedArticles);
 
-    // 6. 保存数据
+    // 7. 保存数据
     const outputData = {
         lastUpdated: new Date().toISOString(),
         updateTime: new Date().toLocaleString('zh-CN'),
