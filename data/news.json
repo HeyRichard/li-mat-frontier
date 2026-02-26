@@ -1,412 +1,416 @@
 {
-  "lastUpdated": "2026-02-25T12:39:04.154Z",
-  "updateTime": "2026/2/25 12:39:04",
+  "lastUpdated": "2026-02-26T03:49:45.500Z",
+  "updateTime": "2026/2/26 03:49:45",
   "totalArticles": 50,
   "categories": [
-    "综合新闻",
-    "科技资讯",
-    "汽车新闻"
+    "综合资讯",
+    "金属材料",
+    "非金属材料",
+    "汽车防腐",
+    "车内健康",
+    "紧固件",
+    "环保合规"
   ],
   "articles": [
     {
-      "title": "Harry and Meghan arrive in Middle East for summit on refugees' needs",
-      "link": "https://www.bbc.com/news/articles/c5ykqg09k6yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T12:34:32.000Z",
-      "category": "综合新闻",
-      "description": "The Duke and Duchess of Sussex's trip to Jordan is their first international tour as a couple since August 2024.",
-      "summary": "The Duke and Duchess of Sussex's trip to Jordan is their first international tour as a couple since August 2024...."
+      "title": "8 billion tokens a day forced AT&T to rethink AI orchestration — and cut costs by 90%",
+      "link": "https://venturebeat.com/orchestration/8-billion-tokens-a-day-forced-at-and-t-to-rethink-ai-orchestration-and-cut",
+      "date": "2026-02-26T21:30:00.000Z",
+      "category": "综合资讯",
+      "description": "When your average daily token usage is 8 billion a day, you have a massive scale problem. \n\nThis was the case at AT&T, and chief data officer Andy Markus and his team recognized that it simply wasn’t feasible (or economical) to push everything through large reasoning models. \n\nSo, when building out an internal Ask AT&T personal assistant, they reconstructed the orchestration layer. The result: A multi-agent stack built on LangChain where large language model “super agents” direct smaller, underl",
+      "summary": "AT&T面临每日80亿次令牌使用的规模挑战，决定采用多代理架构优化数据处理。"
     },
     {
-      "title": "Commons Speaker passed Mandelson flight risk information to police ahead of arrest",
-      "link": "https://www.bbc.com/news/articles/c8d5792yj9qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T12:27:30.000Z",
-      "category": "综合新闻",
-      "description": "Sir Lindsay Hoyle tells MPs he was acting \"in good faith as is my duty and responsibility\" as he felt information was \"relevant\".",
-      "summary": "Sir Lindsay Hoyle tells MPs he was acting \"in good faith as is my duty and responsibility\" as he felt information was \"relevant\"...."
+      "title": "Salesforce CEO Marc Benioff: This isn’t our first SaaSpocalypse",
+      "link": "https://techcrunch.com/2026/02/25/salesforce-ceo-marc-benioff-this-isnt-our-first-saaspocalypse/",
+      "date": "2026-02-26T01:59:12.000Z",
+      "category": "综合资讯",
+      "description": "Salesforce reported a solid year-end earnings and then pulled out all the stops to ward off more talk of the death of its business to AI.",
+      "summary": "Salesforce公布强劲年度财报，并全力应对AI对其业务 demise 的讨论。"
     },
     {
-      "title": "Household energy bills to fall in April after charges shake-up",
-      "link": "https://www.bbc.com/news/articles/cx2lpl9lxw2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T12:11:57.000Z",
-      "category": "综合新闻",
-      "description": "Changes announced in the Budget mean all energy bills will see some kind of reduction, but it will vary.",
-      "summary": "Changes announced in the Budget mean all energy bills will see some kind of reduction, but it will vary...."
+      "title": "Nvidia delivers first Vera Rubin AI GPU samples to customers — 88-core Vera CPU paired with Rubin GPUs with 288 GB of HBM4 memory apiece",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-delivers-first-vera-rubin-ai-gpu-samples-to-customers-88-core-vera-cpu-paired-with-rubin-gpus-with-288-gb-of-hbm4-memory-apiece",
+      "date": "2026-02-26T01:14:00.000Z",
+      "category": "金属材料",
+      "description": "Nvidia begins to ship samples of its Vera Rubin platforms for AI to partners, on track for revenue shipments in the second half of the year.",
+      "summary": "Nvidia开始向合作伙伴发送Vera Rubin AI平台样品，预计下半年实现营收发货。"
     },
     {
-      "title": "Event Horizon Labs (YC W24) Is Hiring",
-      "link": "https://www.ycombinator.com/companies/event-horizon-labs/jobs/xGQicps-founding-infrastructure-engineer",
-      "date": "2026-02-25T12:01:11.000Z",
-      "category": "综合新闻",
-      "description": "Article URL: https://www.ycombinator.com/companies/event-horizon-labs/jobs/xGQicps-founding-infrastructure-engineer\nComments URL: https://news.ycombinator.com/item?id=47150403\nPoints: 0\n# Comments: 0",
-      "summary": "Article URL: https://www.ycombinator.com/companies/event-horizon-labs/jobs/xGQicps-founding-infrastructure-engineer\nComments URL: https://news.ycombin..."
+      "title": "Gushwork bets on AI search for customer leads — and early results are emerging",
+      "link": "https://techcrunch.com/2026/02/25/gushwork-bets-on-ai-search-for-customer-leads-and-early-results-are-emerging/",
+      "date": "2026-02-26T00:00:00.000Z",
+      "category": "综合资讯",
+      "description": "Gushwork has raised $9 million in a seed round led by SIG and Lightspeed. The startup has seen early customer traction from AI search tools like ChatGPT.",
+      "summary": "Gushwork完成900万美元种子轮融资，由SIG和Lightspeed领投，早期客户包括ChatGPT等AI搜索工具。"
     },
     {
-      "title": "TV's Doctor Foster to return for third and final series",
-      "link": "https://www.bbc.com/news/articles/cy8g528lxv9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T11:30:06.000Z",
-      "category": "综合新闻",
-      "description": "The BBC says the popular drama will return for five new episodes, nine years after series two aired.",
-      "summary": "The BBC says the popular drama will return for five new episodes, nine years after series two aired...."
+      "title": "Anthropic acquires computer-use AI startup Vercept after Meta poached one of its founders",
+      "link": "https://techcrunch.com/2026/02/25/anthropic-acquires-vercept-ai-startup-agents-computer-use-founders-investors/",
+      "date": "2026-02-25T23:49:19.000Z",
+      "category": "综合资讯",
+      "description": "Seattle-based Vercept developed complex agentic tools, including a computer-use agent that could complete tasks inside applications like a person with a laptop would.",
+      "summary": "西雅图公司Vercept开发了复杂的代理工具，包括能在应用内像人类一样完成任务的电脑使用代理。"
     },
     {
-      "title": "Tourette's campaigner says BBC 'should have worked harder' to stop his slur being aired",
-      "link": "https://www.bbc.com/news/articles/cg4g2ldegdwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T11:18:48.000Z",
-      "category": "综合新闻",
-      "description": "John Davidson, who tics due to his condition, shouted a racial slur while two black actors were on stage.",
-      "summary": "John Davidson, who tics due to his condition, shouted a racial slur while two black actors were on stage...."
+      "title": "New York sues Valve, alleging its loot boxes are ‘quintessential gambling’",
+      "link": "https://www.theverge.com/games/884978/valve-lawsuit-loot-boxes-new-york-attorney-general-lawsuit",
+      "date": "2026-02-25T23:22:18.000Z",
+      "category": "综合资讯",
+      "description": "New York Attorney General Letitia James is suing Valve for \"illegally promoting gambling\" through the loot box systems it has built for video games like Counter-Strike 2, Team Fortress 2, and Dota 2, according to a press release. The attorney general seeks to \"permanently stop Valve from promoting gambling features in its games, disgorge all ill-gotten gains, and pay fines for violating New York's laws.\"\n\"This loot box model that Valve has developed - charging an individual for a chance to win s",
+      "summary": "纽约总检察长Letitia James起诉Valve公司，指控其通过游戏中的战利品箱系统“非法推广赌博”，要求永久禁止Valve在游戏内推广赌博功能，并追回非法所得及支付罚款。"
     },
     {
-      "title": "Scotland fans secure Fifa approval to wear sporrans at World Cup",
-      "link": "https://www.bbc.com/news/articles/cn0erx6x228o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T11:18:01.000Z",
-      "category": "综合新闻",
-      "description": "Thousands of supporters are expected to travel to the US for Scotland's first appearance in the tournament since 1998.",
-      "summary": "Thousands of supporters are expected to travel to the US for Scotland's first appearance in the tournament since 1998...."
+      "title": "Nvidia has another record quarter amid record capex spends",
+      "link": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
+      "date": "2026-02-25T23:04:42.000Z",
+      "category": "综合资讯",
+      "description": "\"The demand for tokens in the world has gone completely exponential,\" Nvidia CEO Jensen Huang said about the company's earnings.",
+      "summary": "英伟达CEO黄仁勋表示，全球对代币的需求已呈指数级增长。"
     },
     {
-      "title": "President's State of the Union speech - at a glance",
-      "link": "https://www.bbc.com/news/articles/cvg34exn93jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T11:14:36.000Z",
-      "category": "综合新闻",
-      "description": "An ejected Democrat and a patriotic parade by ice hockey players were among the colourful moments during Trump's speech.",
-      "summary": "An ejected Democrat and a patriotic parade by ice hockey players were among the colourful moments during Trump's speech...."
+      "title": "How the new Galaxy S26 phones stack up against each other on paper",
+      "link": "https://www.theverge.com/gadgets/883733/samsung-galaxy-s26-vs-plus-ultra-specs-features-hardware-comparison",
+      "date": "2026-02-25T22:26:31.000Z",
+      "category": "综合资讯",
+      "description": "Samsung’s Galaxy S26 phones introduce a slate of new AI-powered features, including some new photography tools. | Image: Samsung\t\n\nSamsung has just announced its new Galaxy S26 lineup, which includes the S26, S26 Plus, and S26 Ultra. While they aren't radical departures from last year's models, they bring a handful of notable upgrades. All three run on Qualcomm's Galaxy-centric Snapdragon 8 Elite Gen 5, which delivers improved performance and powers a slew of new AI-based features. This includes",
+      "summary": "三星Galaxy S26系列推出多项AI新功能，包括摄影工具升级。搭载高通骁龙8 Elite Gen 5芯片，性能提升并支持更多AI特性。"
     },
     {
-      "title": "England to play Ukraine World Cup qualifier at Everton",
-      "link": "https://www.bbc.com/sport/football/articles/ckg3en711wzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T11:00:53.000Z",
-      "category": "综合新闻",
-      "description": "The Lionesses will host Ukraine in their Women's World Cup qualifier at the Hill Dickinson Stadium in June.",
-      "summary": "The Lionesses will host Ukraine in their Women's World Cup qualifier at the Hill Dickinson Stadium in June...."
+      "title": "Corsair is halting Drop sales after March 25th",
+      "link": "https://www.theverge.com/news/884824/corsair-ending-drop-shopping-site",
+      "date": "2026-02-25T21:58:53.000Z",
+      "category": "综合资讯",
+      "description": "The Drop Mythic Journey keyboard from 2022. | Photo by Jon Porter / The Verge\t\n\nThe Drop store, which was acquired by gaming gear giant Corsair in 2023, was a haven for mechanical keyboard enthusiasts and audiophiles to discover and buy hard-to-find gear - sometimes at surprisingly good prices. The company will cease sales after March 25th at 11:59PM PT, which is also the cut off to redeem Drop Rewards. After March 31st, the site will be accessible for a limited time to view order history, but a",
+      "summary": "Drop品牌于2023年被Corsair收购，曾是机械键盘和音响爱好者购买稀缺产品的热门平台。2024年3月25日后将停止销售，3月31日后仅限查看订单历史。"
     },
     {
-      "title": "Gucci criticised for 'AI slop' images ahead of major fashion show",
-      "link": "https://www.bbc.com/news/articles/cjwz6yzn5jqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T10:55:39.000Z",
-      "category": "综合新闻",
-      "description": "Users of social media - where the marketing campaign has been launched - say it is out of keeping with Gucci's reputation for luxury.",
-      "summary": "Users of social media - where the marketing campaign has been launched - say it is out of keeping with Gucci's reputation for luxury...."
+      "title": "Roundtables: Why 2026 Is the Year for Sodium-Ion Batteries",
+      "link": "https://www.technologyreview.com/2026/02/25/1132873/roundtables-why-2026-is-the-year-for-sodium-ion-batteries/",
+      "date": "2026-02-25T21:15:27.000Z",
+      "category": "非金属材料",
+      "description": "Listen to the session or watch below Sodium-based batteries could be a cheaper, safer alternative to lithium-ion, and the technology is finally making its way into cars—and energy storage arrays on the grid. Sodium-ion batteries are one of MIT Technology Review’s 10 Breakthrough Technologies of 2026 list, and this subscriber-only discussion explains why. Watch a…",
+      "summary": "钠基电池比锂离子电池更便宜、更安全，正逐步应用于汽车和电网储能。MIT将其列为2026年十大突破技术之一。"
     },
     {
-      "title": "Trump claims in major speech the US is 'winning again' - is it?",
-      "link": "https://www.bbc.com/news/articles/cgmlzg0p8k2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T10:40:47.000Z",
-      "category": "综合新闻",
-      "description": "President Donald Trump said the US \"is winning again\" - making a series of claims about his record in a speech which lasted almost two hours.",
-      "summary": "President Donald Trump said the US \"is winning again\" - making a series of claims about his record in a speech which lasted almost two hours...."
+      "title": "Everyone Speaks Incel Now",
+      "link": "https://www.wired.com/story/everyone-speaks-incel-now/",
+      "date": "2026-02-25T20:59:50.000Z",
+      "category": "综合资讯",
+      "description": "After migrating from misogynist forums to social media feeds, terms like “looksmaxxing” and “mogged” are now impossible to avoid.",
+      "summary": "“looksmaxxing”和“mogged”等术语从厌女论坛转移到社交媒体，难以避免。"
     },
     {
-      "title": "Honor’s new MagicPad 4 is the world’s thinnest Android tablet",
-      "link": "https://www.theverge.com/tech/883816/honor-magicpad-4-android-16-tablet-oled-ultra-thin",
-      "date": "2026-02-25T10:34:53.000Z",
-      "category": "科技资讯",
-      "description": "The new MagicPad 4 is a full millimeter thinner than last year’s model. | Image: Honor\t\n\nHonor has announced a new version of its already slim MagicPad tablet that's now even thinner. Last year's MagicPad 3 was just 5.8mm thick, but the new MagicPad 4 squeezes that down to 4.8mm. That's thinner than the 6.1mm thick iPad Air and 5.1mm iPad Pro, or the 5.1mm thick Samsung Galaxy Tab S11, and only bested by E Ink tablets like the reMarkable 2, at 4.7mm.\nThe MagicPad 4 has a slightly smaller 12.3-in",
-      "summary": "The new MagicPad 4 is a full millimeter thinner than last year’s model. | Image: Honor\t\n\nHonor has announced a new version of its already slim MagicPa..."
+      "title": "The Peace Corps is recruiting volunteers to sell AI to developing nations",
+      "link": "https://www.theverge.com/policy/884625/peace-corps-tech-promote-american-ai",
+      "date": "2026-02-25T20:45:00.000Z",
+      "category": "综合资讯",
+      "description": "For more than six decades, the Peace Corps has represented itself as an agency focused on helping underserved communities around the globe. But a new initiative, called the \"Tech Corps,\" threatens to unravel the agency's original mission by recruiting de facto Silicon Valley salespeople to promote the biggest names in AI - many of which have ties to President Donald Trump.\nEstablished by President John F. Kennedy in 1961, the Peace Corps recruited skilled Americans interested in assisting develo",
+      "summary": "和平队成立60多年来致力于帮助全球弱势群体，但新推出的“科技队”计划可能偏离其初衷，招募硅谷销售人员推广与特朗普有关的AI企业。"
     },
     {
-      "title": "Joshua crash driver case adjourned to March",
-      "link": "https://www.bbc.com/sport/boxing/articles/cq6q5209q09o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T10:32:39.000Z",
-      "category": "综合新闻",
-      "description": "The driver of the car involved in a fatal crash involving British heavyweight boxer Anthony Joshua has appeared in court in Nigeria.",
-      "summary": "The driver of the car involved in a fatal crash involving British heavyweight boxer Anthony Joshua has appeared in court in Nigeria...."
+      "title": "The White House wants AI companies to cover rate hikes. Most have already said they would.",
+      "link": "https://techcrunch.com/2026/02/25/the-white-house-wants-ai-companies-to-cover-rate-hikes-most-have-already-said-they-would/",
+      "date": "2026-02-25T20:42:14.000Z",
+      "category": "综合资讯",
+      "description": "Many hyperscalers have already made public commitments to cover electricity cost increases.",
+      "summary": "许多超大规模企业已公开承诺应对电费上涨。"
     },
     {
-      "title": "100M-Row Challenge with PHP",
-      "link": "https://github.com/tempestphp/100-million-row-challenge",
-      "date": "2026-02-25T10:24:23.000Z",
-      "category": "综合新闻",
-      "description": "Article URL: https://github.com/tempestphp/100-million-row-challenge\nComments URL: https://news.ycombinator.com/item?id=47149752\nPoints: 16\n# Comments: 1",
-      "summary": "Article URL: https://github.com/tempestphp/100-million-row-challenge\nComments URL: https://news.ycombinator.com/item?id=47149752\nPoints: 16\n# Comments..."
+      "title": "Trump claims tech companies will sign deals next week to pay for their own power supply",
+      "link": "https://www.theverge.com/science/884191/ai-data-center-energy-state-of-the-union-trump",
+      "date": "2026-02-25T20:37:25.000Z",
+      "category": "综合资讯",
+      "description": "President Donald Trump tried to quell Americans' concerns about rising electricity costs during his State of the Union speech - and now we're learning that the deals he promised could land next week. Trump claimed that he's negotiated a \"rate payer protection pledge\" with major tech companies, which would see them build out or pay for new electricity generation for their data centers. Leaders from Amazon, Google, Meta, Microsoft, xAI, Oracle and OpenAI are expected to attend a March 4th event to",
+      "summary": "特朗普在国情演说中试图缓解美国民众对电费上涨的担忧，他承诺的协议可能下周达成。他称已与科技公司达成“电价保护承诺”，要求其为数据中心建设或支付新电力设施费用。多家科技公司高管将出席3月4日的活动。"
     },
     {
-      "title": "Danish government agency to ditch Microsoft software (2025)",
-      "link": "https://therecord.media/denmark-digital-agency-microsoft-digital-independence",
-      "date": "2026-02-25T10:16:22.000Z",
-      "category": "综合新闻",
-      "description": "Article URL: https://therecord.media/denmark-digital-agency-microsoft-digital-independence\nComments URL: https://news.ycombinator.com/item?id=47149701\nPoints: 195\n# Comments: 91",
-      "summary": "Article URL: https://therecord.media/denmark-digital-agency-microsoft-digital-independence\nComments URL: https://news.ycombinator.com/item?id=47149701..."
+      "title": "US cybersecurity agency CISA reportedly in dire shape amid Trump cuts and layoffs",
+      "link": "https://techcrunch.com/2026/02/25/us-cybersecurity-agency-cisa-reportedly-in-dire-shape-amid-trump-cuts-and-layoffs/",
+      "date": "2026-02-25T20:26:57.000Z",
+      "category": "综合资讯",
+      "description": "Under the first year of the Trump administration, the U.S. cyber agency CISA has faced cuts, layoffs, and furloughs, as bipartisan lawmakers and cybersecurity industry sources say the agency is unprepared to handle a crisis.",
+      "summary": "特朗普政府第一年，美国网络安全局CISA遭遇预算削减、裁员和停薪留职，两党议员和行业人士称其无法应对危机。"
     },
     {
-      "title": "'Exceptionally rare' Roman lead blocks found on farmland",
-      "link": "https://www.bbc.com/news/articles/c8xy52wndx1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T10:13:54.000Z",
-      "category": "综合新闻",
-      "description": "The objects, which were used to produce tools and weapons, were found on grazing land in west Wales.",
-      "summary": "The objects, which were used to produce tools and weapons, were found on grazing land in west Wales...."
+      "title": "Welcome to the post-hype crypto market",
+      "link": "https://techcrunch.com/video/welcome-to-the-post-hype-crypto-market/",
+      "date": "2026-02-25T20:22:11.000Z",
+      "category": "综合资讯",
+      "description": "Crypto is creeping back into the startup conversation, but at ETHDenver last week, the buzz was as much about Washington as it was about tokens. Policy shifts are rippling through the market as Tether and stablecoins face scrutiny, players like Stripe re-enter the conversation, and startups either find traction or flame out. The hype cycle is over, or at least taking a break. So what comes next?  On […]",
+      "summary": "加密货币重新进入初创公司讨论，但ETHDenver会议上，华盛顿政策同样引发关注。监管变化影响市场，Tether和稳定币受审查，Stripe等公司重返市场，初创企业面临考验。炒作周期暂歇，未来如何发展值得关注。"
     },
     {
-      "title": "President's theatrical State of the Union address offers little hint of any change in course",
-      "link": "https://www.bbc.com/news/articles/cx2d7x6zrwro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T10:11:20.000Z",
-      "category": "综合新闻",
-      "description": "The BBC's Anthony Zurcher says the US president appealed to his base and taunted his opponents in a marathon speech.",
-      "summary": "The BBC's Anthony Zurcher says the US president appealed to his base and taunted his opponents in a marathon speech...."
+      "title": "Here’s how the new Samsung Galaxy S26 compares with last year’s S25",
+      "link": "https://www.theverge.com/gadgets/884281/samsung-galaxy-s26-plus-ultra-vs-s25-specs-features",
+      "date": "2026-02-25T20:09:14.000Z",
+      "category": "综合资讯",
+      "description": "Samsung unveiled its Galaxy S26 lineup at its recent Unpacked event in San Francisco. As expected, the new series consists of the baseline S26, which starts at $899.99, and the bigger S26 Plus, which starts at $1,099.99. At the high end, there's also the $1,299.99 S26 Ultra, which is the largest in the lineup and comes with a bigger battery, better cameras, S Pen support, and expanded options for both storage and RAM. The price difference between Samsung's cheapest and most expensive S26 phones ",
+      "summary": "三星在旧金山的Unpacked活动中发布了Galaxy S26系列，包括S26、S26 Plus和S26 Ultra，价格从899.99美元到1299.99美元不等，配置和功能逐步升级。"
     },
     {
-      "title": "New travel rules for UK visitors kick in today - find out how this affects you",
-      "link": "https://www.bbc.com/news/articles/cy57p1v61d1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T10:07:33.000Z",
-      "category": "综合新闻",
-      "description": "From 25 February, a new system will come into force which will affect many people, including British dual nationals.",
-      "summary": "From 25 February, a new system will come into force which will affect many people, including British dual nationals...."
+      "title": "Alphabet-owned robotics software company Intrinsic joins Google",
+      "link": "https://techcrunch.com/2026/02/25/alphabet-owned-robotics-software-company-intrinsic-joins-google/",
+      "date": "2026-02-25T20:00:00.000Z",
+      "category": "综合资讯",
+      "description": "Nearly five years after graduating into an independent Alphabet company, Intrinsic is moving under Google's domain.",
+      "summary": "谷歌旗下公司Intrinsic在独立五年后重新回归谷歌体系。"
     },
     {
-      "title": "Show HN: A real-time strategy game that AI agents can play",
-      "link": "https://llmskirmish.com/",
-      "date": "2026-02-25T10:02:45.000Z",
-      "category": "综合新闻",
-      "description": "I've liked all the projects that put LLMs into game environments. It's been a weird juxtaposition, though: frontier LLMs can one-shot full coding projects, and those same models struggle to get out of Pokémon Red's Mt. Moon.\nBecause of this, I wanted to create a game environment that put this generation of frontier LLMs' top skill, coding, on full display.\nTen years ago, a team released a game called Screeps. It was described as an \"MMO RTS sandbox for programmers.\" The Screeps paradigm of writi",
-      "summary": "I've liked all the projects that put LLMs into game environments. It's been a weird juxtaposition, though: frontier LLMs can one-shot full coding proj..."
+      "title": "Riley Walz, the Jester of Silicon Valley, Is Joining OpenAI",
+      "link": "https://www.wired.com/story/openai-hires-riley-walz/",
+      "date": "2026-02-25T19:59:26.000Z",
+      "category": "综合资讯",
+      "description": "The software engineer is famous for his online stunts. Now he’s joining the company behind ChatGPT to work on new ways for humans to use AI systems.",
+      "summary": "软件工程师因网络行为闻名，现加入ChatGPT开发公司，探索人类使用AI的新方式。"
     },
     {
-      "title": "Emperor Penguins moult to survive, but scientists fear it may now be killing them",
-      "link": "https://www.bbc.com/news/articles/c204626888zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T10:01:53.000Z",
-      "category": "综合新闻",
-      "description": "The birds moult to protect themselves, but in a warming world, it could be endangering them.",
-      "summary": "The birds moult to protect themselves, but in a warming world, it could be endangering them...."
+      "title": "Google and Samsung just launched the AI features Apple couldn’t with Siri",
+      "link": "https://www.theverge.com/tech/884703/google-samsung-galaxy-s26-gemini-apple-siri",
+      "date": "2026-02-25T19:56:55.000Z",
+      "category": "综合资讯",
+      "description": "Google just announced that Gemini will soon be able to take care of some multistep tasks on your phone, like ordering food or hailing a car, starting first with the Pixel 10, Pixel 10 Pro, and the just-announced Samsung Galaxy S26 phones. It all sounds a bit like features Apple announced for Siri way back at the 2024 Worldwide Developers Conference - before Apple delayed those planned features in March 2025 and which still aren't released.\nOnstage, Sameer Samat, Google's president of Android, sh",
+      "summary": "谷歌宣布Gemini将能处理手机上的多步骤任务，如订餐或打车，首批支持Pixel 10、Pixel 10 Pro和三星Galaxy S26。这与苹果2024年WWDC宣布的Siri功能类似，但苹果已推迟相关功能发布时间。"
     },
     {
-      "title": "Courting controversy and befriending Trump - Fifa's 'unlikely saviour'",
-      "link": "https://www.bbc.com/sport/football/articles/cwyg5887vp3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T09:42:46.000Z",
-      "category": "综合新闻",
-      "description": "Gianni Infantino has clashed with unions and European football, but after 10 years as Fifa president he remains in an impregnable position.",
-      "summary": "Gianni Infantino has clashed with unions and European football, but after 10 years as Fifa president he remains in an impregnable position...."
+      "title": "Snapchat announces ‘The Snappys,’ its first-ever creator awards show",
+      "link": "https://techcrunch.com/2026/02/25/snapchat-announces-the-snappys-its-first-ever-creator-awards-show/",
+      "date": "2026-02-25T19:54:18.000Z",
+      "category": "综合资讯",
+      "description": "Snapchat is the latest social media platform to launch awards for creators, joining TikTok and Instagram.",
+      "summary": "Snapchat推出创作者奖项，与TikTok和Instagram一同支持内容创作者。"
     },
     {
-      "title": "Actor Martin Short's daughter Katherine dies at 42",
-      "link": "https://www.bbc.com/news/articles/cqlgzrqqxpzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T09:31:16.000Z",
-      "category": "综合新闻",
-      "description": "The actor says his daughter \"will be remembered for the light and joy she brought into the world\".",
-      "summary": "The actor says his daughter \"will be remembered for the light and joy she brought into the world\"...."
+      "title": "An accountant won a big jackpot on Kalshi by betting against DOGE",
+      "link": "https://techcrunch.com/2026/02/25/an-accountant-won-a-big-jackpot-on-kalshi-by-betting-against-doge/",
+      "date": "2026-02-25T19:36:03.000Z",
+      "category": "综合资讯",
+      "description": "A tax accountant saw Elon Musk fans bidding up a Kalshi prediction market and saw a sure bet to make easy money.",
+      "summary": "税务会计师看到埃隆·马斯克粉丝推高Kalshi预测市场，认为这是轻松赚钱的确定性机会。"
     },
     {
-      "title": "World Cup security concerns over funding freeze",
-      "link": "https://www.bbc.com/sport/football/articles/cr730n281g3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T09:26:47.000Z",
-      "category": "综合新闻",
-      "description": "US government officials are warned that there could be \"catastrophic\" security consequences if cities hosting World Cup matches do not receive funding that has been frozen.",
-      "summary": "US government officials are warned that there could be \"catastrophic\" security consequences if cities hosting World Cup matches do not receive funding..."
+      "title": "Inside the story of the US defense contractor who leaked hacking tools to Russia",
+      "link": "https://techcrunch.com/2026/02/25/inside-the-story-of-the-us-defense-contractor-who-leaked-hacking-tools-to-russia/",
+      "date": "2026-02-25T19:30:47.000Z",
+      "category": "综合资讯",
+      "description": "The former boss of a U.S. hacking tools maker was jailed for selling highly sensitive software exploits to a Russian broker. This is how we first learned of his arrest, reported the story, and some of the unanswered questions we still have.",
+      "summary": "前美国黑客工具公司老板因向俄罗斯中间商出售高敏感软件漏洞而入狱。此事件引发关注，但仍存未解疑问。"
     },
     {
-      "title": "England worse than Wales? - Six Nations half term report",
-      "link": "https://www.bbc.com/sport/rugby-union/videos/cx2d46zk9r0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T09:19:36.000Z",
-      "category": "综合新闻",
-      "description": "At the halfway stage of the Six Nations, Rugby Special's John Barclay and Sam Warburton dish out their report cards for every team so far and give their predictions for what we could see in the rest of the tournament.",
-      "summary": "At the halfway stage of the Six Nations, Rugby Special's John Barclay and Sam Warburton dish out their report cards for every team so far and give the..."
+      "title": "Samsung shows off new display tech that adds a privacy screen to apps and notifications",
+      "link": "https://techcrunch.com/2026/02/25/samsung-shows-off-new-display-tech-that-adds-a-privacy-screen-to-apps-and-notifications/",
+      "date": "2026-02-25T19:23:58.000Z",
+      "category": "综合资讯",
+      "description": "The new privacy tech uses different types of pixels to let you block certain apps and notifications from being viewed by others.",
+      "summary": "新技术通过不同类型的像素，让你阻止他人查看某些应用和通知。"
     },
     {
-      "title": "LLM=True",
-      "link": "https://blog.codemine.be/posts/2026/20260222-be-quiet/",
-      "date": "2026-02-25T09:05:40.000Z",
-      "category": "综合新闻",
-      "description": "Article URL: https://blog.codemine.be/posts/2026/20260222-be-quiet/\nComments URL: https://news.ycombinator.com/item?id=47149151\nPoints: 117\n# Comments: 83",
-      "summary": "Article URL: https://blog.codemine.be/posts/2026/20260222-be-quiet/\nComments URL: https://news.ycombinator.com/item?id=47149151\nPoints: 117\n# Comments..."
+      "title": "Wearable startup CUDIS launches a new health ring line with an AI-fueled ‘coach’",
+      "link": "https://techcrunch.com/2026/02/25/wearable-startup-cudis-launches-a-new-health-ring-line-with-an-ai-fueled-coach/",
+      "date": "2026-02-25T19:10:04.000Z",
+      "category": "综合资讯",
+      "description": "The wearable incentivizes healthy behavior with points that can be redeemed for health products.",
+      "summary": "可穿戴设备通过积分激励健康行为，积分可兑换健康产品。"
     },
     {
-      "title": "Analysis: Trump's main themes and who he hoped to win over",
-      "link": "https://www.bbc.com/news/videos/crrx2y0jwpvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T08:08:52.000Z",
-      "category": "综合新闻",
-      "description": "Daniel Bush takes a closer look at Trump's focus on the economy and immigration during his State of the Union address.",
-      "summary": "Daniel Bush takes a closer look at Trump's focus on the economy and immigration during his State of the Union address...."
+      "title": "Preorders for Samsung’s S26 phones come with up to $200 in gift cards",
+      "link": "https://www.theverge.com/gadgets/883829/samsung-galaxy-s26-plus-ultra-how-to-buy-preorder-price-release-date",
+      "date": "2026-02-25T19:09:29.000Z",
+      "category": "综合资讯",
+      "description": "As expected, Samsung has taken the wraps off its flagship lineup for 2026. Introduced during the company's recent Unpacked event, the new Galaxy devices - which include the standard S26, the larger S26 Plus, and the high-end S26 Ultra - will be available on March 11th. Preorders are now open ahead of launch, with pricing starting at $899.99 for the base-model S26, $1,099.99 for the Plus, and $1,299.99 for the Ultra.\nOverall, the forthcoming S26 lineup looks largely similar to last year's S25 ser",
+      "summary": "三星揭晓了2026年旗舰系列，包括S26、S26 Plus和S26 Ultra，3月11日开售，起价899.99美元。整体设计与去年S25相似。"
     },
     {
-      "title": "Claude Code Remote Control",
-      "link": "https://code.claude.com/docs/en/remote-control",
-      "date": "2026-02-25T07:22:56.000Z",
-      "category": "综合新闻",
-      "description": "Article URL: https://code.claude.com/docs/en/remote-control\nComments URL: https://news.ycombinator.com/item?id=47148454\nPoints: 73\n# Comments: 46",
-      "summary": "Article URL: https://code.claude.com/docs/en/remote-control\nComments URL: https://news.ycombinator.com/item?id=47148454\nPoints: 73\n# Comments: 46..."
+      "title": "Kalshi fined a MrBeast editor for insider trading on markets related to the YouTube star",
+      "link": "https://techcrunch.com/2026/02/25/kalshi-fined-a-mrbeast-editor-for-insider-trading-on-markets-related-to-the-youtube-star/",
+      "date": "2026-02-25T19:08:04.000Z",
+      "category": "综合资讯",
+      "description": "Kalshi fined the MrBeast editor, Artem Kaptur, over $20,000.",
+      "summary": "Kalshi对MrBeast编辑阿列克谢·卡普尔处以2万多元罚款。"
     },
     {
-      "title": "'I'm proud of my heritage' - meet Britain's youngest ever F1 driver",
-      "link": "https://www.bbc.com/sport/formula1/articles/c1kgz78klv9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T06:43:34.000Z",
-      "category": "综合新闻",
-      "description": "Arvid Lindblad tells BBC Sport about being shaped by his Indian and Swedish heritage and how he was fixated on reaching F1 from aged five.",
-      "summary": "Arvid Lindblad tells BBC Sport about being shaped by his Indian and Swedish heritage and how he was fixated on reaching F1 from aged five...."
+      "title": "The public opposition to AI infrastructure is heating up",
+      "link": "https://techcrunch.com/2026/02/25/the-public-opposition-to-ai-infrastructure-is-heating-up/",
+      "date": "2026-02-25T19:03:34.000Z",
+      "category": "综合资讯",
+      "description": "Public backlash over the data center boom is leading to a variety of draconian policies — including bans on new construction.",
+      "summary": "数据中心热潮引发公众反对，导致多种严苛政策出台，包括禁止新建项目。"
     },
     {
-      "title": "The 'rare combination' behind Britain's youngest F1 driver",
-      "link": "https://www.bbc.com/sport/formula1/articles/c1kgz78klv9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T06:43:34.000Z",
-      "category": "综合新闻",
-      "description": "Arvid Lindblad tells BBC Sport about being shaped by his Indian and Swedish heritage and how he was fixated on reaching F1 from aged five.",
-      "summary": "Arvid Lindblad tells BBC Sport about being shaped by his Indian and Swedish heritage and how he was fixated on reaching F1 from aged five...."
+      "title": "OpenClaw Users Are Allegedly Bypassing Anti-Bot Systems",
+      "link": "https://www.wired.com/story/openclaw-users-bypass-anti-bot-systems-cloudflare-scrapling/",
+      "date": "2026-02-25T19:00:00.000Z",
+      "category": "综合资讯",
+      "description": "An open source project called Scrapling is gaining traction with AI agent users who want their bots to scrape sites without permission.",
+      "summary": "开源项目Scrapling受到希望让机器人未经许可抓取网站的AI代理用户欢迎。"
     },
     {
-      "title": "Watch: Key moments from the president's speech",
-      "link": "https://www.bbc.com/news/videos/c2lr74lgx7qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T06:29:49.000Z",
-      "category": "综合新闻",
-      "description": "The US president's speech to Congress included spats with political rivals and special guests.",
-      "summary": "The US president's speech to Congress included spats with political rivals and special guests...."
+      "title": "Waymo to begin testing in Chicago and Charlotte",
+      "link": "https://techcrunch.com/2026/02/25/waymo-to-begin-testing-in-chicago-and-charlotte/",
+      "date": "2026-02-25T18:33:52.000Z",
+      "category": "综合资讯",
+      "description": "Waymo this week will begin mapping and collecting data in Chicago and Charlotte. The move comes as Waymo announces it is currently operating its robotaxis fully autonomously in 10 US cities.",
+      "summary": "Waymo将在芝加哥和夏洛特开始地图绘制和数据收集，同时宣布其无人驾驶出租车已在10个美国城市实现完全自动驾驶。"
     },
     {
-      "title": "Will walk-in GP clinics deliver one million extra appointments in Scotland?",
-      "link": "https://www.bbc.com/news/articles/c0j58w0yg68o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T06:18:38.000Z",
-      "category": "综合新闻",
-      "description": "The first of 16 new walk-in clinics across Scotland is now open but it is not clear when a target of them delivering one million appointments will be hit.",
-      "summary": "The first of 16 new walk-in clinics across Scotland is now open but it is not clear when a target of them delivering one million appointments will be ..."
+      "title": "The AirPods Pro 3 Are $20 Off",
+      "link": "https://www.wired.com/story/apple-airpods-pro-3-deal-226/",
+      "date": "2026-02-25T18:23:18.000Z",
+      "category": "综合资讯",
+      "description": "It's not the flashiest deal, but if you need a new pair of our favorite earbuds for iPhone owners, you can snag them at a slight discount.",
+      "summary": "需要为iPhone用户更换新耳机的用户可以以小幅折扣购买。"
     },
     {
-      "title": "I dropped to the floor and couldn't move - spiking can happen anywhere",
-      "link": "https://www.bbc.com/news/articles/clygnvw2q3qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T06:08:09.000Z",
-      "category": "综合新闻",
-      "description": "Tirion Richards was unable to see, move her legs or lift her head following the incident in Cardigan.",
-      "summary": "Tirion Richards was unable to see, move her legs or lift her head following the incident in Cardigan...."
+      "title": "Kalshi says it fined a MrBeast editor and a politician for insider trading",
+      "link": "https://www.theverge.com/policy/884570/kalshi-insider-trading-mrbeast-fines",
+      "date": "2026-02-25T18:20:36.000Z",
+      "category": "综合资讯",
+      "description": "Kalshi, the prediction betting market, has disclosed its first fines for insider trading, as reported earlier by The Wall Street Journal. In addition to handing down a $20,000 fine to a MrBeast editor, Kalshi also charged a California gubernatorial candidate over $2,000 after a video on X \"appeared to show him trading on his own candidacy.\"\nIn a notice on Wednesday, Kalshi claims MrBeast editor Artem Kaptur traded about $4,000 on YouTube streaming markets, violating its insider trading rules. \"O",
+      "summary": "Kalshi对内幕交易开出首张罚单，包括对MrBeast编辑罚款2万美元及一名加州州长候选人超2000美元。其指控称该编辑在YouTube市场违规交易。"
     },
     {
-      "title": "Senegal PM proposes tougher anti-LGBT law, doubling prison terms",
-      "link": "https://www.bbc.com/news/articles/c7vj15zlmv6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T05:46:42.000Z",
-      "category": "综合新闻",
-      "description": "The bill seeks prison terms of five to ten years for what it describes as \"acts against nature\".",
-      "summary": "The bill seeks prison terms of five to ten years for what it describes as \"acts against nature\"...."
+      "title": "Gemini can now automate some multi-step tasks on Android",
+      "link": "https://techcrunch.com/2026/02/25/gemini-can-now-automate-some-multi-step-tasks-on-android/",
+      "date": "2026-02-25T18:00:00.000Z",
+      "category": "综合资讯",
+      "description": "Gemini on Android will be able to automate tasks involving rideshare requests, or grocery or food delivery, says Google.",
+      "summary": "谷歌表示，Android上的Gemini将能够自动化网约车请求、杂货或食品配送等任务。"
     },
     {
-      "title": "Trump lied, scapegoated, and distracted, say Democrats in response",
-      "link": "https://www.bbc.com/news/articles/ce8w2r69wyeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T05:28:54.000Z",
-      "category": "综合新闻",
-      "description": "The rebuttal - first delivered in 1966 - is often given by rising stars in the opposition party.",
-      "summary": "The rebuttal - first delivered in 1966 - is often given by rising stars in the opposition party...."
+      "title": "Google Gemini can book an Uber or order food for you on Pixel 10 and Galaxy S26",
+      "link": "https://www.theverge.com/tech/884210/google-gemini-samsung-s26-pixel-10-uber",
+      "date": "2026-02-25T18:00:00.000Z",
+      "category": "综合资讯",
+      "description": "Gemini can now prep a rideshare or grocery order, though you’ll have to submit the order yourself. | Image: Google\t\n\nGoogle's Gemini AI is getting one step closer to being more like an actual assistant. Starting with some Pixel 10 phones and the Samsung Galaxy S26 series, Gemini will be able to hail an Uber or put together a DoorDash order on its own.\nIt's called task automation, and it starts with a prompt to Gemini - something like \"Get me an Uber to the Palace of Fine Arts.\" Gemini then launc",
+      "summary": "Gemini AI可自主处理打车和外卖订单，需用户下达指令。其任务自动化功能将逐步应用于部分Pixel 10和三星S26手机。"
     },
     {
-      "title": "Turing Completeness of GNU find",
-      "link": "https://arxiv.org/abs/2602.20762",
-      "date": "2026-02-25T05:16:39.000Z",
-      "category": "综合新闻",
-      "description": "Article URL: https://arxiv.org/abs/2602.20762\nComments URL: https://news.ycombinator.com/item?id=47147609\nPoints: 67\n# Comments: 12",
-      "summary": "Article URL: https://arxiv.org/abs/2602.20762\nComments URL: https://news.ycombinator.com/item?id=47147609\nPoints: 67\n# Comments: 12..."
+      "title": "Gemini Can Now Book You an Uber or Order a DoorDash Meal on Your Phone. Here’s How It Works",
+      "link": "https://www.wired.com/story/google-gemini-task-automation-galaxy-s26-uber-doordash/",
+      "date": "2026-02-25T18:00:00.000Z",
+      "category": "综合资讯",
+      "description": "Starting with the Samsung Galaxy S26, Google’s Gemini can automate tasks in popular mobile apps. We got a live demo of the new feature in action.",
+      "summary": "从三星Galaxy S26开始，Google的Gemini可在热门移动应用中自动化任务。我们现场演示了该功能。"
     },
     {
-      "title": "India’s AI boom pushes firms to trade near-term revenue for users",
-      "link": "https://techcrunch.com/2026/02/24/india-ai-boom-pushes-firms-to-trade-near-term-revenue-for-users/",
-      "date": "2026-02-25T02:00:00.000Z",
-      "category": "科技资讯",
-      "description": "ChatGPT and rivals are testing whether India's massive AI user boom can translate into paying customers as free offers wind down.",
-      "summary": "ChatGPT and rivals are testing whether India's massive AI user boom can translate into paying customers as free offers wind down...."
+      "title": "Samsung Galaxy S26, S26+, and S26 Ultra: Specs, Features, Price, Release Date",
+      "link": "https://www.wired.com/story/samsung-galaxy-s26-series-galaxy-unpacked/",
+      "date": "2026-02-25T18:00:00.000Z",
+      "category": "综合资讯",
+      "description": "Samsung’s new phones all get AI enhancements, and the flagship Galaxy S26 Ultra has a Privacy Display that can block the screen from nosy neighbors.",
+      "summary": "三星新手机均配备AI升级，旗舰机Galaxy S26 Ultra配备隐私显示屏，可防止旁人窥视。"
     },
     {
-      "title": "Pete Hegseth’s Pentagon AI bro squad includes a former Uber executive and a private equity billionaire",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/884165/pentagon-anthropic-emil-michael-steve-feinberg",
-      "date": "2026-02-25T01:59:00.000Z",
-      "category": "科技资讯",
-      "description": "U.S. Secretary of Defense Pete Hegseth (L) walks with Emil Michael (R), Under Secretary of Defense (Research & Engineering, while touring an exhibit of Multi-Domain Autonomous systems at the Pentagon July 16, 2025 in Arlington, Virginia. | Win McNamee/Getty Images.\t\n\nHello and welcome to Regulator, a newsletter for Verge subscribers covering the broligarchs, the influencers, and the (potentially conscious) artificial intelligence models scrambling for power in Washington. If you're not a subscri",
-      "summary": "U.S. Secretary of Defense Pete Hegseth (L) walks with Emil Michael (R), Under Secretary of Defense (Research & Engineering, while touring an exhibit o..."
+      "title": "Micron joins the 3GB GDDR7 party, introduces 36 Gbps modules for GPUs — lags behind speeds of Samsung and SK Hynix",
+      "link": "https://www.tomshardware.com/pc-components/gpus/micron-joins-the-3gb-gddr7-party-introduces-36-gbps-modules-for-gpus-lags-behind-speeds-of-samsung-and-sk-hynix",
+      "date": "2026-02-25T17:53:46.000Z",
+      "category": "金属材料",
+      "description": "Micron officially introduces its own 3GB GDDR7 memory module, with an official bandwidth rating of 36 Gbps.",
+      "summary": "美光正式推出3GB GDDR7内存模块，官方带宽为36 Gbps。"
     },
     {
-      "title": "Families, teachers and pupils share their views on SEND reforms in England",
-      "link": "https://www.bbc.com/news/articles/cgqgnpxexv7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T01:21:53.000Z",
-      "category": "综合新闻",
-      "description": "The government has unveiled its long-awaited plans for reforming SEND provision in England - but what do those most impacted make of the changes?",
-      "summary": "The government has unveiled its long-awaited plans for reforming SEND provision in England - but what do those most impacted make of the changes?..."
+      "title": "OpenAI COO says ads will be ‘an iterative process’",
+      "link": "https://techcrunch.com/2026/02/25/openai-coo-says-ads-will-be-an-iterative-process/",
+      "date": "2026-02-25T17:37:37.000Z",
+      "category": "综合资讯",
+      "description": "COO Brad Lightcap noted that ads can add to the product experience of users if they are done right. He urged to give OpenAI a few months to see how the company fares in rolling out the product.",
+      "summary": "Brad Lightcap表示，恰当的广告可以提升用户体验，他建议给OpenAI几个月时间观察其产品推广情况。"
     },
     {
-      "title": "Anthropic Drops Flagship Safety Pledge",
-      "link": "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
-      "date": "2026-02-25T01:08:46.000Z",
-      "category": "综合新闻",
-      "description": "Article URL: https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/\nComments URL: https://news.ycombinator.com/item?id=47145963\nPoints: 378\n# Comments: 179",
-      "summary": "Article URL: https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/\nComments URL: https://news.ycombinator.com/item?id=47145963\nPo..."
+      "title": "OpenClaw creator’s advice to AI builders is to be more playful and allow yourself time to improve",
+      "link": "https://techcrunch.com/2026/02/25/openclaw-creators-advice-to-ai-builders-is-to-be-more-playful-and-allow-yourself-time-to-improve/",
+      "date": "2026-02-25T16:54:46.000Z",
+      "category": "综合资讯",
+      "description": "Peter Steinberger talks about the creation of his viral AI agent OpenClaw and how being more \"playful\" makes for a better way to learn AI coding.",
+      "summary": "彼得·施坦贝格分享了他创造病毒式AI代理OpenClaw的经历，并探讨了更加“玩乐”的方式如何提升AI编程学习效果。"
     },
     {
-      "title": "Corgi Labs (YC W23) Is Hiring",
-      "link": "https://www.ycombinator.com/companies/corgi-labs/jobs/ZiEIf7a-founders-associate",
-      "date": "2026-02-25T01:01:02.000Z",
-      "category": "综合新闻",
-      "description": "Article URL: https://www.ycombinator.com/companies/corgi-labs/jobs/ZiEIf7a-founders-associate\nComments URL: https://news.ycombinator.com/item?id=47145911\nPoints: 0\n# Comments: 0",
-      "summary": "Article URL: https://www.ycombinator.com/companies/corgi-labs/jobs/ZiEIf7a-founders-associate\nComments URL: https://news.ycombinator.com/item?id=47145..."
+      "title": "A White House Staffer Appears to Run Massive Pro-Trump X Account",
+      "link": "https://www.wired.com/story/a-white-house-staffer-appears-to-run-massive-pro-trump-meme-page/",
+      "date": "2026-02-25T16:31:26.000Z",
+      "category": "综合资讯",
+      "description": "A popular right-wing account that called a video depicting Barack and Michelle Obama as apes \"a masterpiece\" appears to be run by a White House staffer, according to records reviewed by WIRED.",
+      "summary": "一份将奥巴马夫妇描绘为猿猴的视频称为“杰作”的右翼账号，据WIRED审查的记录显示，似乎由白宫工作人员运营。"
     },
     {
-      "title": "Amazon accused of widespread scheme to inflate prices across the economy",
-      "link": "https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price",
-      "date": "2026-02-25T01:00:45.000Z",
-      "category": "综合新闻",
-      "description": "Article URL: https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price\nComments URL: https://news.ycombinator.com/item?id=47145907\nPoints: 493\n# Comments: 172",
-      "summary": "Article URL: https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price\nComments URL: https://news.ycombinator.com/item?id=47145907\nPoints:..."
+      "title": "Inside Meta and AMD's $100 billion deal, and why AMD is giving up a slice of the company in return for GPU orders — Meta stays platform-agnostic as it develops AI compute strategy",
+      "link": "https://www.tomshardware.com/tech-industry/inside-meta-amd-deal",
+      "date": "2026-02-25T16:02:23.000Z",
+      "category": "金属材料",
+      "description": "AMD and Meta's blockbuster deal could see the company signing away 10% of shares in the business to Meta. We examine why AMD is keen to secure AI hardware orders, and explore Meta's AI compute strategy.",
+      "summary": "AMD与Meta的重磅交易可能使其向Meta出让10%的股份。分析AMD寻求AI硬件订单的原因及Meta的AI计算策略。"
     },
     {
-      "title": "Nvidia challenger AI chip startup MatX raised $500M",
-      "link": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
-      "date": "2026-02-25T00:45:47.000Z",
-      "category": "科技资讯",
-      "description": "The startup was founded by former Google TPU engineers in 2023.",
-      "summary": "The startup was founded by former Google TPU engineers in 2023...."
+      "title": "Have hard-won scaling lessons to share? Take the stage at TechCrunch Founder Summit 2026",
+      "link": "https://techcrunch.com/2026/02/25/have-hard-won-scaling-lessons-to-share-take-the-stage-at-techcrunch-founder-summit/",
+      "date": "2026-02-25T16:00:00.000Z",
+      "category": "综合资讯",
+      "description": "Apply to speak at TechCrunch Founder Summit 2026 by April 17 for a chance to lead a roundtable or breakout session for 1,000 founders and investors. If you’ve built, backed, or operated inside high-growth startups, your experience could shape how the next wave of founders scales.",
+      "summary": "申请在2026年TechCrunch创始人峰会发言，4月17日前提交可有机会主持圆桌或分组讨论，面向1000名创始人和投资者。有高增长初创企业经验者可分享经验，影响未来创业者发展。"
     },
     {
-      "title": "Apple&#8217;s new age verification tools block underage app downloads where required by law",
-      "link": "https://www.theverge.com/tech/884136/apple-age-verification-assurance-underage-app-downloads",
-      "date": "2026-02-25T00:45:37.000Z",
-      "category": "科技资讯",
-      "description": "Apple, like many others, has had to launch age verification features in response to new requirements for age checks in many regions, and on Tuesday, the company announced new details about its tools that developers can use to \"meet their age assurance obligations under upcoming U.S. and regional laws, including in Brazil, Australia, Singapore, Utah, and Louisiana.\" \nOne of the big updates is that users in Australia, Brazil, and Singapore can't download apps rated 18-plus unless their age has bee",
-      "summary": "Apple, like many others, has had to launch age verification features in response to new requirements for age checks in many regions, and on Tuesday, t..."
+      "title": "MAGA Is Raging Over the Epstein Files. But They’re Not Mad at Donald Trump",
+      "link": "https://www.wired.com/story/maga-is-still-very-angry-about-epstein-but-they-wont-blame-trump/",
+      "date": "2026-02-25T16:00:00.000Z",
+      "category": "综合资讯",
+      "description": "Trump supporters are angry at the lack of arrests after the latest Epstein file dump but have targeted their ire at Kash Patel, Pam Bondi, and Steve Bannon rather than the president.",
+      "summary": "特朗普支持者对最新埃普斯坦文件泄露后未有逮捕行动感到愤怒，但将怒火指向了卡什·帕特尔、帕姆·邦迪和斯蒂夫·班农，而非总统。"
     },
     {
-      "title": "Disabled woman, 33, put in nursing home against her will feels 'betrayed'",
-      "link": "https://www.bbc.com/news/articles/czj1ndzz9xyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T00:41:34.000Z",
-      "category": "综合新闻",
-      "description": "Lucinda Ritchie, who has full mental capacity, was transferred from a hospital bed despite her refusal.",
-      "summary": "Lucinda Ritchie, who has full mental capacity, was transferred from a hospital bed despite her refusal...."
+      "title": "Kalshi Suspended a California Politician and a YouTuber for Insider Trading",
+      "link": "https://www.wired.com/story/kalshi-insider-trading-california-politician-and-youtuber/",
+      "date": "2026-02-25T16:00:00.000Z",
+      "category": "综合资讯",
+      "description": "Leading prediction market Kalshi has revealed details of two recent insider trading cases it flagged to authorities, giving a rare look at how the platform enforces its policies.",
+      "summary": "Kalshi平台披露两起内部交易案例，展示其政策执行机制。"
     },
     {
-      "title": "Self-driving tech startup Wayve raises $1.2B from Nvidia, Uber, and three automakers",
-      "link": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-      "date": "2026-02-25T00:37:59.000Z",
-      "category": "科技资讯",
-      "description": "Major automakers, tech giants, AI companies, and chipmakers are all trying to get a piece of Wayve.",
-      "summary": "Major automakers, tech giants, AI companies, and chipmakers are all trying to get a piece of Wayve...."
+      "title": "Microsoft clarifies Windows 11 printer driver policy — support for legacy printers is not ending",
+      "link": "https://www.tomshardware.com/peripherals/printers/microsoft-clarifies-windows-11-printer-driver-policy",
+      "date": "2026-02-25T15:50:12.000Z",
+      "category": "金属材料",
+      "description": "Microsoft confirmed today that Windows 11 is not ending support for legacy V3 and V4 printer drivers despite previous reports",
+      "summary": "微软确认，尽管此前有报道，Windows 11仍将继续支持旧版V3和V4打印机驱动程序。"
     },
     {
-      "title": "NHS secures bone cement rescue package so joint surgery can resume",
-      "link": "https://www.bbc.com/news/articles/cnv670d128go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-25T00:08:16.000Z",
-      "category": "综合新闻",
-      "description": "Joint operations were postponed after the main supplier suffered a critical incident at its plant.",
-      "summary": "Joint operations were postponed after the main supplier suffered a critical incident at its plant...."
+      "title": "German auto exports to China down 50% from 2022 levels",
+      "link": "https://www.automotiveworld.com/analysis/german-auto-exports-to-china-down-50-from-2022-levels/",
+      "date": "2026-02-25T15:33:49.000Z",
+      "category": "非金属材料",
+      "description": "China is Germany's most significant global trade partner, but automotive exports are suffering as the Chinese industry ascends. By Will Girling\nThe post German auto exports to China down 50% from 2022 levels appeared first on Automotive World.",
+      "summary": "中国是德国最重要的全球贸易伙伴，但随着中国汽车产业崛起，德系汽车出口下滑50%。"
     },
     {
-      "title": "Apple’s touchscreen MacBooks might also have a Dynamic Island",
-      "link": "https://www.theverge.com/tech/884089/apple-touchscreen-macbook-pro-dynamic-island",
-      "date": "2026-02-24T23:51:19.000Z",
-      "category": "科技资讯",
-      "description": "Apple's OLED touchscreen MacBook Pros set to launch this fall will get a Dynamic Island feature like what's available on iPhones, according to Bloomberg's Mark Gurman. Apple first debuted the Dynamic Island with the iPhone 14 Pro and iPhone 14 Pro Max as a pill-shaped cutout that can show information and alerts, though the MacBook Pro's Dynamic Island will be \"smaller\" than what's available on current iPhones.\nThe new MacBook Pros, which will come in 14-inch and 16-inch screen sizes, otherwise l",
-      "summary": "Apple's OLED touchscreen MacBook Pros set to launch this fall will get a Dynamic Island feature like what's available on iPhones, according to Bloombe..."
+      "title": "Visual imitation learning: Guidde trains AI agents on human 'expert video' instead of documentation",
+      "link": "https://venturebeat.com/orchestration/visual-imitation-learning-guidde-trains-ai-agents-on-human-expert-video",
+      "date": "2026-02-25T15:26:00.000Z",
+      "category": "综合资讯",
+      "description": "For years, the \"last mile\" of digital transformation has been littered with forgotten PDFs and ignored training manuals. \nOrganizations spend millions on sophisticated software like SAP or Salesforce, only for employees to struggle with basic navigation. Now, as the era of agentic AI arrives, companies face a double-edged sword: they must teach human employees to collaborate with AI, while simultaneously teaching AI agents to navigate the labyrinthine interfaces of the modern enterprise. \nOne id",
+      "summary": "企业需同时培训员工与AI协作，以及让AI适应复杂的企业系统，面临双重挑战。"
     },
     {
-      "title": "'Historical moment' as Bodo/Glimt succeed against all odds",
-      "link": "https://www.bbc.com/sport/football/articles/cvg53ypp4gxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-02-24T23:49:29.000Z",
-      "category": "综合新闻",
-      "description": "Bodo/Glimt knock out last year's finalists Inter Milan in one of the biggest upsets in Champions League history and now the team from the Arctic Circle is dreaming of how far they can go after reaching last 16.",
-      "summary": "Bodo/Glimt knock out last year's finalists Inter Milan in one of the biggest upsets in Champions League history and now the team from the Arctic Circl..."
+      "title": "China to increase leading-edge chip output by 5x in two years, report claims — aims to lift 7nm and 5nm production to 100,000 wafers per month, targeting half a million monthly by 2030",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/china-to-increase-leading-edge-chip-output-by-5x-in-two-years-report-claims-aims-to-lift-7nm-and-5nm-production-to-100-000-wafers-per-month-targeting-half-a-million-monthly-by-2030",
+      "date": "2026-02-25T15:12:20.000Z",
+      "category": "金属材料",
+      "description": "Chinese foundries looking to increase 7nm and below capacity to 100,000 wafer starts per month in one or two years, says Nikkei.",
+      "summary": "日本媒体报道，中国铸造厂计划一到两年内将7纳米及以下产能提升至每月10万片晶圆。"
     },
     {
-      "title": "Spanish ‘soonicorn’ Multiverse Computing releases free compressed AI model",
-      "link": "https://techcrunch.com/2026/02/24/spanish-soonicorn-multiverse-computing-releases-free-compressed-ai-model/",
-      "date": "2026-02-24T23:32:00.000Z",
-      "category": "科技资讯",
-      "description": "Spanish startup Multiverse Computing has released a new version of its HyperNova 60B model on Hugging Face that, it says, bests Mistral's model.",
-      "summary": "Spanish startup Multiverse Computing has released a new version of its HyperNova 60B model on Hugging Face that, it says, bests Mistral's model...."
+      "title": "Newegg’s 25th anniversary sale is here, unlocking huge discounts on gaming PCs, laptops, RAM, SSDs, and more — jaw-dropping Doorbuster deals include a rare RTX 5070 at MSRP and an iFixit toolkit for under $10",
+      "link": "https://www.tomshardware.com/pc-components/neweggs-25th-anniversary-sale-is-here-unlocking-huge-discounts-on-gaming-pcs-laptops-ram-ssds-and-more-jaw-dropping-doorbuster-deals-include-a-rare-rtx-5070-at-msrp-and-an-ifixit-toolkit-for-under-usd10",
+      "date": "2026-02-25T14:19:23.000Z",
+      "category": "金属材料",
+      "description": "To celebrate Newegg's 25th anniversary, the retailer is releasing some epic Doorbuster deals at 9 am PT, with huge discounts on a range of tech.",
+      "summary": "为庆祝新egg成立25周年，零售商将在太平洋时间上午9点推出重磅促销活动，提供多种科技产品的大幅折扣。"
     },
     {
-      "title": "Apple rolls out age-verification tools worldwide to comply with growing web of child safety laws",
-      "link": "https://techcrunch.com/2026/02/24/apple-rolls-out-age-verification-tools-worldwide-to-comply-with-growing-web-of-child-safety-laws/",
-      "date": "2026-02-24T23:21:54.000Z",
-      "category": "科技资讯",
-      "description": "Apple complies with new age-assurance laws in the U.S. and abroad, including those that block users from downloading apps aimed at adults.",
-      "summary": "Apple complies with new age-assurance laws in the U.S. and abroad, including those that block users from downloading apps aimed at adults...."
+      "title": "Integrating eFPGA for Hybrid Signal Processing Architectures",
+      "link": "https://www.eetimes.com/integrating-efpga-for-hybrid-signal-processing-architectures/",
+      "date": "2026-02-25T14:00:00.000Z",
+      "category": "金属材料",
+      "description": "Fixed logic or software? eFPGA offers a smarter middle ground—enabling reconfigurable, ASIC-class signal processing without the re-spin. Here's how to architect it.\nThe post Integrating eFPGA for Hybrid Signal Processing Architectures  appeared first on EE Times.",
+      "summary": "eFPGA提供更智能的中间方案，实现可重构的ASIC级信号处理，无需重新设计。如何构建此类架构？"
     }
   ]
 }
