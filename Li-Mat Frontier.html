@@ -174,7 +174,7 @@
             <div class="text-center">
                 <h1 class="text-5xl font-bold mb-4">Li-Mat Frontier</h1>
                 <p class="text-xl opacity-90 mb-2">材料技术前沿资讯聚合</p>
-                <p class="text-sm opacity-75">每日 8:50 AM (UTC+8) 自动更新</p>
+                <p class="text-xs opacity-75">每日 8:50 自动依据相关性及时效性更新 50 篇讯息</p>
                 <div class="mt-6 inline-flex items-center px-4 py-2 bg-white bg-opacity-20 rounded-lg">
                     <span class="material-icons text-sm mr-2">schedule</span>
                     <span class="text-sm">最后更新: <span id="lastUpdate">加载中...</span></span>
@@ -240,13 +240,13 @@
                 <canvas id="categoryChart"></canvas>
             </div>
 
-            <!-- 趋势图 -->
+            <!-- 文章日期图 -->
             <div class="chart-container">
                 <h3 class="text-lg font-bold mb-4" style="color: var(--color-deep-green)">
-                    <span class="material-icons text-sm mr-1">trending_up</span>
-                    发布趋势
+                    <span class="material-icons text-sm mr-1">event</span>
+                    文章日期
                 </h3>
-                <canvas id="trendChart"></canvas>
+                <canvas id="dateChart"></canvas>
             </div>
         </div>
     </section>
@@ -306,7 +306,7 @@
         let allArticles = [];
         let currentCategory = '全部';
         let categories = [];
-        let categoryChart, trendChart;
+        let categoryChart, dateChart;
 
         // 初始化
         async function init() {
@@ -355,7 +355,7 @@
 
         // 生成图表
         function generateCharts() {
-            // 分类分布饼图
+            // 分类分布饼图 - 只显示3个分类
             const categoryCounts = {};
             categories.forEach(cat => {
                 categoryCounts[cat] = allArticles.filter(a => a.category === cat).length;
@@ -365,13 +365,13 @@
             categoryChart = new Chart(ctx1, {
                 type: 'doughnut',
                 data: {
-                    labels: Object.keys(categoryCounts),
+                    labels: categories,  // 使用实际的3个分类
                     datasets: [{
                         data: Object.values(categoryCounts),
                         backgroundColor: [
-                            'rgba(0, 45, 40, 0.8)',
-                            'rgba(206, 164, 114, 0.8)',
-                            'rgba(102, 102, 102, 0.8)'
+                            'rgba(0, 45, 40, 0.8)',      // 深绿 - 材料创新
+                            'rgba(206, 164, 114, 0.8)',  // 暖金 - 汽车防腐
+                            'rgba(102, 102, 102, 0.8)'   // 深灰 - 车内健康
                         ],
                         borderWidth: 0
                     }]
@@ -387,36 +387,39 @@
                 }
             });
 
-            // 发布趋势折线图
-            const last7Days = {};
-            const today = new Date();
-            for (let i = 6; i >= 0; i--) {
-                const date = new Date(today);
-                date.setDate(date.getDate() - i);
-                const dateStr = date.toLocaleDateString('zh-CN', { month: '2-digit', day: '2-digit' });
-                last7Days[dateStr] = 0;
-            }
+            // 文章日期分布图
+            const dateCounts = {};
 
+            // 统计每个日期的文章数量
             allArticles.forEach(article => {
                 const articleDate = new Date(article.date);
-                const dateStr = articleDate.toLocaleDateString('zh-CN', { month: '2-digit', day: '2-digit' });
-                if (last7Days.hasOwnProperty(dateStr)) {
-                    last7Days[dateStr]++;
-                }
+                const dateStr = articleDate.toLocaleDateString('zh-CN', {
+                    month: '2-digit',
+                    day: '2-digit'
+                });
+                dateCounts[dateStr] = (dateCounts[dateStr] || 0) + 1;
             });
 
-            const ctx2 = document.getElementById('trendChart');
-            trendChart = new Chart(ctx2, {
-                type: 'line',
+            // 按日期排序
+            const sortedDates = Object.keys(dateCounts).sort((a, b) => {
+                const [aMonth, aDay] = a.split('/').map(Number);
+                const [bMonth, bDay] = b.split('/').map(Number);
+                return aMonth === bMonth ? aDay - bDay : aMonth - bMonth;
+            });
+
+            const sortedCounts = sortedDates.map(date => dateCounts[date]);
+
+            const ctx2 = document.getElementById('dateChart');
+            dateChart = new Chart(ctx2, {
+                type: 'bar',
                 data: {
-                    labels: Object.keys(last7Days),
+                    labels: sortedDates,
                     datasets: [{
                         label: '文章数量',
-                        data: Object.values(last7Days),
+                        data: sortedCounts,
+                        backgroundColor: 'rgba(206, 164, 114, 0.7)',
                         borderColor: 'rgb(206, 164, 114)',
-                        backgroundColor: 'rgba(206, 164, 114, 0.1)',
-                        tension: 0.4,
-                        fill: true
+                        borderWidth: 1
                     }]
                 },
                 options: {
