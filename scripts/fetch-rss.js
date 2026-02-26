@@ -215,11 +215,15 @@ async function generateSummaryWithDoubao(text, retries = 3) {
 
 // 使用DeepSeek API生成中文摘要
 async function generateSummaryWithDeepSeek(text, retries = 3) {
-    const apiKey = DEEPSEEK_API_KEY;
+    let apiKey = DEEPSEEK_API_KEY;
+
     if (!apiKey) {
         console.warn('⚠️  未配置DeepSeek API Key，跳过摘要生成');
         return text.substring(0, 150) + '...';
     }
+
+    // 清理API Key：去除前后空格、换行符等
+    apiKey = apiKey.trim().replace(/[\r\n\t]/g, '');
 
     for (let attempt = 0; attempt < retries; attempt++) {
         try {
