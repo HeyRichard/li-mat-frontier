@@ -25,13 +25,14 @@ const RSS_SOURCES = [
 
 // 关键词过滤配置 - 根据您的需求精确匹配
 const CATEGORY_KEYWORDS = {
-    '金属材料': {
-        include: ['aluminum', 'aluminium', 'steel', 'alloy', 'metal', 'titanium', 'magnesium', 'lightweight metal', 'automotive metal'],
+    '材料创新': {
+        include: [
+            // 金属材料
+            'aluminum', 'aluminium', 'steel', 'alloy', 'metal', 'titanium', 'magnesium', 'lightweight metal', 'automotive metal',
+            // 非金属材料
+            'carbon fiber', 'carbon fibre', 'composite', 'plastic', 'polymer', 'automotive plastic', 'thermoplastic', 'resin', 'fiber glass', 'fiberglass'
+        ],
         exclude: ['semiconductor', 'chip', 'processor', 'cpu', 'gpu']
-    },
-    '非金属材料': {
-        include: ['carbon fiber', 'carbon fibre', 'composite', 'plastic', 'polymer', 'automotive plastic', 'thermoplastic', 'resin', 'fiber glass', 'fiberglass'],
-        exclude: []
     },
     '汽车防腐': {
         include: ['corrosion', 'anti-corrosion', 'coating', 'paint', 'surface treatment', 'rust', 'galvaniz', 'cathodic protection', 'automotive coating'],
@@ -212,16 +213,16 @@ async function generateSummaryWithQwen(text, retries = 3) {
                         messages: [
                             {
                                 role: 'system',
-                                content: '你是专业的汽车材料技术翻译专家。将英文内容翻译成中文并生成简洁的摘要（100字以内）。直接输出摘要，不要添加前缀。'
+                                content: '你是专业的汽车材料技术翻译专家。将英文内容翻译成中文并生成详细的摘要（200-300字）。摘要要包含：1)核心内容概述 2)技术要点 3)应用价值。直接输出摘要，不要添加前缀。'
                             },
                             {
                                 role: 'user',
-                                content: `请翻译并生成摘要：\n\n${text.substring(0, 500)}`
+                                content: `请翻译并生成摘要（200-300字）：\n\n${text.substring(0, 800)}`
                             }
                         ]
                     },
                     parameters: {
-                        max_tokens: 200,
+                        max_tokens: 500,
                         temperature: 0.3
                     }
                 })
