@@ -9,8 +9,8 @@ const path = require('path');
 
 // ==================== 配置区域 ====================
 
-// AI API配置（支持豆包和DeepSeek）
-const AI_PROVIDER = process.env.AI_PROVIDER || 'doubao'; // 'doubao' 或 'deepseek'
+// AI API配置（推荐使用DeepSeek，更稳定）
+const AI_PROVIDER = process.env.AI_PROVIDER || 'deepseek'; // 默认使用DeepSeek
 const DOUBAO_API_KEY = process.env.DOUBAO_API_KEY;
 const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
 
@@ -152,6 +152,8 @@ async function fetchAllRSS() {
 // 使用豆包API生成中文摘要
 async function generateSummaryWithDoubao(text, retries = 3) {
     const apiKey = DOUBAO_API_KEY;
+    const endpoint = process.env.DOUBAO_ENDPOINT || 'ep-20250120161712-wjxld'; // 默认endpoint
+
     if (!apiKey) {
         console.warn('⚠️  未配置豆包API Key，跳过摘要生成');
         return text.substring(0, 150) + '...';
@@ -159,14 +161,15 @@ async function generateSummaryWithDoubao(text, retries = 3) {
 
     for (let attempt = 0; attempt < retries; attempt++) {
         try {
-            const response = await fetch('https://ark.cn-beijing.volces.com/api/v3/chat/completions', {
+            // 豆包API需要使用特定的endpoint
+            const response = await fetch(`https://ark.cn-beijing.volces.com/api/v3/chat/completions`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${apiKey}`
                 },
                 body: JSON.stringify({
-                    model: 'doubao-lite-4k',
+                    model: endpoint, // 使用endpoint ID作为model
                     messages: [{
                         role: 'user',
                         content: `请将以下汽车材料技术文章翻译成中文并生成简短摘要（100字以内），只输出摘要内容：\n\n${text.substring(0, 500)}`
