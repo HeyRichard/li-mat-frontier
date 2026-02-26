@@ -237,13 +237,13 @@
                     <span class="material-icons text-sm mr-1">pie_chart</span>
                     分类分布
                 </h3>
-                <div style="display: flex; align-items: center; height: 240px;">
+                <div style="display: flex; align-items: flex-start; height: 240px; padding-top: 10px;">
                     <!-- 左侧图例 -->
-                    <div id="categoryLegend" style="width: 120px; display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; padding-bottom: 20px;">
+                    <div id="categoryLegend" style="width: 120px; display: flex; flex-direction: column; justify-content: center; gap: 8px;">
                         <!-- 动态生成图例 -->
                     </div>
                     <!-- 右侧图表 -->
-                    <div style="flex: 1; height: 100%;">
+                    <div style="flex: 1; height: 180px; margin-top: -10px;">
                         <canvas id="categoryChart"></canvas>
                     </div>
                 </div>
