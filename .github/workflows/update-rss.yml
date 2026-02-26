@@ -32,10 +32,12 @@ jobs:
           cd scripts
           npm install
 
-      # 4. 运行 RSS 抓取脚本
+       # 4. 运行 RSS 抓取脚本
       - name: 抓取 RSS 并生成摘要
         env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DOUBAO_API_KEY: ${{ secrets.DOUBAO_API_KEY }}
+          AI_PROVIDER: deepseek
         run: |
           cd scripts
           node fetch-rss.js
