@@ -11,40 +11,36 @@ const path = require('path');
 // 阿里通义千问API配置
 const QWEN_API_KEY = process.env.QWEN_API_KEY;
 
-// RSS源配置（已验证可用）
-const RSS_SOURCES = {
-    '综合资讯': [
-        'https://techcrunch.com/feed/',
-        'https://www.theverge.com/rss/index.xml',
-        'https://feeds.arstechnica.com/arstechnica/technology-lab',
-        'https://www.wired.com/feed/rss',
-        'https://venturebeat.com/feed/'
-    ],
-    '金属材料': [
-        'https://chipsandcheese.com/feed/',
-        'https://www.tomshardware.com/feeds/all',
-        'https://www.eetimes.com/feed/'
-    ],
-    '非金属材料': [
-        'https://www.technologyreview.com/feed/',
-        'https://www.carbon-fiber.eu/feed/',
-        'https://www.automotiveworld.com/feed/'
-    ],
-    '汽车防腐': [
-        'https://www.european-coatings.com/rss',
-        'https://www.automotiveworld.com/feed/'
-    ],
-    '车内健康': [
-        'https://www.sustainablebrands.com/rss',
-        'https://www.automotiveworld.com/feed/'
-    ],
-    '紧固件': [
-        'https://www.automotiveworld.com/feed/'
-    ],
-    '环保合规': [
-        'https://www.sustainablebrands.com/rss',
-        'https://www.automotiveworld.com/feed/'
-    ]
+// RSS源配置 - 汽车行业专业源
+const RSS_SOURCES = [
+    'https://www.automotiveworld.com/feed/',
+    'https://www.carbon-fiber.eu/feed/',
+    'https://www.european-coatings.com/rss',
+    'https://www.sustainablebrands.com/rss',
+    'https://www.technologyreview.com/feed/',
+    'https://www.sae.org/news/rss',
+    'https://www.compositesworld.com/rss',
+    'https://www.plasticstoday.com/rss.xml'
+];
+
+// 关键词过滤配置 - 根据您的需求精确匹配
+const CATEGORY_KEYWORDS = {
+    '金属材料': {
+        include: ['aluminum', 'aluminium', 'steel', 'alloy', 'metal', 'titanium', 'magnesium', 'lightweight metal', 'automotive metal'],
+        exclude: ['semiconductor', 'chip', 'processor', 'cpu', 'gpu']
+    },
+    '非金属材料': {
+        include: ['carbon fiber', 'carbon fibre', 'composite', 'plastic', 'polymer', 'automotive plastic', 'thermoplastic', 'resin', 'fiber glass', 'fiberglass'],
+        exclude: []
+    },
+    '汽车防腐': {
+        include: ['corrosion', 'anti-corrosion', 'coating', 'paint', 'surface treatment', 'rust', 'galvaniz', 'cathodic protection', 'automotive coating'],
+        exclude: []
+    },
+    '车内健康': {
+        include: ['formaldehyde', 'voc', 'volatile organic', 'odor', 'odour', 'low-odor', 'interior material', 'cabin air', 'air quality', 'low-emission'],
+        exclude: []
+    }
 };
 
 // ==================== 工具函数 ====================
@@ -63,9 +59,77 @@ function isChinese(text) {
     return /[\u4e00-\u9fa5]/.test(text);
 }
 
+// 计算文章相关性得分 (0-100)
+function calculateRelevanceScore(article, category) {
+    const keywords = CATEGORY_KEYWORDS[category];
+    if (!keywords) return 0;
+
+    const searchText = `${article.title} ${article.description}`.toLowerCase();
+    let score = 0;
+
+    // 检查排除关键词
+    for (const excludeWord of keywords.exclude) {
+        if (searchText.includes(excludeWord.toLowerCase())) {
+            return 0; // 如果包含排除关键词,得分为0
+        }
+    }
+
+    // 计算匹配的关键词数量
+    let matchCount = 0;
+    for (const includeWord of keywords.include) {
+        if (searchText.includes(includeWord.toLowerCase())) {
+            matchCount++;
+
+            // 标题中出现关键词,额外加分
+            if (article.title.toLowerCase().includes(includeWord.toLowerCase())) {
+                matchCount += 2;
+            }
+        }
+    }
+
+    // 转换为0-100的得分
+    score = Math.min(100, matchCount * 10);
+    return score;
+}
+
+// 关键词匹配函数 - 检查文章是否匹配某个分类
+function matchesCategory(article, category) {
+    return calculateRelevanceScore(article, category) > 0;
+}
+
+// 为文章匹配最佳分类,返回分类和相关性得分
+function assignCategory(article) {
+    const categories = Object.keys(CATEGORY_KEYWORDS);
+    let bestCategory = null;
+    let bestScore = 0;
+
+    for (const category of categories) {
+        const score = calculateRelevanceScore(article, category);
+        if (score > bestScore) {
+            bestScore = score;
+            bestCategory = category;
+        }
+    }
+
+    return { category: bestCategory, relevanceScore: bestScore };
+}
+
+// 计算综合得分: 相关性(50%) + 时效性(50%)
+function calculateFinalScore(article, maxDate, minDate) {
+    // 时效性得分 (0-100)
+    const articleTime = new Date(article.date).getTime();
+    const timeRange = maxDate - minDate;
+    const timeScore = timeRange > 0 ? ((articleTime - minDate) / timeRange) * 100 : 50;
+
+    // 综合得分 = 相关性得分 * 0.5 + 时效性得分 * 0.5
+    const finalScore = (article.relevanceScore || 0) * 0.5 + timeScore * 0.5;
+
+    return finalScore;
+}
+
 // ==================== RSS抓取（并行） ====================
 
-async function fetchRSS(url, category) {
+async function fetchRSS(url) {
     const parser = new Parser({
         timeout: 30000,
         headers: {
@@ -81,7 +145,7 @@ async function fetchRSS(url, category) {
             title: (item.title || '').trim(),
             link: (item.link || '').trim(),
             date: new Date(item.pubDate || item.isoDate || new Date()).toISOString(),
-            category: category,
+            category: '',  // 稍后根据关键词匹配
             description: stripHtml(item.contentSnippet || item.content || item.description || '').substring(0, 500),
             summary: ''
         }));
@@ -97,13 +161,7 @@ async function fetchRSS(url, category) {
 async function fetchAllRSS() {
     console.log('🚀 并行抓取RSS源...\n');
 
-    const promises = [];
-    for (const [category, urls] of Object.entries(RSS_SOURCES)) {
-        console.log(`📥 ${category}`);
-        promises.push(...urls.map(url => fetchRSS(url, category)));
-        await delay(500);
-    }
-
+    const promises = RSS_SOURCES.map(url => fetchRSS(url));
     const results = await Promise.allSettled(promises);
 
     const allArticles = [];
@@ -264,20 +322,55 @@ async function main() {
     });
     console.log(`🔍 去重后 ${uniqueArticles.length} 篇文章\n`);
 
-    // 3. 排序并保留最新50篇
-    uniqueArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
-    const limitedArticles = uniqueArticles.slice(0, 50);
-    console.log(`📌 保留最新 ${limitedArticles.length} 篇文章\n`);
+    // 3. 根据关键词匹配分类并过滤
+    console.log('🎯 开始关键词匹配分类...\n');
+    const categorizedArticles = [];
+    const categoryStats = {};
 
-    // 4. 生成AI摘要
+    uniqueArticles.forEach(article => {
+        const result = assignCategory(article);
+        if (result.category) {
+            article.category = result.category;
+            article.relevanceScore = result.relevanceScore;
+            categorizedArticles.push(article);
+            categoryStats[result.category] = (categoryStats[result.category] || 0) + 1;
+        }
+    });
+
+    console.log('📊 分类统计:');
+    Object.entries(categoryStats).forEach(([category, count]) => {
+        console.log(`   ${category}: ${count} 篇`);
+    });
+    console.log(`   总计: ${categorizedArticles.length} 篇（过滤掉 ${uniqueArticles.length - categorizedArticles.length} 篇不相关文章）\n`);
+
+    // 4. 计算综合得分并排序
+    console.log('🔢 计算综合得分(相关性50% + 时效性50%)...\n');
+
+    // 找出最新和最旧的文章时间
+    const dates = categorizedArticles.map(a => new Date(a.date).getTime());
+    const maxDate = Math.max(...dates);
+    const minDate = Math.min(...dates);
+
+    // 为每篇文章计算综合得分
+    categorizedArticles.forEach(article => {
+        article.finalScore = calculateFinalScore(article, maxDate, minDate);
+    });
+
+    // 按综合得分排序
+    categorizedArticles.sort((a, b) => b.finalScore - a.finalScore);
+
+    const limitedArticles = categorizedArticles.slice(0, 50);
+    console.log(`📌 保留综合得分最高的 ${limitedArticles.length} 篇文章\n`);
+
+    // 5. 生成AI摘要
     await generateSummariesBatch(limitedArticles);
 
-    // 5. 保存数据
+    // 6. 保存数据
     const outputData = {
         lastUpdated: new Date().toISOString(),
         updateTime: new Date().toLocaleString('zh-CN'),
         totalArticles: limitedArticles.length,
-        categories: Object.keys(RSS_SOURCES),
+        categories: Object.keys(CATEGORY_KEYWORDS),
         articles: limitedArticles
     };
 
