@@ -298,4 +298,7 @@ async function main() {
 main().catch(error => {
     console.error('❌ 错误:', error);
     process.exit(1);
+}).then(() => {
+    // 确保进程正常退出
+    process.exit(0);
 });
