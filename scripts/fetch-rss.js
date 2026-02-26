@@ -39,7 +39,14 @@ const CATEGORY_KEYWORDS = {
         exclude: []
     },
     '车内健康': {
-        include: ['formaldehyde', 'voc', 'volatile organic', 'odor', 'odour', 'low-odor', 'interior material', 'cabin air', 'air quality', 'low-emission'],
+        include: [
+            'formaldehyde', 'voc', 'volatile organic', 'odor', 'odour', 'low-odor',
+            'interior material', 'cabin air', 'air quality', 'low-emission',
+            'indoor air', 'emission', 'toxic', 'health', 'safety', 'cleanroom',
+            'antimicrobial', 'antibacterial', 'hypoallergenic', 'eco-friendly',
+            'non-toxic', 'green material', 'sustainable interior', 'bio-based',
+            'natural fiber', 'recycled fabric', 'breathable', 'ventilation'
+        ],
         exclude: []
     }
 };
