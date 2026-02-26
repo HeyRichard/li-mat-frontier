@@ -1,416 +1,513 @@
 {
-  "lastUpdated": "2026-02-26T03:49:45.500Z",
-  "updateTime": "2026/2/26 03:49:45",
+  "lastUpdated": "2026-02-26T05:05:44.093Z",
+  "updateTime": "2026/2/26 05:05:44",
   "totalArticles": 50,
   "categories": [
-    "综合资讯",
     "金属材料",
     "非金属材料",
     "汽车防腐",
-    "车内健康",
-    "紧固件",
-    "环保合规"
+    "车内健康"
   ],
   "articles": [
     {
-      "title": "8 billion tokens a day forced AT&T to rethink AI orchestration — and cut costs by 90%",
-      "link": "https://venturebeat.com/orchestration/8-billion-tokens-a-day-forced-at-and-t-to-rethink-ai-orchestration-and-cut",
-      "date": "2026-02-26T21:30:00.000Z",
-      "category": "综合资讯",
-      "description": "When your average daily token usage is 8 billion a day, you have a massive scale problem. \n\nThis was the case at AT&T, and chief data officer Andy Markus and his team recognized that it simply wasn’t feasible (or economical) to push everything through large reasoning models. \n\nSo, when building out an internal Ask AT&T personal assistant, they reconstructed the orchestration layer. The result: A multi-agent stack built on LangChain where large language model “super agents” direct smaller, underl",
-      "summary": "AT&T面临每日80亿次令牌使用的规模挑战，决定采用多代理架构优化数据处理。"
+      "title": "Polydopamine-graphene boosts anticorrosion performance of waterborne zinc-rich epoxy coatings",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/polydopamine-graphene-boosts-anticorrosion-performance-of-waterborne-zinc-rich-epoxy-coatings/",
+      "date": "2026-02-11T11:00:50.000Z",
+      "category": "汽车防腐",
+      "description": "A new polydopamine-modified graphene (PDA-G) filler significantly enhances the adhesion, dispersibility, and corrosion resistance of waterborne zinc-rich epoxy coatings (WZEP). The innovation demonstrates extended cathodic protection and exceptional durability in harsh environments, offering promising applications for marine and industrial steel protection.",
+      "summary": "聚多巴胺改性石墨烯填料显著提升水性富锌环氧涂层的附着力、分散性和耐腐蚀性，展现出优异的阴极保护效果和耐久性，适用于海洋和工业钢结构防护。",
+      "relevanceScore": 70,
+      "finalScore": 82.27094540770136
     },
     {
-      "title": "Salesforce CEO Marc Benioff: This isn’t our first SaaSpocalypse",
-      "link": "https://techcrunch.com/2026/02/25/salesforce-ceo-marc-benioff-this-isnt-our-first-saaspocalypse/",
-      "date": "2026-02-26T01:59:12.000Z",
-      "category": "综合资讯",
-      "description": "Salesforce reported a solid year-end earnings and then pulled out all the stops to ward off more talk of the death of its business to AI.",
-      "summary": "Salesforce公布强劲年度财报，并全力应对AI对其业务 demise 的讨论。"
+      "title": "Sustainable anti-corrosion coating systems for steel bridges",
+      "link": "https://www.european-coatings.com/news/application-areas/sustainable-anti-corrosion-coating-systems-for-steel-bridges/",
+      "date": "2025-12-18T11:00:16.000Z",
+      "category": "汽车防腐",
+      "description": "A recent study evaluates the long-term sustainability of anticorrosion coating systems for steel bridges, considering performance, costs, and environmental as well as social impacts over a seventy-five-year service life.",
+      "summary": "研究评估了钢桥防腐涂层系统在75年使用周期内的长期可持续性，考虑了性能、成本及环境和社会影响。",
+      "relevanceScore": 90,
+      "finalScore": 81.8695612280147
     },
     {
-      "title": "Nvidia delivers first Vera Rubin AI GPU samples to customers — 88-core Vera CPU paired with Rubin GPUs with 288 GB of HBM4 memory apiece",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-delivers-first-vera-rubin-ai-gpu-samples-to-customers-88-core-vera-cpu-paired-with-rubin-gpus-with-288-gb-of-hbm4-memory-apiece",
-      "date": "2026-02-26T01:14:00.000Z",
-      "category": "金属材料",
-      "description": "Nvidia begins to ship samples of its Vera Rubin platforms for AI to partners, on track for revenue shipments in the second half of the year.",
-      "summary": "Nvidia开始向合作伙伴发送Vera Rubin AI平台样品，预计下半年实现营收发货。"
-    },
-    {
-      "title": "Gushwork bets on AI search for customer leads — and early results are emerging",
-      "link": "https://techcrunch.com/2026/02/25/gushwork-bets-on-ai-search-for-customer-leads-and-early-results-are-emerging/",
-      "date": "2026-02-26T00:00:00.000Z",
-      "category": "综合资讯",
-      "description": "Gushwork has raised $9 million in a seed round led by SIG and Lightspeed. The startup has seen early customer traction from AI search tools like ChatGPT.",
-      "summary": "Gushwork完成900万美元种子轮融资，由SIG和Lightspeed领投，早期客户包括ChatGPT等AI搜索工具。"
-    },
-    {
-      "title": "Anthropic acquires computer-use AI startup Vercept after Meta poached one of its founders",
-      "link": "https://techcrunch.com/2026/02/25/anthropic-acquires-vercept-ai-startup-agents-computer-use-founders-investors/",
-      "date": "2026-02-25T23:49:19.000Z",
-      "category": "综合资讯",
-      "description": "Seattle-based Vercept developed complex agentic tools, including a computer-use agent that could complete tasks inside applications like a person with a laptop would.",
-      "summary": "西雅图公司Vercept开发了复杂的代理工具，包括能在应用内像人类一样完成任务的电脑使用代理。"
-    },
-    {
-      "title": "New York sues Valve, alleging its loot boxes are ‘quintessential gambling’",
-      "link": "https://www.theverge.com/games/884978/valve-lawsuit-loot-boxes-new-york-attorney-general-lawsuit",
-      "date": "2026-02-25T23:22:18.000Z",
-      "category": "综合资讯",
-      "description": "New York Attorney General Letitia James is suing Valve for \"illegally promoting gambling\" through the loot box systems it has built for video games like Counter-Strike 2, Team Fortress 2, and Dota 2, according to a press release. The attorney general seeks to \"permanently stop Valve from promoting gambling features in its games, disgorge all ill-gotten gains, and pay fines for violating New York's laws.\"\n\"This loot box model that Valve has developed - charging an individual for a chance to win s",
-      "summary": "纽约总检察长Letitia James起诉Valve公司，指控其通过游戏中的战利品箱系统“非法推广赌博”，要求永久禁止Valve在游戏内推广赌博功能，并追回非法所得及支付罚款。"
-    },
-    {
-      "title": "Nvidia has another record quarter amid record capex spends",
-      "link": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
-      "date": "2026-02-25T23:04:42.000Z",
-      "category": "综合资讯",
-      "description": "\"The demand for tokens in the world has gone completely exponential,\" Nvidia CEO Jensen Huang said about the company's earnings.",
-      "summary": "英伟达CEO黄仁勋表示，全球对代币的需求已呈指数级增长。"
-    },
-    {
-      "title": "How the new Galaxy S26 phones stack up against each other on paper",
-      "link": "https://www.theverge.com/gadgets/883733/samsung-galaxy-s26-vs-plus-ultra-specs-features-hardware-comparison",
-      "date": "2026-02-25T22:26:31.000Z",
-      "category": "综合资讯",
-      "description": "Samsung’s Galaxy S26 phones introduce a slate of new AI-powered features, including some new photography tools. | Image: Samsung\t\n\nSamsung has just announced its new Galaxy S26 lineup, which includes the S26, S26 Plus, and S26 Ultra. While they aren't radical departures from last year's models, they bring a handful of notable upgrades. All three run on Qualcomm's Galaxy-centric Snapdragon 8 Elite Gen 5, which delivers improved performance and powers a slew of new AI-based features. This includes",
-      "summary": "三星Galaxy S26系列推出多项AI新功能，包括摄影工具升级。搭载高通骁龙8 Elite Gen 5芯片，性能提升并支持更多AI特性。"
-    },
-    {
-      "title": "Corsair is halting Drop sales after March 25th",
-      "link": "https://www.theverge.com/news/884824/corsair-ending-drop-shopping-site",
-      "date": "2026-02-25T21:58:53.000Z",
-      "category": "综合资讯",
-      "description": "The Drop Mythic Journey keyboard from 2022. | Photo by Jon Porter / The Verge\t\n\nThe Drop store, which was acquired by gaming gear giant Corsair in 2023, was a haven for mechanical keyboard enthusiasts and audiophiles to discover and buy hard-to-find gear - sometimes at surprisingly good prices. The company will cease sales after March 25th at 11:59PM PT, which is also the cut off to redeem Drop Rewards. After March 31st, the site will be accessible for a limited time to view order history, but a",
-      "summary": "Drop品牌于2023年被Corsair收购，曾是机械键盘和音响爱好者购买稀缺产品的热门平台。2024年3月25日后将停止销售，3月31日后仅限查看订单历史。"
-    },
-    {
-      "title": "Roundtables: Why 2026 Is the Year for Sodium-Ion Batteries",
-      "link": "https://www.technologyreview.com/2026/02/25/1132873/roundtables-why-2026-is-the-year-for-sodium-ion-batteries/",
-      "date": "2026-02-25T21:15:27.000Z",
+      "title": "AI Shifts Polymer Composite Manufacturing for Sustainability",
+      "link": "https://www.plasticstoday.com/industry-trends/ai-shifts-polymer-composite-manufacturing-for-sustainability",
+      "date": "2026-02-20T15:35:26.000Z",
       "category": "非金属材料",
-      "description": "Listen to the session or watch below Sodium-based batteries could be a cheaper, safer alternative to lithium-ion, and the technology is finally making its way into cars—and energy storage arrays on the grid. Sodium-ion batteries are one of MIT Technology Review’s 10 Breakthrough Technologies of 2026 list, and this subscriber-only discussion explains why. Watch a…",
-      "summary": "钠基电池比锂离子电池更便宜、更安全，正逐步应用于汽车和电网储能。MIT将其列为2026年十大突破技术之一。"
+      "description": "AI-driven systems transform polymer composite production, enhancing efficiency, sustainability, and precision while reducing waste and energy consumption. A recent study details how AI can transform this process.",
+      "summary": "人工智能提升聚合物复合材料生产的效率、可持续性和精度，减少浪费和能耗。研究展示了AI在该领域的应用潜力。",
+      "relevanceScore": 60,
+      "finalScore": 79.0090410408279
     },
     {
-      "title": "Everyone Speaks Incel Now",
-      "link": "https://www.wired.com/story/everyone-speaks-incel-now/",
-      "date": "2026-02-25T20:59:50.000Z",
-      "category": "综合资讯",
-      "description": "After migrating from misogynist forums to social media feeds, terms like “looksmaxxing” and “mogged” are now impossible to avoid.",
-      "summary": "“looksmaxxing”和“mogged”等术语从厌女论坛转移到社交媒体，难以避免。"
-    },
-    {
-      "title": "The Peace Corps is recruiting volunteers to sell AI to developing nations",
-      "link": "https://www.theverge.com/policy/884625/peace-corps-tech-promote-american-ai",
-      "date": "2026-02-25T20:45:00.000Z",
-      "category": "综合资讯",
-      "description": "For more than six decades, the Peace Corps has represented itself as an agency focused on helping underserved communities around the globe. But a new initiative, called the \"Tech Corps,\" threatens to unravel the agency's original mission by recruiting de facto Silicon Valley salespeople to promote the biggest names in AI - many of which have ties to President Donald Trump.\nEstablished by President John F. Kennedy in 1961, the Peace Corps recruited skilled Americans interested in assisting develo",
-      "summary": "和平队成立60多年来致力于帮助全球弱势群体，但新推出的“科技队”计划可能偏离其初衷，招募硅谷销售人员推广与特朗普有关的AI企业。"
-    },
-    {
-      "title": "The White House wants AI companies to cover rate hikes. Most have already said they would.",
-      "link": "https://techcrunch.com/2026/02/25/the-white-house-wants-ai-companies-to-cover-rate-hikes-most-have-already-said-they-would/",
-      "date": "2026-02-25T20:42:14.000Z",
-      "category": "综合资讯",
-      "description": "Many hyperscalers have already made public commitments to cover electricity cost increases.",
-      "summary": "许多超大规模企业已公开承诺应对电费上涨。"
-    },
-    {
-      "title": "Trump claims tech companies will sign deals next week to pay for their own power supply",
-      "link": "https://www.theverge.com/science/884191/ai-data-center-energy-state-of-the-union-trump",
-      "date": "2026-02-25T20:37:25.000Z",
-      "category": "综合资讯",
-      "description": "President Donald Trump tried to quell Americans' concerns about rising electricity costs during his State of the Union speech - and now we're learning that the deals he promised could land next week. Trump claimed that he's negotiated a \"rate payer protection pledge\" with major tech companies, which would see them build out or pay for new electricity generation for their data centers. Leaders from Amazon, Google, Meta, Microsoft, xAI, Oracle and OpenAI are expected to attend a March 4th event to",
-      "summary": "特朗普在国情演说中试图缓解美国民众对电费上涨的担忧，他承诺的协议可能下周达成。他称已与科技公司达成“电价保护承诺”，要求其为数据中心建设或支付新电力设施费用。多家科技公司高管将出席3月4日的活动。"
-    },
-    {
-      "title": "US cybersecurity agency CISA reportedly in dire shape amid Trump cuts and layoffs",
-      "link": "https://techcrunch.com/2026/02/25/us-cybersecurity-agency-cisa-reportedly-in-dire-shape-amid-trump-cuts-and-layoffs/",
-      "date": "2026-02-25T20:26:57.000Z",
-      "category": "综合资讯",
-      "description": "Under the first year of the Trump administration, the U.S. cyber agency CISA has faced cuts, layoffs, and furloughs, as bipartisan lawmakers and cybersecurity industry sources say the agency is unprepared to handle a crisis.",
-      "summary": "特朗普政府第一年，美国网络安全局CISA遭遇预算削减、裁员和停薪留职，两党议员和行业人士称其无法应对危机。"
-    },
-    {
-      "title": "Welcome to the post-hype crypto market",
-      "link": "https://techcrunch.com/video/welcome-to-the-post-hype-crypto-market/",
-      "date": "2026-02-25T20:22:11.000Z",
-      "category": "综合资讯",
-      "description": "Crypto is creeping back into the startup conversation, but at ETHDenver last week, the buzz was as much about Washington as it was about tokens. Policy shifts are rippling through the market as Tether and stablecoins face scrutiny, players like Stripe re-enter the conversation, and startups either find traction or flame out. The hype cycle is over, or at least taking a break. So what comes next?  On […]",
-      "summary": "加密货币重新进入初创公司讨论，但ETHDenver会议上，华盛顿政策同样引发关注。监管变化影响市场，Tether和稳定币受审查，Stripe等公司重返市场，初创企业面临考验。炒作周期暂歇，未来如何发展值得关注。"
-    },
-    {
-      "title": "Here’s how the new Samsung Galaxy S26 compares with last year’s S25",
-      "link": "https://www.theverge.com/gadgets/884281/samsung-galaxy-s26-plus-ultra-vs-s25-specs-features",
-      "date": "2026-02-25T20:09:14.000Z",
-      "category": "综合资讯",
-      "description": "Samsung unveiled its Galaxy S26 lineup at its recent Unpacked event in San Francisco. As expected, the new series consists of the baseline S26, which starts at $899.99, and the bigger S26 Plus, which starts at $1,099.99. At the high end, there's also the $1,299.99 S26 Ultra, which is the largest in the lineup and comes with a bigger battery, better cameras, S Pen support, and expanded options for both storage and RAM. The price difference between Samsung's cheapest and most expensive S26 phones ",
-      "summary": "三星在旧金山的Unpacked活动中发布了Galaxy S26系列，包括S26、S26 Plus和S26 Ultra，价格从899.99美元到1299.99美元不等，配置和功能逐步升级。"
-    },
-    {
-      "title": "Alphabet-owned robotics software company Intrinsic joins Google",
-      "link": "https://techcrunch.com/2026/02/25/alphabet-owned-robotics-software-company-intrinsic-joins-google/",
-      "date": "2026-02-25T20:00:00.000Z",
-      "category": "综合资讯",
-      "description": "Nearly five years after graduating into an independent Alphabet company, Intrinsic is moving under Google's domain.",
-      "summary": "谷歌旗下公司Intrinsic在独立五年后重新回归谷歌体系。"
-    },
-    {
-      "title": "Riley Walz, the Jester of Silicon Valley, Is Joining OpenAI",
-      "link": "https://www.wired.com/story/openai-hires-riley-walz/",
-      "date": "2026-02-25T19:59:26.000Z",
-      "category": "综合资讯",
-      "description": "The software engineer is famous for his online stunts. Now he’s joining the company behind ChatGPT to work on new ways for humans to use AI systems.",
-      "summary": "软件工程师因网络行为闻名，现加入ChatGPT开发公司，探索人类使用AI的新方式。"
-    },
-    {
-      "title": "Google and Samsung just launched the AI features Apple couldn’t with Siri",
-      "link": "https://www.theverge.com/tech/884703/google-samsung-galaxy-s26-gemini-apple-siri",
-      "date": "2026-02-25T19:56:55.000Z",
-      "category": "综合资讯",
-      "description": "Google just announced that Gemini will soon be able to take care of some multistep tasks on your phone, like ordering food or hailing a car, starting first with the Pixel 10, Pixel 10 Pro, and the just-announced Samsung Galaxy S26 phones. It all sounds a bit like features Apple announced for Siri way back at the 2024 Worldwide Developers Conference - before Apple delayed those planned features in March 2025 and which still aren't released.\nOnstage, Sameer Samat, Google's president of Android, sh",
-      "summary": "谷歌宣布Gemini将能处理手机上的多步骤任务，如订餐或打车，首批支持Pixel 10、Pixel 10 Pro和三星Galaxy S26。这与苹果2024年WWDC宣布的Siri功能类似，但苹果已推迟相关功能发布时间。"
-    },
-    {
-      "title": "Snapchat announces ‘The Snappys,’ its first-ever creator awards show",
-      "link": "https://techcrunch.com/2026/02/25/snapchat-announces-the-snappys-its-first-ever-creator-awards-show/",
-      "date": "2026-02-25T19:54:18.000Z",
-      "category": "综合资讯",
-      "description": "Snapchat is the latest social media platform to launch awards for creators, joining TikTok and Instagram.",
-      "summary": "Snapchat推出创作者奖项，与TikTok和Instagram一同支持内容创作者。"
-    },
-    {
-      "title": "An accountant won a big jackpot on Kalshi by betting against DOGE",
-      "link": "https://techcrunch.com/2026/02/25/an-accountant-won-a-big-jackpot-on-kalshi-by-betting-against-doge/",
-      "date": "2026-02-25T19:36:03.000Z",
-      "category": "综合资讯",
-      "description": "A tax accountant saw Elon Musk fans bidding up a Kalshi prediction market and saw a sure bet to make easy money.",
-      "summary": "税务会计师看到埃隆·马斯克粉丝推高Kalshi预测市场，认为这是轻松赚钱的确定性机会。"
-    },
-    {
-      "title": "Inside the story of the US defense contractor who leaked hacking tools to Russia",
-      "link": "https://techcrunch.com/2026/02/25/inside-the-story-of-the-us-defense-contractor-who-leaked-hacking-tools-to-russia/",
-      "date": "2026-02-25T19:30:47.000Z",
-      "category": "综合资讯",
-      "description": "The former boss of a U.S. hacking tools maker was jailed for selling highly sensitive software exploits to a Russian broker. This is how we first learned of his arrest, reported the story, and some of the unanswered questions we still have.",
-      "summary": "前美国黑客工具公司老板因向俄罗斯中间商出售高敏感软件漏洞而入狱。此事件引发关注，但仍存未解疑问。"
-    },
-    {
-      "title": "Samsung shows off new display tech that adds a privacy screen to apps and notifications",
-      "link": "https://techcrunch.com/2026/02/25/samsung-shows-off-new-display-tech-that-adds-a-privacy-screen-to-apps-and-notifications/",
-      "date": "2026-02-25T19:23:58.000Z",
-      "category": "综合资讯",
-      "description": "The new privacy tech uses different types of pixels to let you block certain apps and notifications from being viewed by others.",
-      "summary": "新技术通过不同类型的像素，让你阻止他人查看某些应用和通知。"
-    },
-    {
-      "title": "Wearable startup CUDIS launches a new health ring line with an AI-fueled ‘coach’",
-      "link": "https://techcrunch.com/2026/02/25/wearable-startup-cudis-launches-a-new-health-ring-line-with-an-ai-fueled-coach/",
-      "date": "2026-02-25T19:10:04.000Z",
-      "category": "综合资讯",
-      "description": "The wearable incentivizes healthy behavior with points that can be redeemed for health products.",
-      "summary": "可穿戴设备通过积分激励健康行为，积分可兑换健康产品。"
-    },
-    {
-      "title": "Preorders for Samsung’s S26 phones come with up to $200 in gift cards",
-      "link": "https://www.theverge.com/gadgets/883829/samsung-galaxy-s26-plus-ultra-how-to-buy-preorder-price-release-date",
-      "date": "2026-02-25T19:09:29.000Z",
-      "category": "综合资讯",
-      "description": "As expected, Samsung has taken the wraps off its flagship lineup for 2026. Introduced during the company's recent Unpacked event, the new Galaxy devices - which include the standard S26, the larger S26 Plus, and the high-end S26 Ultra - will be available on March 11th. Preorders are now open ahead of launch, with pricing starting at $899.99 for the base-model S26, $1,099.99 for the Plus, and $1,299.99 for the Ultra.\nOverall, the forthcoming S26 lineup looks largely similar to last year's S25 ser",
-      "summary": "三星揭晓了2026年旗舰系列，包括S26、S26 Plus和S26 Ultra，3月11日开售，起价899.99美元。整体设计与去年S25相似。"
-    },
-    {
-      "title": "Kalshi fined a MrBeast editor for insider trading on markets related to the YouTube star",
-      "link": "https://techcrunch.com/2026/02/25/kalshi-fined-a-mrbeast-editor-for-insider-trading-on-markets-related-to-the-youtube-star/",
-      "date": "2026-02-25T19:08:04.000Z",
-      "category": "综合资讯",
-      "description": "Kalshi fined the MrBeast editor, Artem Kaptur, over $20,000.",
-      "summary": "Kalshi对MrBeast编辑阿列克谢·卡普尔处以2万多元罚款。"
-    },
-    {
-      "title": "The public opposition to AI infrastructure is heating up",
-      "link": "https://techcrunch.com/2026/02/25/the-public-opposition-to-ai-infrastructure-is-heating-up/",
-      "date": "2026-02-25T19:03:34.000Z",
-      "category": "综合资讯",
-      "description": "Public backlash over the data center boom is leading to a variety of draconian policies — including bans on new construction.",
-      "summary": "数据中心热潮引发公众反对，导致多种严苛政策出台，包括禁止新建项目。"
-    },
-    {
-      "title": "OpenClaw Users Are Allegedly Bypassing Anti-Bot Systems",
-      "link": "https://www.wired.com/story/openclaw-users-bypass-anti-bot-systems-cloudflare-scrapling/",
-      "date": "2026-02-25T19:00:00.000Z",
-      "category": "综合资讯",
-      "description": "An open source project called Scrapling is gaining traction with AI agent users who want their bots to scrape sites without permission.",
-      "summary": "开源项目Scrapling受到希望让机器人未经许可抓取网站的AI代理用户欢迎。"
-    },
-    {
-      "title": "Waymo to begin testing in Chicago and Charlotte",
-      "link": "https://techcrunch.com/2026/02/25/waymo-to-begin-testing-in-chicago-and-charlotte/",
-      "date": "2026-02-25T18:33:52.000Z",
-      "category": "综合资讯",
-      "description": "Waymo this week will begin mapping and collecting data in Chicago and Charlotte. The move comes as Waymo announces it is currently operating its robotaxis fully autonomously in 10 US cities.",
-      "summary": "Waymo将在芝加哥和夏洛特开始地图绘制和数据收集，同时宣布其无人驾驶出租车已在10个美国城市实现完全自动驾驶。"
-    },
-    {
-      "title": "The AirPods Pro 3 Are $20 Off",
-      "link": "https://www.wired.com/story/apple-airpods-pro-3-deal-226/",
-      "date": "2026-02-25T18:23:18.000Z",
-      "category": "综合资讯",
-      "description": "It's not the flashiest deal, but if you need a new pair of our favorite earbuds for iPhone owners, you can snag them at a slight discount.",
-      "summary": "需要为iPhone用户更换新耳机的用户可以以小幅折扣购买。"
-    },
-    {
-      "title": "Kalshi says it fined a MrBeast editor and a politician for insider trading",
-      "link": "https://www.theverge.com/policy/884570/kalshi-insider-trading-mrbeast-fines",
-      "date": "2026-02-25T18:20:36.000Z",
-      "category": "综合资讯",
-      "description": "Kalshi, the prediction betting market, has disclosed its first fines for insider trading, as reported earlier by The Wall Street Journal. In addition to handing down a $20,000 fine to a MrBeast editor, Kalshi also charged a California gubernatorial candidate over $2,000 after a video on X \"appeared to show him trading on his own candidacy.\"\nIn a notice on Wednesday, Kalshi claims MrBeast editor Artem Kaptur traded about $4,000 on YouTube streaming markets, violating its insider trading rules. \"O",
-      "summary": "Kalshi对内幕交易开出首张罚单，包括对MrBeast编辑罚款2万美元及一名加州州长候选人超2000美元。其指控称该编辑在YouTube市场违规交易。"
-    },
-    {
-      "title": "Gemini can now automate some multi-step tasks on Android",
-      "link": "https://techcrunch.com/2026/02/25/gemini-can-now-automate-some-multi-step-tasks-on-android/",
-      "date": "2026-02-25T18:00:00.000Z",
-      "category": "综合资讯",
-      "description": "Gemini on Android will be able to automate tasks involving rideshare requests, or grocery or food delivery, says Google.",
-      "summary": "谷歌表示，Android上的Gemini将能够自动化网约车请求、杂货或食品配送等任务。"
-    },
-    {
-      "title": "Google Gemini can book an Uber or order food for you on Pixel 10 and Galaxy S26",
-      "link": "https://www.theverge.com/tech/884210/google-gemini-samsung-s26-pixel-10-uber",
-      "date": "2026-02-25T18:00:00.000Z",
-      "category": "综合资讯",
-      "description": "Gemini can now prep a rideshare or grocery order, though you’ll have to submit the order yourself. | Image: Google\t\n\nGoogle's Gemini AI is getting one step closer to being more like an actual assistant. Starting with some Pixel 10 phones and the Samsung Galaxy S26 series, Gemini will be able to hail an Uber or put together a DoorDash order on its own.\nIt's called task automation, and it starts with a prompt to Gemini - something like \"Get me an Uber to the Palace of Fine Arts.\" Gemini then launc",
-      "summary": "Gemini AI可自主处理打车和外卖订单，需用户下达指令。其任务自动化功能将逐步应用于部分Pixel 10和三星S26手机。"
-    },
-    {
-      "title": "Gemini Can Now Book You an Uber or Order a DoorDash Meal on Your Phone. Here’s How It Works",
-      "link": "https://www.wired.com/story/google-gemini-task-automation-galaxy-s26-uber-doordash/",
-      "date": "2026-02-25T18:00:00.000Z",
-      "category": "综合资讯",
-      "description": "Starting with the Samsung Galaxy S26, Google’s Gemini can automate tasks in popular mobile apps. We got a live demo of the new feature in action.",
-      "summary": "从三星Galaxy S26开始，Google的Gemini可在热门移动应用中自动化任务。我们现场演示了该功能。"
-    },
-    {
-      "title": "Samsung Galaxy S26, S26+, and S26 Ultra: Specs, Features, Price, Release Date",
-      "link": "https://www.wired.com/story/samsung-galaxy-s26-series-galaxy-unpacked/",
-      "date": "2026-02-25T18:00:00.000Z",
-      "category": "综合资讯",
-      "description": "Samsung’s new phones all get AI enhancements, and the flagship Galaxy S26 Ultra has a Privacy Display that can block the screen from nosy neighbors.",
-      "summary": "三星新手机均配备AI升级，旗舰机Galaxy S26 Ultra配备隐私显示屏，可防止旁人窥视。"
-    },
-    {
-      "title": "Micron joins the 3GB GDDR7 party, introduces 36 Gbps modules for GPUs — lags behind speeds of Samsung and SK Hynix",
-      "link": "https://www.tomshardware.com/pc-components/gpus/micron-joins-the-3gb-gddr7-party-introduces-36-gbps-modules-for-gpus-lags-behind-speeds-of-samsung-and-sk-hynix",
-      "date": "2026-02-25T17:53:46.000Z",
-      "category": "金属材料",
-      "description": "Micron officially introduces its own 3GB GDDR7 memory module, with an official bandwidth rating of 36 Gbps.",
-      "summary": "美光正式推出3GB GDDR7内存模块，官方带宽为36 Gbps。"
-    },
-    {
-      "title": "OpenAI COO says ads will be ‘an iterative process’",
-      "link": "https://techcrunch.com/2026/02/25/openai-coo-says-ads-will-be-an-iterative-process/",
-      "date": "2026-02-25T17:37:37.000Z",
-      "category": "综合资讯",
-      "description": "COO Brad Lightcap noted that ads can add to the product experience of users if they are done right. He urged to give OpenAI a few months to see how the company fares in rolling out the product.",
-      "summary": "Brad Lightcap表示，恰当的广告可以提升用户体验，他建议给OpenAI几个月时间观察其产品推广情况。"
-    },
-    {
-      "title": "OpenClaw creator’s advice to AI builders is to be more playful and allow yourself time to improve",
-      "link": "https://techcrunch.com/2026/02/25/openclaw-creators-advice-to-ai-builders-is-to-be-more-playful-and-allow-yourself-time-to-improve/",
-      "date": "2026-02-25T16:54:46.000Z",
-      "category": "综合资讯",
-      "description": "Peter Steinberger talks about the creation of his viral AI agent OpenClaw and how being more \"playful\" makes for a better way to learn AI coding.",
-      "summary": "彼得·施坦贝格分享了他创造病毒式AI代理OpenClaw的经历，并探讨了更加“玩乐”的方式如何提升AI编程学习效果。"
-    },
-    {
-      "title": "A White House Staffer Appears to Run Massive Pro-Trump X Account",
-      "link": "https://www.wired.com/story/a-white-house-staffer-appears-to-run-massive-pro-trump-meme-page/",
-      "date": "2026-02-25T16:31:26.000Z",
-      "category": "综合资讯",
-      "description": "A popular right-wing account that called a video depicting Barack and Michelle Obama as apes \"a masterpiece\" appears to be run by a White House staffer, according to records reviewed by WIRED.",
-      "summary": "一份将奥巴马夫妇描绘为猿猴的视频称为“杰作”的右翼账号，据WIRED审查的记录显示，似乎由白宫工作人员运营。"
-    },
-    {
-      "title": "Inside Meta and AMD's $100 billion deal, and why AMD is giving up a slice of the company in return for GPU orders — Meta stays platform-agnostic as it develops AI compute strategy",
-      "link": "https://www.tomshardware.com/tech-industry/inside-meta-amd-deal",
-      "date": "2026-02-25T16:02:23.000Z",
-      "category": "金属材料",
-      "description": "AMD and Meta's blockbuster deal could see the company signing away 10% of shares in the business to Meta. We examine why AMD is keen to secure AI hardware orders, and explore Meta's AI compute strategy.",
-      "summary": "AMD与Meta的重磅交易可能使其向Meta出让10%的股份。分析AMD寻求AI硬件订单的原因及Meta的AI计算策略。"
-    },
-    {
-      "title": "Have hard-won scaling lessons to share? Take the stage at TechCrunch Founder Summit 2026",
-      "link": "https://techcrunch.com/2026/02/25/have-hard-won-scaling-lessons-to-share-take-the-stage-at-techcrunch-founder-summit/",
-      "date": "2026-02-25T16:00:00.000Z",
-      "category": "综合资讯",
-      "description": "Apply to speak at TechCrunch Founder Summit 2026 by April 17 for a chance to lead a roundtable or breakout session for 1,000 founders and investors. If you’ve built, backed, or operated inside high-growth startups, your experience could shape how the next wave of founders scales.",
-      "summary": "申请在2026年TechCrunch创始人峰会发言，4月17日前提交可有机会主持圆桌或分组讨论，面向1000名创始人和投资者。有高增长初创企业经验者可分享经验，影响未来创业者发展。"
-    },
-    {
-      "title": "MAGA Is Raging Over the Epstein Files. But They’re Not Mad at Donald Trump",
-      "link": "https://www.wired.com/story/maga-is-still-very-angry-about-epstein-but-they-wont-blame-trump/",
-      "date": "2026-02-25T16:00:00.000Z",
-      "category": "综合资讯",
-      "description": "Trump supporters are angry at the lack of arrests after the latest Epstein file dump but have targeted their ire at Kash Patel, Pam Bondi, and Steve Bannon rather than the president.",
-      "summary": "特朗普支持者对最新埃普斯坦文件泄露后未有逮捕行动感到愤怒，但将怒火指向了卡什·帕特尔、帕姆·邦迪和斯蒂夫·班农，而非总统。"
-    },
-    {
-      "title": "Kalshi Suspended a California Politician and a YouTuber for Insider Trading",
-      "link": "https://www.wired.com/story/kalshi-insider-trading-california-politician-and-youtuber/",
-      "date": "2026-02-25T16:00:00.000Z",
-      "category": "综合资讯",
-      "description": "Leading prediction market Kalshi has revealed details of two recent insider trading cases it flagged to authorities, giving a rare look at how the platform enforces its policies.",
-      "summary": "Kalshi平台披露两起内部交易案例，展示其政策执行机制。"
-    },
-    {
-      "title": "Microsoft clarifies Windows 11 printer driver policy — support for legacy printers is not ending",
-      "link": "https://www.tomshardware.com/peripherals/printers/microsoft-clarifies-windows-11-printer-driver-policy",
-      "date": "2026-02-25T15:50:12.000Z",
-      "category": "金属材料",
-      "description": "Microsoft confirmed today that Windows 11 is not ending support for legacy V3 and V4 printer drivers despite previous reports",
-      "summary": "微软确认，尽管此前有报道，Windows 11仍将继续支持旧版V3和V4打印机驱动程序。"
-    },
-    {
-      "title": "German auto exports to China down 50% from 2022 levels",
-      "link": "https://www.automotiveworld.com/analysis/german-auto-exports-to-china-down-50-from-2022-levels/",
-      "date": "2026-02-25T15:33:49.000Z",
+      "title": "HydroGraph Adds UK's Hubron to Partner Program for Graphene-enhanced Thermoplastics",
+      "link": "https://www.plasticstoday.com/automotive-mobility/hydrograph-adds-uks-hubron-international-to-partner-program-for-graphene-enhanced-thermoplastics",
+      "date": "2026-02-17T19:15:39.000Z",
       "category": "非金属材料",
-      "description": "China is Germany's most significant global trade partner, but automotive exports are suffering as the Chinese industry ascends. By Will Girling\nThe post German auto exports to China down 50% from 2022 levels appeared first on Automotive World.",
-      "summary": "中国是德国最重要的全球贸易伙伴，但随着中国汽车产业崛起，德系汽车出口下滑50%。"
+      "description": "Manchester-based Hubron International brings 90+ years of materials expertise and global distribution network to support commercial adoption of Fractal Graphene technology.",
+      "summary": "曼彻斯特的Hubron International凭借90多年的材料专业技术和全球分销网络，助力分形石墨烯技术的商业化应用。",
+      "relevanceScore": 60,
+      "finalScore": 78.47061785399704
     },
     {
-      "title": "Visual imitation learning: Guidde trains AI agents on human 'expert video' instead of documentation",
-      "link": "https://venturebeat.com/orchestration/visual-imitation-learning-guidde-trains-ai-agents-on-human-expert-video",
-      "date": "2026-02-25T15:26:00.000Z",
-      "category": "综合资讯",
-      "description": "For years, the \"last mile\" of digital transformation has been littered with forgotten PDFs and ignored training manuals. \nOrganizations spend millions on sophisticated software like SAP or Salesforce, only for employees to struggle with basic navigation. Now, as the era of agentic AI arrives, companies face a double-edged sword: they must teach human employees to collaborate with AI, while simultaneously teaching AI agents to navigate the labyrinthine interfaces of the modern enterprise. \nOne id",
-      "summary": "企业需同时培训员工与AI协作，以及让AI适应复杂的企业系统，面临双重挑战。"
+      "title": "Zinc oxide nanofillers optimise fluoropolymer coatings for enhanced corrosion protection",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/zinc-oxide-nanofillers-optimise-fluoropolymer-coatings-for-enhanced-corrosion-protection/",
+      "date": "2026-02-16T11:00:55.000Z",
+      "category": "汽车防腐",
+      "description": "Researchers demonstrate how zinc oxide (ZnO) content gradients in fluoropolymer coatings improve corrosion resistance on carbon steel substrates. The optimised 0.50 % ZnO system shows superior durability and chloride ion barrier performance.",
+      "summary": "锌氧化物梯度涂层提升碳钢防腐性能，0.50% ZnO系统表现出更优的耐久性和氯离子阻隔效果。",
+      "relevanceScore": 60,
+      "finalScore": 78.21652996634415
     },
     {
-      "title": "China to increase leading-edge chip output by 5x in two years, report claims — aims to lift 7nm and 5nm production to 100,000 wafers per month, targeting half a million monthly by 2030",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/china-to-increase-leading-edge-chip-output-by-5x-in-two-years-report-claims-aims-to-lift-7nm-and-5nm-production-to-100-000-wafers-per-month-targeting-half-a-million-monthly-by-2030",
-      "date": "2026-02-25T15:12:20.000Z",
+      "title": "Deep Dive Into Automotive Plastic Part Design",
+      "link": "https://www.plasticstoday.com/automotive-mobility/deep-dive-on-automotive-plastic-part-design",
+      "date": "2026-02-12T14:56:32.000Z",
+      "category": "非金属材料",
+      "description": "The three-day seminar at Michigan State University in April will include several in-depth automotive case studies as well as ample networking opportunities for OEMS and suppliers.",
+      "summary": "密歇根州立大学四月三天研讨会将包含多个深入的汽车案例研究及OEM和供应商的充分交流机会。",
+      "relevanceScore": 60,
+      "finalScore": 77.49101453351022
+    },
+    {
+      "title": "Recycled Resin Markets: PET Bale Prices Decline as Major US Recyclers Shutter Plants",
+      "link": "https://www.plasticstoday.com/resin-pricing/recycled-resin-markets-pet-bale-prices-decline-as-major-us-recyclers-shutter-plants",
+      "date": "2026-02-25T16:10:43.000Z",
+      "category": "非金属材料",
+      "description": "Domestic plastic recycling facilities shut down while demand patterns shift across PET, PE, and PP markets, creating new supply challenges.",
+      "summary": "国内塑料回收设施关闭，PET、PE和PP市场需求变化，带来新的供应挑战。",
+      "relevanceScore": 40,
+      "finalScore": 69.95924840380826
+    },
+    {
+      "title": "Epoxy-based double-layer superhydrophobic coating delivers high mechanical durability and long-term corrosion resistance",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/epoxy-based-double-layer-superhydrophobic-coating-delivers-high-mechanical-durability-and-long-term-corrosion-resistance/",
+      "date": "2025-12-29T07:00:34.000Z",
+      "category": "汽车防腐",
+      "description": "A newly developed epoxy-based superhydrophobic coating with an embedded double-layer structure increases bonding strength by 33 % compared with silane-based systems and provides over thirty days of corrosion protection in salt spray environments.",
+      "summary": "新型环氧树脂超疏水涂层具有双层结构，相比硅烷体系粘接强度提高33%，并在盐雾环境中提供超过30天的防腐保护。",
+      "relevanceScore": 60,
+      "finalScore": 68.91834345834006
+    },
+    {
+      "title": "Carbon dots revolutionising polymer coatings: a review of recent advances",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/carbon-dots-revolutionising-polymer-coatings-a-review-of-recent-advances/",
+      "date": "2026-02-19T10:00:27.000Z",
+      "category": "汽车防腐",
+      "description": "Carbon dots (CDs), with their nanoscopic dimensions and multifunctional properties, are transforming polymer coatings by enhancing corrosion resistance, antibacterial activity, flame retardancy, and more.",
+      "summary": "碳点因其纳米尺寸和多功能性，显著提升了聚合物涂层的耐腐蚀性、抗菌性和阻燃性。",
+      "relevanceScore": 40,
+      "finalScore": 68.77593306774679
+    },
+    {
+      "title": "Self-healing copper anticorrosion films deliver adaptive protection without organic solvents",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/self-healing-copper-anticorrosion-films-deliver-adaptive-protection-without-organic-solvents/",
+      "date": "2026-02-17T11:08:00.000Z",
+      "category": "汽车防腐",
+      "description": "Researchers developed solvent-free polydisulfide films for copper surfaces using emulsion-assisted self-assembly. The innovative coatings repair and strengthen themselves in corrosive environments, achieving outstanding long-term protection.",
+      "summary": "研究人员利用乳液辅助自组装技术开发出无溶剂的聚二硫化物薄膜，可自我修复并增强耐腐蚀性能，提供长期保护。",
+      "relevanceScore": 40,
+      "finalScore": 68.40657494106472
+    },
+    {
+      "title": "Amphiphilic materials advance sustainable anti-fouling and anti-corrosion coatings",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/amphiphilic-materials-advance-sustainable-anti-fouling-and-anti-corrosion-coatings/",
+      "date": "2025-09-30T10:00:34.000Z",
+      "category": "汽车防腐",
+      "description": "A new review highlights the latest developments in environmentally friendly amphiphilic coatings designed to prevent fouling and combat corrosion – a safer alternative to toxic tributyltin-based systems now largely banned.",
+      "summary": "最新综述介绍了环保两亲涂层的最新进展，用于防污和防腐，作为现已禁用的有毒三丁基锡系统的安全替代品。",
+      "relevanceScore": 90,
+      "finalScore": 66.92165773763546
+    },
+    {
+      "title": "Microencapsulation of corrosion inhibitors: a review",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/microencapsulation-of-corrosion-inhibitors-a-review/",
+      "date": "2026-02-09T11:00:56.000Z",
+      "category": "汽车防腐",
+      "description": "A detailed review of microencapsulation technology reveals how advanced coatings provide long-lasting corrosion protection through controlled inhibitor release.",
+      "summary": "微胶囊技术通过控制缓蚀剂释放，实现长效防腐涂层的先进应用。",
+      "relevanceScore": 40,
+      "finalScore": 66.89272909486672
+    },
+    {
+      "title": "Electron-beam cured PANI–MIO coating delivers combined active and passive corrosion protection",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/electron-beam-cured-pani-mio-coating-delivers-combined-active-and-passive-corrosion-protection/",
+      "date": "2025-12-15T10:54:42.000Z",
+      "category": "汽车防腐",
+      "description": "A solvent-free electron beam curing process enables highly effective anticorrosion coatings based on polyaniline and micaceous iron oxide. The combination of active and passive protection mechanisms significantly enhances long-term performance.",
+      "summary": "无溶剂电子束固化工艺制备的聚苯胺和云母氧化铁防锈涂层效果显著，主动与被动防护机制结合大幅提升长期性能。",
+      "relevanceScore": 60,
+      "finalScore": 66.30148599082347
+    },
+    {
+      "title": "Advances in the synthesis and modification of bio-based flame-retardant epoxy resins",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/advances-in-the-synthesis-and-modification-of-bio-based-flame-retardant-epoxy-resins/",
+      "date": "2026-02-05T11:00:47.000Z",
+      "category": "非金属材料",
+      "description": "A comprehensive overview of bio-based flame-retardant epoxy resins, their synthesis, mechanisms, and potential for sustainable applications in adhesives, coatings, and high-performance composites.",
+      "summary": "综述生物基阻燃环氧树脂的合成、作用机制及其在粘合剂、涂料和高性能复合材料中的可持续应用潜力。",
+      "relevanceScore": 40,
+      "finalScore": 66.13625050381344
+    },
+    {
+      "title": "Nanocellulose-based UV-curable wood coatings deliver enhanced adhesion and durability",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/nanocellulose-based-uv-curable-wood-coatings-deliver-enhanced-adhesion-and-durability/",
+      "date": "2026-02-02T11:00:05.000Z",
+      "category": "汽车防腐",
+      "description": "A breakthrough in wood coating technology: modified cellulose nanocrystals (CNCs) enable superior adhesion, UV stability, and corrosion resistance in photocurable nanocomposite coatings.",
+      "summary": "木材涂层技术取得突破：改性纳米纤维素晶体（CNCs）使光固化纳米复合涂层具有优异附着力、紫外线稳定性和耐腐蚀性。",
+      "relevanceScore": 40,
+      "finalScore": 65.56881440434313
+    },
+    {
+      "title": "Interview: “Corrosion creates a major but often hidden environmental burden”",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/interview-corrosion-creates-a-major-but-often-hidden-environmental-burden/",
+      "date": "2026-01-30T10:43:50.000Z",
+      "category": "汽车防腐",
+      "description": "Corrosion-related waste significantly contributes to environmental burdens, with around 40 % of global steel production used to replace corroded metal. In this interview, Jorrit van Rijn, Marketing Director at AkzoNobel Powder Coatings discusses how advanced powder-coating technologies and testing methodologies can help mitigate these impacts by extending product lifecycles and improving sustainability.",
+      "summary": "腐蚀导致的浪费显著增加环境负担，约40%的全球钢铁产量用于替换腐蚀金属。Jorrit van Rijn探讨了先进粉末涂料技术如何通过延长产品寿命提升可持续性。",
+      "relevanceScore": 40,
+      "finalScore": 64.99933612852482
+    },
+    {
+      "title": "New Technology Tackles Flexible Plastic Recycling",
+      "link": "https://www.plasticstoday.com/packaging/flexible-plastics-recycling-advances-with-ai-and-digital-watermarking",
+      "date": "2026-02-25T19:48:56.000Z",
+      "category": "非金属材料",
+      "description": "Flexible plastics recycling is advancing through innovative technologies like digital watermarking and AI-based object recognition, which improve sorting precision and recyclate quality. The Alliance to End Plastic Waste emphasizes coordinated system-level solutions, including policy harmonization, investment in infrastructure, and strong end-market demand.",
+      "summary": "柔性塑料回收通过数字水印和AI物体识别等创新技术取得进展，提升分拣精度和再生材料质量。消除塑料污染联盟强调系统性解决方案，包括政策协调、基础设施投资和强劲的市场需求。",
+      "relevanceScore": 30,
+      "finalScore": 64.98790672634229
+    },
+    {
+      "title": "Curcumin-based edible coatings show promise for reducing post-harvest losses",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/curcumin-based-edible-coatings-show-promise-for-reducing-post-harvest-losses/",
+      "date": "2026-02-25T08:06:38.000Z",
+      "category": "汽车防腐",
+      "description": "A review explores how curcumin, derived from turmeric, can serve as a bioactive component in edible coatings for fruits and vegetables. Whilst nanotechnology-enhanced formulations extend shelf life effectively, safety concerns around nanomaterials in food applications remain a critical consideration.",
+      "summary": "研究探讨了从姜黄中提取的姜黄素作为果蔬可食用涂层中的生物活性成分的潜力。虽然纳米技术增强的配方能有效延长保质期，但食品中纳米材料的安全性仍是关键考量。",
+      "relevanceScore": 30,
+      "finalScore": 64.89567390002756
+    },
+    {
+      "title": "Biomimetic microstructures offer eco-friendly path to marine antifouling coatings",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/biomimetic-microstructures-offer-eco-friendly-path-to-marine-antifouling-coatings/",
+      "date": "2026-02-24T09:00:17.000Z",
+      "category": "汽车防腐",
+      "description": "A comprehensive review examines how surface designs inspired by aquatic organisms such as shark skin, lotus leaves and coral can replace toxic conventional antifouling coatings. The authors highlight the need for multifunctional synergy and point to artificial intelligence as a key enabler for future developments.",
+      "summary": "综述研究了仿生表面设计在替代有毒防污涂层中的应用，强调多功能协同与人工智能的重要性。",
+      "relevanceScore": 30,
+      "finalScore": 64.71360501385155
+    },
+    {
+      "title": "US Plastics Industry Faces Tariff Challenges Amid Economic Growth",
+      "link": "https://www.plasticstoday.com/legislation-regulations/us-plastics-industry-faces-tariff-challenges-amid-economic-growth",
+      "date": "2026-02-23T21:34:00.000Z",
+      "category": "非金属材料",
+      "description": "According to Plastics Industry Association Chief Economist Perc Pineda, PhD, the US economy showed resilience in 2025, expanding 2.2% despite evolving tariff policies, and uneven manufacturing trends.",
+      "summary": "美国经济在2025年展现韧性，尽管关税政策变化和制造业趋势不均，仍增长2.2%。",
+      "relevanceScore": 30,
+      "finalScore": 64.62347565106356
+    },
+    {
+      "title": "Jotun secures 50-year lease for new coatings facility in Abu Dhabi",
+      "link": "https://www.european-coatings.com/news/markets-companies/jotun-secures-50-year-lease-for-new-coatings-facility-in-abu-dhabi/",
+      "date": "2026-01-28T10:37:32.000Z",
+      "category": "汽车防腐",
+      "description": "Jotun Abu Dhabi has signed a long-term lease with Khalifa Economic Zones Abu Dhabi (KEZAD) to establish a new paint and coatings manufacturing facility. The EUR 113 million investment marks a significant step in expanding local production and supporting regional construction and infrastructure growth.",
+      "summary": "Jotun Abu Dhabi与KEZAD签订长期租赁协议，投资1.13亿欧元建设新涂料工厂，助力本地生产和区域基建发展。",
+      "relevanceScore": 40,
+      "finalScore": 64.62027930581064
+    },
+    {
+      "title": "Conair Advances Plastics Industry With AI Innovations",
+      "link": "https://www.plasticstoday.com/extrusion-pipe-profile/conair-advances-plastics-industry-with-ai-innovations",
+      "date": "2026-02-23T18:40:27.000Z",
+      "category": "非金属材料",
+      "description": "Company partners with equipment makers to automate processes from pellet to product while addressing workforce challenges through smart technology.",
+      "summary": "公司与设备制造商合作，从颗粒到产品自动化流程，同时通过智能技术解决劳动力问题。",
+      "relevanceScore": 30,
+      "finalScore": 64.60068338706395
+    },
+    {
+      "title": "This 'Sea of Plastic' Should Be Celebrated",
+      "link": "https://www.plasticstoday.com/materials/this-sea-of-plastic-should-be-celebrated",
+      "date": "2026-02-23T16:49:55.000Z",
+      "category": "非金属材料",
+      "description": "An engineering marvel in southern Spain uses polyethylene roofing to produce three million tons of food annually while cooling local temperatures.",
+      "summary": "西班牙南部的一项工程奇迹使用聚乙烯屋顶每年生产三百万吨食物并降低当地温度。",
+      "relevanceScore": 30,
+      "finalScore": 64.58616708101907
+    },
+    {
+      "title": "Plastics Industry Responds to Supreme Court Ruling on Tariffs",
+      "link": "https://www.plasticstoday.com/legislation-regulations/muted-applause-from-plastics-industry-for-supreme-court-ruling-on-tariffs",
+      "date": "2026-02-23T15:06:33.000Z",
+      "category": "非金属材料",
+      "description": "Noting its longstanding concern over tariffs executed under the emergency economic powers act, the Plastics Industry Association added that it remains committed to policies that strengthen domestic production.",
+      "summary": "塑料行业协会表示，其一直关注紧急经济权力法案下的关税，并重申支持加强国内生产的政策。",
+      "relevanceScore": 30,
+      "finalScore": 64.57259197093308
+    },
+    {
+      "title": "Recyclable and self-healing polyurethane coating for marine corrosion protection",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/recyclable-and-self-healing-polyurethane-coating-for-marine-corrosion-protection/",
+      "date": "2025-12-05T11:00:20.000Z",
+      "category": "汽车防腐",
+      "description": "A Chinese research team has developed a novel polyurethane composite that combines self-healing, recyclability, and superior corrosion resistance. The material sets a new benchmark for sustainable marine protection coatings.",
+      "summary": "中国研究团队开发出一种新型聚氨酯复合材料，具备自愈、可回收和优异耐腐蚀性能，为可持续海洋防护涂层树立新标准。",
+      "relevanceScore": 60,
+      "finalScore": 64.41107858561624
+    },
+    {
+      "title": "Plastics Sector Eyes Stability Amid Demand, Growth",
+      "link": "https://www.plasticstoday.com/industry-trends/plastics-sector-eyes-stability-amid-demand-growth",
+      "date": "2026-02-20T12:43:02.000Z",
+      "category": "非金属材料",
+      "description": "In an analysis, Plastics Industry Association Chief Economist Perc Pineda, PhD, noted that manufacturing employment remains steady as consumer demand for plastic products continues growing amid economic headwinds and policy challenges.",
+      "summary": "塑料行业协会首席经济学家佩尔·平纳达博士指出，尽管面临经济逆风和政策挑战，消费者对塑料制品的需求持续增长，制造业就业保持稳定。",
+      "relevanceScore": 30,
+      "finalScore": 63.986399805947286
+    },
+    {
+      "title": "Sustainable biologic paint: bacterial pigments and protein binder show promising durability",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/sustainable-biologic-paint-bacterial-pigments-and-protein-binder-show-promising-durability/",
+      "date": "2026-02-20T10:00:33.000Z",
+      "category": "汽车防腐",
+      "description": "A novel paint formulation using E. coli-derived pigments and a casein binder offers an eco-friendly alternative to conventional paints, demonstrating comparable colour stability under various conditions.",
+      "summary": "利用大肠杆菌色素和酪蛋白粘合剂的新涂料配方，提供了环保的替代方案，在不同条件下表现出相似的色彩稳定性。",
+      "relevanceScore": 30,
+      "finalScore": 63.965060923614416
+    },
+    {
+      "title": "PEI/PBPDA Alloy Delivers High-temperature Performance in Capacitors",
+      "link": "https://www.plasticstoday.com/automotive-mobility/pei-pbpda-alloy-delivers-high-temperature-performance-in-capacitors",
+      "date": "2026-02-19T22:18:12.000Z",
       "category": "金属材料",
-      "description": "Chinese foundries looking to increase 7nm and below capacity to 100,000 wafer starts per month in one or two years, says Nikkei.",
-      "summary": "日本媒体报道，中国铸造厂计划一到两年内将7纳米及以下产能提升至每月10万片晶圆。"
+      "description": "New polymer alloy withstands extreme heat while delivering quadruple power density, potentially revolutionizing electric vehicle and data center applications.",
+      "summary": "新型聚合物合金耐高温且功率密度四倍于传统材料，有望革新电动汽车和数据中心应用。",
+      "relevanceScore": 30,
+      "finalScore": 63.87282153081627
     },
     {
-      "title": "Newegg’s 25th anniversary sale is here, unlocking huge discounts on gaming PCs, laptops, RAM, SSDs, and more — jaw-dropping Doorbuster deals include a rare RTX 5070 at MSRP and an iFixit toolkit for under $10",
-      "link": "https://www.tomshardware.com/pc-components/neweggs-25th-anniversary-sale-is-here-unlocking-huge-discounts-on-gaming-pcs-laptops-ram-ssds-and-more-jaw-dropping-doorbuster-deals-include-a-rare-rtx-5070-at-msrp-and-an-ifixit-toolkit-for-under-usd10",
-      "date": "2026-02-25T14:19:23.000Z",
-      "category": "金属材料",
-      "description": "To celebrate Newegg's 25th anniversary, the retailer is releasing some epic Doorbuster deals at 9 am PT, with huge discounts on a range of tech.",
-      "summary": "为庆祝新egg成立25周年，零售商将在太平洋时间上午9点推出重磅促销活动，提供多种科技产品的大幅折扣。"
+      "title": "Plastics by the Numbers",
+      "link": "https://www.plasticstoday.com/packaging/plastics-by-the-numbers",
+      "date": "2026-02-19T19:12:25.000Z",
+      "category": "非金属材料",
+      "description": "Market reports on advanced recycling, CO2-based plastics, polyethylene furanoate (PEF), flexible packaging, graphene-enhanced plastics, recycled plastic, and plastics globally are featured in this slideshow.",
+      "summary": "介绍先进回收、二氧化碳基塑料、聚呋喃甲酸乙二醇酯（PEF）、柔性包装、石墨烯增强塑料、回收塑料及全球塑料的市场报告。",
+      "relevanceScore": 30,
+      "finalScore": 63.84842266720313
     },
     {
-      "title": "Integrating eFPGA for Hybrid Signal Processing Architectures",
-      "link": "https://www.eetimes.com/integrating-efpga-for-hybrid-signal-processing-architectures/",
-      "date": "2026-02-25T14:00:00.000Z",
-      "category": "金属材料",
-      "description": "Fixed logic or software? eFPGA offers a smarter middle ground—enabling reconfigurable, ASIC-class signal processing without the re-spin. Here's how to architect it.\nThe post Integrating eFPGA for Hybrid Signal Processing Architectures  appeared first on EE Times.",
-      "summary": "eFPGA提供更智能的中间方案，实现可重构的ASIC级信号处理，无需重新设计。如何构建此类架构？"
+      "title": "Sensor-based method enables real-time monitoring of corrosion onset in coatings",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/sensor-based-method-enables-real-time-monitoring-of-corrosion-onset-in-coatings/",
+      "date": "2025-12-02T11:00:47.000Z",
+      "category": "汽车防腐",
+      "description": "A novel sensor-based technique allows non-destructive, real-time investigation of transport processes in organic coatings. The Belgian research team validated the approach using advanced electrochemical impedance methods.",
+      "summary": "一种基于传感器的技术实现了有机涂层中传输过程的无损实时研究，比利时研究团队通过电化学阻抗方法验证了该方法。",
+      "relevanceScore": 60,
+      "finalScore": 63.843793515264906
+    },
+    {
+      "title": "BASF expands dispersions production in India to meet growing demand in architectural paints and construction",
+      "link": "https://www.european-coatings.com/news/basf-expands-dispersions-production-in-india-to-meet-growing-demand-in-architectural-paints-and-construction/",
+      "date": "2026-02-19T09:21:12.000Z",
+      "category": "汽车防腐",
+      "description": "BASF is enhancing its Mangalore site with a new dispersions production line, aiming to strengthen supply reliability and support the evolving needs of architectural paints, construction, and paper industries in India.",
+      "summary": "巴斯夫升级芒格洛尔工厂，新增分散液生产线，以增强供应可靠性，满足印度建筑涂料、建材和造纸行业的需求。",
+      "relevanceScore": 30,
+      "finalScore": 63.77077837825107
+    },
+    {
+      "title": "Innovative nanocontainers enhance corrosion resistance in epoxy coatings",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/innovative-nanocontainers-enhance-corrosion-resistance-in-epoxy-coatings/",
+      "date": "2025-12-01T11:00:55.000Z",
+      "category": "汽车防腐",
+      "description": "A novel composite epoxy coating featuring magnetic and pH-responsive nanocontainers demonstrates superior corrosion protection and self-healing properties, paving the way for advanced anticorrosion technologies.",
+      "summary": "新型复合环氧涂层结合磁性和pH响应纳米容器，展现出优异的防腐和自修复性能，为先进防腐技术开辟了新路径。",
+      "relevanceScore": 60,
+      "finalScore": 63.65469630298665
+    },
+    {
+      "title": "Plastics Industry Leader Urges Trump to Address Three Key Policy Priorities in State of Union Speech",
+      "link": "https://www.plasticstoday.com/legislation-regulations/mr-president-thank-you-for-your-attention-to-this-matter",
+      "date": "2026-02-18T15:58:46.000Z",
+      "category": "非金属材料",
+      "description": "Ross Eisenberg outlines recycling innovation, treaty engagement, and health research as critical areas needing presidential attention for the sector.",
+      "summary": "罗斯·艾森伯格指出，回收创新、条约参与和健康研究是该领域需要总统关注的关键领域。",
+      "relevanceScore": 30,
+      "finalScore": 63.633875953962296
+    },
+    {
+      "title": "Multifunctional flame-retardant and thermal insulating coatings for polyester/cotton fabrics",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/multifunctional-flame-retardant-and-thermal-insulating-coatings-for-polyester-cotton-fabrics/",
+      "date": "2026-02-18T11:00:50.000Z",
+      "category": "汽车防腐",
+      "description": "A novel coating system combining thermo-expandable microspheres (TEM) and ammonium polyphosphate-based intumescent flame retardants (IFR) enhances the thermal insulation and fire protection of polyester/cotton textiles, paving the way for energy-saving and safer protective fabrics.",
+      "summary": "新型涂层系统结合热膨胀微球和磷酸铵盐阻燃剂，提升涤棉织物的隔热防火性能，推动节能安全防护面料发展。",
+      "relevanceScore": 30,
+      "finalScore": 63.594748468006586
+    },
+    {
+      "title": "European Coatings Podcast: Sustainability in architetural coatings with AkzoNobel",
+      "link": "https://www.european-coatings.com/news/markets-companies/european-coatings-podcast-sustainability-in-architetural-coatings-with-akzonobel/",
+      "date": "2026-02-18T07:10:49.000Z",
+      "category": "汽车防腐",
+      "description": "What does sustainability really mean for architectural coatings—and where are the toughest trade-offs? In the latest episode of the European Coatings Podcast, editor Yeray Arauco is joined by two AkzoNobel specialists: Dr. Jitte Flapper, R&D Manager Expertise Center Analytical and Formulation Science, and Job Coenen, Senior Program Manager Sustainability.",
+      "summary": "探讨建筑涂料的可持续性及其最大权衡点。欧洲涂料播客最新一期邀请了阿克苏诺贝尔专家讨论相关议题。",
+      "relevanceScore": 30,
+      "finalScore": 63.56454045538212
+    },
+    {
+      "title": "Raw material supply: A critical challenge for the European coatings industry",
+      "link": "https://www.european-coatings.com/news/markets-companies/raw-material-supply-a-critical-challenge-for-the-european-coatings-industry/",
+      "date": "2026-01-22T09:36:10.000Z",
+      "category": "汽车防腐",
+      "description": "The European paint and coatings sector faces a raw material supply crisis that threatens its competitiveness. A report by the Berylls Group highlights geopolitical risks, rising costs of strategic resources like rare earths and nickel, and potential strategies to secure future supply chains.",
+      "summary": "欧洲涂料和涂层行业面临原材料供应危机，威胁其竞争力。报告指出地缘政治风险、稀土和镍等战略资源成本上升及保障供应链的策略。",
+      "relevanceScore": 40,
+      "finalScore": 63.47753170440476
+    },
+    {
+      "title": "Innovative fluorine-free hydrophobic coating boosts solar panel efficiency and durability",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/innovative-fluorine-free-hydrophobic-coating-boosts-solar-panel-efficiency-and-durability/",
+      "date": "2026-02-17T11:00:09.000Z",
+      "category": "汽车防腐",
+      "description": "Researchers developed a scalable, fluorine-free hydrophobic coating for solar panels, offering self-cleaning, thermal insulation, and increased energy harvesting. The eco-friendly solution enhances performance and lifespan, especially in harsh climates.",
+      "summary": "开发出一种可扩展的无氟疏水涂层，具有自清洁、隔热和提高能量收集性能的特点，环保且提升太阳能板在恶劣气候中的使用寿命。",
+      "relevanceScore": 30,
+      "finalScore": 63.405544003165566
+    },
+    {
+      "title": "Safe handling of fluoropolymers: a lifecyle approach",
+      "link": "https://www.european-coatings.com/news/legislation/safe-handling-of-fluoropolymers-a-lifecyle-approach/",
+      "date": "2026-02-17T06:05:39.000Z",
+      "category": "非金属材料",
+      "description": "Fluoropolymers are indispensable materials in modern industry, underpinning critical applications in aerospace, ­electronics, healthcare, energy, and beyond. Their unique properties – chemical resistance, thermal stability, non-stick characteristics, and biological inertness – make them irreplaceable in many environments where performance and safety are paramount. By Isabelle Alenus, Fluoropolymers Product Group (FPG).",
+      "summary": "氟橡胶在现代工业中不可或缺，广泛应用于航天、电子、医疗、能源等领域。其耐化学性、热稳定性、不粘性和生物惰性使其在高性能和高安全性环境中不可替代。",
+      "relevanceScore": 30,
+      "finalScore": 63.366867415738994
+    },
+    {
+      "title": "Matrix Plastic Products Expands With New Facility to Drive Growth",
+      "link": "https://www.plasticstoday.com/medical/matrix-plastic-products-expands-with-new-facility-to-drive-growth",
+      "date": "2026-02-16T13:42:13.000Z",
+      "category": "非金属材料",
+      "description": "Matrix Plastic Products, a family-founded business since 1978, is moving to a new 88,000-square-foot facility in Bloomingdale, IL. The move, set to begin in March 2026, will triple the company’s space, enhance efficiency, and support its continued growth in the medical device OEM market.",
+      "summary": "矩阵塑料产品公司自1978年以来由家族经营，将于2026年3月迁至伊利诺伊州布卢明代尔的新8.8万平方英尺厂房，空间扩大三倍，提升效率，支持医疗设备OEM市场持续增长。",
+      "relevanceScore": 30,
+      "finalScore": 63.2377134419024
+    },
+    {
+      "title": "Benzylcyanocoumarin-based NIR reflective coatings enhance LiDAR detection and thermal management for autonomous vehicles",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/benzylcyanocoumarin-based-nir-reflective-coatings-enhance-lidar-detection-and-thermal-management-for-autonomous-vehicles/",
+      "date": "2026-02-16T11:00:07.000Z",
+      "category": "汽车防腐",
+      "description": "A bilayered black coating system using benzylcyanocoumarin dyes achieves high near-infrared reflectance for automotive LiDAR detection while reducing heat accumulation. The innovative coatings offer improved durability and optical performance compared to traditional carbon black solutions.",
+      "summary": "采用苯基氰香豆素染料的双层黑色涂层系统，实现高近红外反射率，提升汽车LiDAR检测效果并减少热量积聚，性能优于传统碳黑方案。",
+      "relevanceScore": 30,
+      "finalScore": 63.2164249026092
+    },
+    {
+      "title": "Registration now open for the American Coatings Conference 2026",
+      "link": "https://www.european-coatings.com/news/registration-now-open-for-the-american-coatings-conference-2026/",
+      "date": "2026-02-13T10:21:50.000Z",
+      "category": "汽车防腐",
+      "description": "Coatings industry professionals are invited to register for the American Coatings Conference 2026, taking place 5-7 May in Indianapolis. Featuring 16 topical sessions, pre-conference tutorials, and networking opportunities, the event promises invaluable insights into cutting-edge coatings technologies.",
+      "summary": "邀请涂料行业专业人士注册参加2026年5月5日至7日在印第安纳波利斯举行的美国涂料大会，涵盖16个专题会议及交流机会，分享前沿涂料技术。",
+      "relevanceScore": 30,
+      "finalScore": 62.644052996424286
+    },
+    {
+      "title": "German paint and ink industry: Declines characterise the year 2025",
+      "link": "https://www.european-coatings.com/news/markets-companies/german-paint-and-ink-industry-declines-characterise-the-year-2025/",
+      "date": "2026-02-13T07:18:59.000Z",
+      "category": "汽车防腐",
+      "description": "The German paint and printing ink industry is struggling with macroeconomic challenges. Sales volumes and revenues are falling significantly, while only a few sectors are showing signs of hope. The Association of the German Paint and Printing Ink Industry (VdL) is calling for political reforms and a reduction in bureaucracy to stabilise the industry.",
+      "summary": "德国涂料和印刷油墨行业面临宏观经济挑战，销量和收入大幅下降，仅少数领域显现希望。行业协会呼吁政治改革和减少官僚主义以稳定行业。",
+      "relevanceScore": 30,
+      "finalScore": 62.62003936650595
+    },
+    {
+      "title": "Cyclic xanthates enable degradable vinyl copolymers with cleavable backbone structures",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/cyclic-xanthates-enable-degradable-vinyl-copolymers-with-cleavable-backbone-structures/",
+      "date": "2026-02-12T11:00:23.000Z",
+      "category": "非金属材料",
+      "description": "A novel cyclic xanthate monomer, 4_H_-1,3-benzoxathiin-2-thione (BOT), demonstrates promising degradability in vinyl copolymers. The study showcases its compatibility with N,N-dimethylacrylamide and highlights unique dual C–S bond cleavage mechanisms for environmentally friendly polymer applications.",
+      "summary": "新型环状黄原酸单体BOT在乙烯基共聚物中表现出良好降解性，与N,N-二甲基丙烯酰胺相容，并具有环保的双C–S键断裂机制。",
+      "relevanceScore": 30,
+      "finalScore": 62.4600010322512
+    },
+    {
+      "title": "Reciprocal Tariffs Signal Strategic Shift in US Plastics Trade Policy",
+      "link": "https://www.plasticstoday.com/legislation-regulations/reciprocal-tariffs-signal-strategic-shift-in-us-plastics-trade-policy",
+      "date": "2026-02-11T20:14:33.000Z",
+      "category": "非金属材料",
+      "description": "The US has imposed reciprocal tariffs on plastics imports from El Salvador and Guatemala under CAFTA-DR, marking a strategic shift in trade policy. In a report, Perc Pineda, PhD, chief economist at the Plastics Industry Association, highlights the implications for supply chains, manufacturing, competitiveness, and regional trade relationships.",
+      "summary": "美国根据CAFTA-DR对萨尔瓦多和危地马拉的塑料进口实施对等关税，标志着贸易政策的战略转变。报告指出，这将影响供应链、制造、竞争力和地区贸易关系。",
+      "relevanceScore": 30,
+      "finalScore": 62.34366483407788
+    },
+    {
+      "title": "VOCs contents and species of multiple-use housing refurbishment coatings in China",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/vocs-contents-and-species-of-multiple-use-housing-refurbishment-coatings-in-china/",
+      "date": "2026-02-10T11:06:16.000Z",
+      "category": "汽车防腐",
+      "description": "A detailed analysis of VOC contents and chemical compositions in housing refurbishment coatings in China highlights their contribution to air pollution and health risks.",
+      "summary": "分析中国住房翻新涂料中的VOC含量及化学成分，揭示其对空气污染和健康风险的贡献。",
+      "relevanceScore": 30,
+      "finalScore": 62.082544242667105
+    },
+    {
+      "title": "Smart coatings: Share your perspective",
+      "link": "https://www.european-coatings.com/news/markets-companies/smart-coatings-share-your-perspective/",
+      "date": "2026-01-12T08:21:58.000Z",
+      "category": "汽车防腐",
+      "description": "Self-healing, corrosion-sensing, antimicrobial or conductive coatings - smart coatings are gaining attention across many industries. But how far have they really made it into everyday business, and what challenges still limit broader adoption?",
+      "summary": "智能涂层如自修复、腐蚀感应、抗菌或导电涂层在多个行业受到关注，但其在实际应用中的进展及面临的挑战仍需探讨。",
+      "relevanceScore": 40,
+      "finalScore": 61.57663981398115
+    },
+    {
+      "title": "Hollow polymer-silica particles offer sustainable alternative to TiO₂ in coatings",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/hollow-polymer-silica-particles-offer-sustainable-alternative-to-tio%e2%82%82-in-coatings/",
+      "date": "2026-02-04T11:00:45.000Z",
+      "category": "非金属材料",
+      "description": "Researchers have achieved a breakthrough in coating technology by replacing TiO₂ with hollow polymer-silica particles, delivering superior optical performance and reduced environmental impact.",
+      "summary": "用空心聚合物-二氧化硅粒子替代二氧化钛，研究人员在涂层技术上取得突破，实现更优光学性能和更低环境影响。",
+      "relevanceScore": 30,
+      "finalScore": 60.947131403257075
+    },
+    {
+      "title": "IMCD appoints Sami Valkama as global technical director for coatings and construction",
+      "link": "https://www.european-coatings.com/news/people-careers/imcd-appoints-sami-valkama-as-global-technical-director-for-coatings-and-construction/",
+      "date": "2026-02-04T10:28:57.000Z",
+      "category": "汽车防腐",
+      "description": "IMCD has appointed Sami Valkama as global technical director for its coatings & construction business group, effective 12 January 2026. Sami Valkama combines this role with his current position as managing director of IMCD Nordics.",
+      "summary": "IMCD任命Sami Valkama为涂料与建筑业务集团全球技术总监，自2026年1月12日起生效，他同时担任北欧地区总经理。",
+      "relevanceScore": 30,
+      "finalScore": 60.94295511979302
+    },
+    {
+      "title": "Henkel to acquire Stahl: A milestone for the speciality coatings industry",
+      "link": "https://www.european-coatings.com/news/markets-companies/henkel-to-acquire-stahl-a-milestone-for-the-speciality-coatings-industry/",
+      "date": "2026-02-04T09:27:15.000Z",
+      "category": "汽车防腐",
+      "description": "Henkel, a major European player in adhesives and coatings, has entered into an agreement to acquire Stahl, the world leader in speciality coatings for flexible materials, for an enterprise value of EUR 2.1 billion. The transaction, announced on 4 February 2026, marks the end of 20 years of majority ownership by Wendel, which holds a 68.5% stake in Stahl. BASF (16.1%) and Clariant (14.6%) are also shareholders in the company.",
+      "summary": "汉高收购特种柔性材料涂料公司Stahl，交易价值21亿欧元。此次收购结束Wendel长达20年的控股，其持股68.5%。BASF和Clariant分别为16.1%和14.6%股东。",
+      "relevanceScore": 30,
+      "finalScore": 60.93485207923539
+    },
+    {
+      "title": "Akzo Nobel Aerospace Coatings expands Middle East operations",
+      "link": "https://www.european-coatings.com/news/markets-companies/akzo-nobel-aerospace-coatings-expands-middle-east-operations/",
+      "date": "2026-01-30T11:16:15.000Z",
+      "category": "汽车防腐",
+      "description": "Akzo Nobel Aerospace Coatings is set to enhance its regional presence in the Middle East with a colour blending and distribution facility in Dubai, operational from Q2 2026. The move aims to streamline access to aerospace coatings for local operators and strengthen support for the growing aviation sector.",
+      "summary": "阿克苏诺贝尔航空航天涂料公司计划2026年第二季度在迪拜启用色彩调配和分发设施，以加强中东地区布局，提升本地运营商获取航空涂料的效率，支持航空业发展。",
+      "relevanceScore": 30,
+      "finalScore": 60.003593398617895
     }
   ]
 }
