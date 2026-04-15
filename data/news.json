@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-14T03:56:17.477Z",
-  "updateTime": "2026/4/14 03:56:17",
+  "lastUpdated": "2026-04-15T03:55:06.706Z",
+  "updateTime": "2026/4/15 03:55:06",
   "totalArticles": 50,
   "categories": [
     "材料创新",
@@ -14,9 +14,9 @@
       "date": "2026-04-07T12:02:44.000Z",
       "category": "材料创新",
       "description": "Researchers at Georgia Tech have developed \"living\" polymers capable of growing, shrinking, healing, and regenerating after fabrication. This innovation, led by Yuhang Hu, PhD, combines chemistry, mechanics, and materials science, offering potential applications in aerospace, robotics, and sustainable materials.",
-      "summary": "研究人员在佐治亚理工学院开发出一种“活体”聚合物，能够在制造后实现生长、收缩、自我修复和再生。该创新由胡宇航博士领导，融合了化学、力学和材料科学，为航空航天、机器人技术和可持续材料领域提供了潜在应用。这种新型材料突破了传统聚合物的局限性，具备动态响应和自愈能力，有望提升材料的耐用性和适应性。其核心技术在于通过化学反应和机械结构的协同作用，使材料具备类似生物体的自我调节特性。这一成果在智能材料和可循环利用材料方面具有重要价值，可能推动未来先进材料的发展与应用。",
+      "summary": "研究人员在佐治亚理工学院开发出一种“活体”聚合物，能够在制造后生长、收缩、自我修复和再生。这项由胡宇航博士领导的创新融合了化学、力学和材料科学，为航空航天、机器人技术和可持续材料领域提供了潜在应用。该材料具备动态响应环境变化的能力，突破了传统材料的静态特性，展现出高度的适应性和自愈能力。其独特的性能有望推动智能材料的发展，提升设备的耐用性和使用寿命，同时减少维护成本和资源浪费。这一技术在多个工业领域具有重要应用价值，为未来材料科学的发展开辟了新方向。",
       "relevanceScore": 60,
-      "finalScore": 78.73670253180092
+      "finalScore": 78.51350464650537
     },
     {
       "title": "Resin Price Report: Feedstock Costs Just Reset the Plastic Resin Market",
@@ -24,9 +24,9 @@
       "date": "2026-04-06T13:51:31.000Z",
       "category": "材料创新",
       "description": "The buyer-side window is narrowing, but it’s not closed. Here’s what resin buyers need to do before April locks in.",
-      "summary": "核心内容概述：本文指出，买方窗口正在收窄但尚未关闭，强调了在4月锁定价格前，树脂买家需要采取的行动。技术要点：文章提到市场波动和供应链不确定性，建议买家提前评估需求、与供应商建立沟通、锁定部分订单以应对可能的价格上涨。应用价值：该建议有助于买家在不确定的市场环境中优化采购策略，降低风险并确保供应稳定。",
+      "summary": "核心内容概述：文章指出，买方窗口正在收窄，但尚未关闭，强调树脂买家在四月前需要采取行动。技术要点：文中未涉及具体技术细节，但暗示了市场动态和采购策略的重要性。应用价值：提醒树脂买家关注市场变化，及时做出采购决策，以应对可能的供应紧张或价格上涨。",
       "relevanceScore": 60,
-      "finalScore": 78.5514006528079
+      "finalScore": 78.32579205299805
     },
     {
       "title": "Functionalised aluminium oxide enhances corrosion resistance of epoxy coatings on mild steel",
@@ -34,9 +34,9 @@
       "date": "2026-03-11T08:16:14.000Z",
       "category": "材料创新",
       "description": "A study demonstrates how functionalised aluminium oxide nanoparticles (Al₂O₃F) improve the corrosion resistance of epoxy coatings, paving the way for advanced protective applications in aggressive environments.",
-      "summary": "一种研究展示了功能化氧化铝纳米颗粒（Al₂O₃F）如何提升环氧涂层的耐腐蚀性能，为在恶劣环境中的先进防护应用铺平了道路。该研究通过将氧化铝纳米颗粒进行功能化处理，增强了其与环氧树脂基体的结合力，从而有效提高了涂层的致密性和稳定性。实验结果表明，添加Al₂O₃F后，涂层的耐腐蚀性能显著增强，特别是在酸性或盐雾环境中表现优异。这项技术为航空航天、海洋工程和化工设备等领域的防腐涂层提供了新的解决方案，具有重要的工业应用价值。通过优化纳米颗粒的表面特性，该方法为开发高性能、长寿命的防护材料提供了理论支持和技术路径。",
+      "summary": "一种研究展示了功能化氧化铝纳米颗粒（Al₂O₃F）如何提升环氧涂层的耐腐蚀性能，为在恶劣环境中的先进防护应用铺平了道路。该研究通过将氧化铝纳米颗粒进行功能化处理，增强了其与环氧树脂基体的结合力，从而有效提高了涂层的致密性和稳定性。技术要点包括纳米颗粒的表面改性、与环氧树脂的相容性优化以及在腐蚀测试中表现出的优异性能。这种改进的涂层在海洋、化工等腐蚀性环境中具有广泛的应用前景，可显著延长材料的使用寿命并降低维护成本，对工业防护领域具有重要的实际价值。",
       "relevanceScore": 60,
-      "finalScore": 73.29317999163794
+      "finalScore": 72.99916372680038
     },
     {
       "title": "Sustainable anti-corrosion coating systems for steel bridges",
@@ -44,9 +44,9 @@
       "date": "2025-12-18T11:00:16.000Z",
       "category": "汽车防腐",
       "description": "A recent study evaluates the long-term sustainability of anticorrosion coating systems for steel bridges, considering performance, costs, and environmental as well as social impacts over a seventy-five-year service life.",
-      "summary": "该研究评估了钢桥防腐涂层系统在75年使用寿命内的长期可持续性，综合考虑了性能、成本以及环境和社会影响。核心内容是通过全面分析不同涂层系统的耐久性和维护需求，探讨其在全生命周期内的经济与环境效益。技术要点包括对涂层老化、腐蚀速率和修复频率的模拟与预测，以及对材料选择和施工工艺的优化建议。应用价值在于为桥梁建设与维护提供科学依据，推动更环保、经济和高效的防腐方案发展，有助于延长基础设施寿命并降低长期维护成本。",
+      "summary": "该研究评估了钢桥防腐涂层系统在75年使用寿命内的长期可持续性，综合考虑了性能、成本以及环境和社会影响。核心内容是通过全面分析不同涂层系统的长期表现，确定其在经济和环境方面的可行性。技术要点包括对涂层耐久性、维护频率、材料选择及施工工艺的评估，同时量化了全生命周期内的碳排放和资源消耗。应用价值在于为桥梁建设与维护提供科学依据，推动更环保、经济的防腐方案选择，提升基础设施的可持续发展水平。",
       "relevanceScore": 90,
-      "finalScore": 71.67914153631875
+      "finalScore": 71.16898227356512
     },
     {
       "title": "Amphiphilic materials advance sustainable anti-fouling and anti-corrosion coatings",
@@ -54,9 +54,9 @@
       "date": "2025-09-30T10:00:34.000Z",
       "category": "汽车防腐",
       "description": "A new review highlights the latest developments in environmentally friendly amphiphilic coatings designed to prevent fouling and combat corrosion – a safer alternative to toxic tributyltin-based systems now largely banned.",
-      "summary": "一种新的综述文章总结了环保型两亲涂层的最新进展，这些涂层旨在防止污损并对抗腐蚀，是目前被广泛禁用的有毒三丁基锡体系的安全替代品。该技术通过在材料表面形成稳定的保护层，有效减少生物附着和化学侵蚀，提升材料的耐久性和使用寿命。其核心在于利用可生物降解或低毒性的成分，实现环境友好与功能性的统一。这种涂层在船舶、海洋工程及工业设备中具有重要应用价值，有助于降低维护成本和对环境的负面影响。技术要点包括材料选择、表面改性工艺以及性能测试方法。该研究为开发更安全、可持续的防护涂层提供了理论支持和实践指导。",
+      "summary": "一种新的综述文章介绍了环保型两亲涂层的最新进展，这些涂层旨在防止污损并对抗腐蚀，是目前被广泛禁用的有毒三丁基锡体系的安全替代品。该技术通过结合亲水和疏水特性，实现对材料表面的有效保护，同时减少对环境和生物的毒性影响。研究重点在于开发具有优异附着力、耐久性和自清洁性能的新型涂层材料。这些涂层在海洋工程、船舶制造和工业设备中具有广泛应用前景，有助于降低维护成本并延长设备寿命。该技术的推广将推动绿色防腐技术的发展，符合当前可持续发展的趋势。",
       "relevanceScore": 90,
-      "finalScore": 55.83573692418044
+      "finalScore": 55.119460348091195
     },
     {
       "title": "Polydopamine-graphene boosts anticorrosion performance of waterborne zinc-rich epoxy coatings",
@@ -64,9 +64,9 @@
       "date": "2026-02-11T11:00:50.000Z",
       "category": "汽车防腐",
       "description": "A new polydopamine-modified graphene (PDA-G) filler significantly enhances the adhesion, dispersibility, and corrosion resistance of waterborne zinc-rich epoxy coatings (WZEP). The innovation demonstrates extended cathodic protection and exceptional durability in harsh environments, offering promising applications for marine and industrial steel protection.",
-      "summary": "新型聚多巴胺改性石墨烯（PDA-G）填料显著提升了水性富锌环氧涂层（WZEP）的附着力、分散性和耐腐蚀性能。该创新技术在恶劣环境中展现出更长的阴极保护效果和卓越的耐久性，为海洋及工业钢结构的防护提供了广阔的应用前景。核心内容概述了PDA-G对WZEP性能的提升作用；技术要点包括其增强的附着力、分散性及耐腐蚀性；应用价值体现在其在海洋和工业领域金属防护中的潜在应用潜力。",
+      "summary": "新型聚多巴胺改性石墨烯（PDA-G）填料显著提升了水性富锌环氧涂层（WZEP）的附着力、分散性和耐腐蚀性能。该创新技术在恶劣环境中展现出更长的阴极保护效果和卓越的耐久性，为海洋及工业领域钢材的防护提供了广阔的应用前景。核心内容概述了PDA-G在提升涂层性能方面的关键作用。技术要点包括其对涂层附着力、分散性和耐腐蚀性的增强机制。应用价值体现在其在海洋和工业环境中的长期防护能力，具有重要的工程应用潜力。",
       "relevanceScore": 70,
-      "finalScore": 72.7036533142503
+      "finalScore": 72.33691920563069
     },
     {
       "title": "Non-toxic phosphorus-sulfur flame retardants for fire-safe aircraft seat textiles",
@@ -74,9 +74,9 @@
       "date": "2026-01-28T11:00:33.000Z",
       "category": "车内健康",
       "description": "A new study investigates phosphorus-sulfur compounds as safe and effective flame-retardant solutions for polyamide-based aircraft seat textiles applied via a back-coating method.",
-      "summary": "一种新研究探讨了磷硫化合物作为安全有效的阻燃剂，用于聚酰胺基飞机座椅织物，通过背涂法进行应用。该研究聚焦于开发环保且高效的阻燃材料，以满足航空行业对防火性能的高要求。磷硫化合物因其低毒性和良好的热稳定性被选为潜在替代品，能够有效降低材料的可燃性。研究还评估了该阻燃剂在不同工艺条件下的应用效果，确保其与现有制造流程兼容。该技术有望提升飞机内饰材料的安全性，同时减少对环境和人体健康的负面影响。应用价值在于为航空工业提供更安全、环保的阻燃解决方案，推动可持续发展。",
+      "summary": "一种新研究探讨了磷硫化合物作为安全有效的阻燃剂，用于聚酰胺基飞机座椅织物，通过背涂法进行应用。该研究旨在寻找更环保、高效的阻燃解决方案，以满足航空材料对安全性和可持续性的高要求。磷硫化合物因其良好的热稳定性和较低的毒性，被认为是一种有前景的替代材料。研究采用背涂方法将阻燃剂应用于织物表面，以提高其防火性能，同时保持织物的舒适性和耐用性。技术要点包括化合物的选择、涂层工艺的优化以及阻燃效果的评估。该成果有望提升飞机内饰材料的安全性，减少火灾风险，具有重要的应用价值和推广前景。",
       "relevanceScore": 60,
-      "finalScore": 64.89739459150417
+      "finalScore": 64.49415200995105
     },
     {
       "title": "From residues to resources: Fraunhofer WKI advances bio-based, formaldehyde-free adhesives for particleboard",
@@ -84,9 +84,9 @@
       "date": "2025-10-27T12:00:21.000Z",
       "category": "车内健康",
       "description": "Within the “LowEPanel” project, Fraunhofer WKI and partners are trialling formaldehyde-free lignin–HMF condensation resins for the manufacture of sustainable particleboards from regional wood residues, aiming to establish fully bio-based binders and optimise the value chain.",
-      "summary": "“LowEPanel”项目中，弗劳恩霍夫WKI与合作伙伴正在试验无甲醛的木质素-HMF缩合树脂，用于利用本地木材残余物制造可持续刨花板，旨在建立完全生物基的粘合剂并优化价值链。该技术通过将木质素与5-羟甲基糠醛（HMF）结合，开发出环保型粘合剂，替代传统含有甲醛的合成树脂，减少对环境和健康的影响。核心技术创新在于利用可再生资源，提高材料的可持续性，并降低生产过程中的碳排放。该研究具有重要的应用价值，不仅有助于推动绿色建筑材料的发展，还能促进木材加工行业的循环经济，提升区域木材资源的附加值。",
+      "summary": "“LowEPanel”项目中，弗劳恩霍夫WKI与合作伙伴正在试验无甲醛的木质素-HMF缩聚树脂，用于利用本地木材残余物制造可持续刨花板，旨在建立完全生物基的粘合剂并优化价值链。该技术通过将木质素与5-羟甲基糠醛（HMF）结合，开发出环保型粘合剂，替代传统含甲醛的合成树脂，减少对环境和人体健康的影响。核心技术创新在于利用可再生资源，提升材料的可持续性，并降低生产过程中的碳排放。此研究具有重要的应用价值，不仅有助于推动绿色建材的发展，还能促进木材废弃物的高效利用，增强循环经济模式，为建筑和家具行业提供更环保的解决方案。",
       "relevanceScore": 60,
-      "finalScore": 46.2644047833975
+      "finalScore": 45.618753332496055
     },
     {
       "title": "Double-encapsulation structures create multifunctional flame-retardant, antibacterial, and hydrophobic cotton fabrics",
@@ -94,9 +94,9 @@
       "date": "2026-03-04T10:21:25.000Z",
       "category": "车内健康",
       "description": "Researchers have developed a bio-based double-encapsulation strategy using β-cyclodextrin and L-arginine to produce cotton fabrics with flame-retardant, antibacterial, and hydrophobic properties, meeting diverse application demands.",
-      "summary": "研究人员开发了一种基于生物的双包覆策略，利用β-环糊精和L-精氨酸，使棉织物具备阻燃、抗菌和疏水性能，满足多种应用需求。该技术通过将两种天然成分结合，形成稳定的包覆结构，有效提升织物的功能性。核心内容概述了该策略的创新性和多功能性。技术要点包括生物基材料的选择、双层包覆结构的设计以及功能性能的协同增强。应用价值体现在纺织品的多功能化发展上，为环保型高性能纺织材料提供了新方向，适用于家居、医疗和防护等领域。",
+      "summary": "研究人员开发了一种基于生物的双包覆策略，利用β-环糊精和L-精氨酸，使棉织物具备阻燃、抗菌和疏水性能，满足多种应用需求。该技术通过将两种天然成分结合，实现对棉织物的多功能改性，提升了其在纺织领域的应用潜力。核心内容是通过生物基材料构建双重保护层，增强织物的功能性。技术要点包括使用β-环糊精作为主包覆材料，L-精氨酸作为辅助剂，共同提升织物的综合性能。应用价值在于为环保型功能性纺织品提供新方案，适用于家居、医疗及防护服装等领域，具有广阔的市场前景。",
       "relevanceScore": 40,
-      "finalScore": 61.907495542551736
+      "finalScore": 61.59545199363169
     },
     {
       "title": "Breathable coating technology transforms rust stabilisation for weathering steels",
@@ -104,9 +104,9 @@
       "date": "2026-04-13T08:33:01.000Z",
       "category": "汽车防腐",
       "description": "Inspired by textile industry innovations, a novel breathable coating with SiO₂ nanoparticles enhances rust stabilisation on weathering steels, offering efficiency, eco-friendliness, and durability.",
-      "summary": "一种受纺织业创新启发的新型透气涂层，采用二氧化硅纳米颗粒，能够有效增强耐候钢的锈蚀稳定性能，具有高效、环保和耐用等优点。该技术通过引入纳米材料改善涂层的透气性和稳定性，从而延缓金属腐蚀过程，提升材料的使用寿命。核心在于利用纳米颗粒的物理化学特性，优化涂层结构，实现对锈层的有效控制。该技术在建筑、交通及户外设备等领域具有广泛应用价值，有助于降低维护成本，提高材料可持续性。",
+      "summary": "该研究受纺织行业创新启发，开发出一种含有二氧化硅纳米颗粒的透气涂层，能够有效增强耐候钢的锈层稳定性，具有高效、环保和耐用的优点。核心内容是通过引入SiO₂纳米颗粒，改善涂层的透气性和与钢材表面的结合力，从而提升防锈性能。技术要点包括纳米颗粒的分散技术、涂层的透气性设计以及对锈层的稳定作用机制。应用价值在于为耐候钢提供更持久的保护，减少维护成本，同时降低对环境的影响，适用于建筑、桥梁和户外结构等需要长期防腐的场景。",
       "relevanceScore": 60,
-      "finalScore": 79.9101759273991
+      "finalScore": 79.70224453245034
     },
     {
       "title": "Graphene-based epoxy coatings push corrosion resistance limits for steel reinforcement",
@@ -114,9 +114,9 @@
       "date": "2026-04-07T06:54:42.000Z",
       "category": "汽车防腐",
       "description": "A comprehensive review highlights the advancements of graphene nanofillers in epoxy coatings, offering over 99 % corrosion resistance in chloride-rich environments. The study examines performance mechanisms, long-term durability, and practical synthesis methods.",
-      "summary": "该综述全面总结了石墨烯纳米填料在环氧涂层中的进展，在氯化物丰富的环境中可提供超过99%的防腐蚀性能。研究探讨了其作用机制、长期耐久性以及实际合成方法。石墨烯因其优异的物理和化学特性，能够有效阻隔腐蚀介质的渗透，提升涂层的防护能力。通过优化合成工艺，可以实现石墨烯在环氧树脂中的均匀分散，从而增强涂层的整体性能。该技术在海洋工程、化工设备及基础设施等领域具有重要应用价值，为开发高性能防腐涂层提供了理论依据和技术支持。",
+      "summary": "该综述全面总结了石墨烯纳米填料在环氧涂层中的应用进展，在氯化物丰富的环境中展现出超过99%的防腐蚀性能。研究探讨了其作用机制、长期耐久性以及实际合成方法。石墨烯的引入显著提升了涂层的防护能力，通过形成致密的物理屏障和增强化学稳定性，有效阻止了腐蚀介质的渗透。此外，研究还分析了不同制备工艺对材料性能的影响，为实际应用提供了理论支持和技术指导。该成果在海洋工程、化工设备及基础设施等领域具有重要应用价值，有助于延长材料使用寿命并降低维护成本。",
       "relevanceScore": 60,
-      "finalScore": 78.69382509727924
+      "finalScore": 78.47006939112242
     },
     {
       "title": "Epoxy-carbon composite coatings for corrosion and fouling resistance",
@@ -124,9 +124,9 @@
       "date": "2026-04-01T08:53:21.000Z",
       "category": "汽车防腐",
       "description": "A review highlights the transformative impact of carbon-based nanomaterials on epoxy systems, enabling multifunctional, eco-friendly coatings with integrated corrosion and antifouling resistance.",
-      "summary": "碳基纳米材料在环氧体系中的应用被综述文章强调，其对材料性能产生了变革性影响，使涂层具备多功能性、环保性，并集成了防腐和防污功能。该研究重点分析了碳纳米管、石墨烯等材料如何改善环氧树脂的机械性能、热稳定性和电导率，同时增强其抗腐蚀和抗生物附着能力。通过引入这些纳米材料，涂层不仅提升了防护性能，还减少了对有害化学物质的依赖，符合绿色制造的发展趋势。该技术在海洋工程、航空航天和工业设备等领域具有重要应用价值，为开发高性能、可持续的防护涂层提供了新思路。",
+      "summary": "碳基纳米材料对环氧体系的变革性影响被综述文章所强调，这些材料使多功能、环保的涂层成为可能，并具备集成的防腐和防污性能。核心内容概述了碳基纳米材料在环氧树脂中的应用及其对材料性能的提升。技术要点包括纳米材料的结构设计、表面改性以及其在涂层中的分散性和稳定性。应用价值体现在提高涂层的耐久性、降低环境影响，并拓展其在海洋、航空航天等领域的使用场景。该研究为开发高性能、可持续的涂层材料提供了重要参考。",
       "relevanceScore": 60,
-      "finalScore": 77.50767545981188
+      "finalScore": 77.26848834970659
     },
     {
       "title": "Dual-functional benzoxazine/epoxy composite coating offers corrosion protection and antibacterial applications",
@@ -134,9 +134,9 @@
       "date": "2026-03-30T07:05:00.000Z",
       "category": "汽车防腐",
       "description": "A novel sol-gel coating integrates benzoxazine and epoxy to achieve exceptional corrosion resistance and antibacterial activity, paving the way for multifunctional surface protection.",
-      "summary": "该新型溶胶-凝胶涂层将苯并噁嗪与环氧树脂结合，实现了卓越的耐腐蚀性能和抗菌活性，为多功能表面防护技术的发展提供了新路径。核心内容是通过材料设计创新，将两种功能组分整合到单一涂层中，提升其综合性能。技术要点包括苯并噁嗪与环氧树脂的协同作用，以及在涂层结构中形成稳定的交联网络，从而增强其化学稳定性和生物活性。应用价值在于该涂层可广泛用于航空航天、医疗器械及海洋工程等领域，提高材料的耐用性与安全性，具有重要的工业前景。",
+      "summary": "一种新型的溶胶-凝胶涂层将苯并噁嗪和环氧树脂结合，实现了卓越的耐腐蚀性能和抗菌活性，为多功能表面防护提供了新途径。该技术通过将两种功能材料整合到涂层中，提升了材料在恶劣环境下的稳定性与安全性。核心技术创新在于通过溶胶-凝胶工艺实现两者的均匀混合与稳定结合，从而在涂层表面形成具有双重功能的保护层。该涂层不仅能够有效防止金属腐蚀，还能抑制细菌生长，适用于海洋工程、医疗器械及食品加工等对防腐和抗菌有高要求的领域。其应用价值在于提供了一种高效、环保且可持续的表面处理方案，推动了高性能防护材料的发展。",
       "relevanceScore": 60,
-      "finalScore": 77.09170495406741
+      "finalScore": 76.84710620895248
     },
     {
       "title": "World Paint and Coatings Week 2026 focuses on global impact of coatings",
@@ -144,9 +144,9 @@
       "date": "2026-03-23T10:10:17.000Z",
       "category": "汽车防腐",
       "description": "The 2026 World Paint and Coatings Week (WPCW) has officially begun, running from 23 to 27 March. The event highlights the essential role of coatings in industries, sustainability, and innovation.",
-      "summary": "2026年世界涂料与涂装周（WPCW）已于3月23日至27日正式启动。该活动突出了涂料在工业、可持续性和创新中的关键作用。作为全球涂料行业的重要盛会，WPCW汇聚了来自世界各地的专家、企业和研究人员，共同探讨涂料技术的最新发展和应用趋势。会议涵盖了环保涂料、高性能涂层以及智能制造等前沿议题，旨在推动行业向更高效、更环保的方向发展。通过展示最新的研究成果和产品，WPCW为行业提供了交流合作的平台，促进了技术创新和可持续发展。该活动不仅展示了涂料在现代工业中的广泛应用，也为未来绿色制造和低碳经济提供了重要支持。",
+      "summary": "2026年世界涂料与涂层周（WPCW）已于3月23日至27日正式启动。该活动突显了涂料在工业、可持续发展和创新中的关键作用。作为全球涂料行业的重要盛会，WPCW汇聚了来自世界各地的专家、企业及研究人员，共同探讨涂料技术的最新进展与未来趋势。会议聚焦于环保型涂料、高性能材料以及智能制造等前沿领域，推动行业向更高效、更绿色的方向发展。通过展示最新的研究成果和产品应用，WPCW为行业提供了交流合作的平台，助力提升涂料行业的整体技术水平和市场竞争力。其应用价值体现在促进技术创新、支持可持续发展以及增强全球产业链协同效应。",
       "relevanceScore": 60,
-      "finalScore": 75.71438626782533
+      "finalScore": 75.45186907436138
     },
     {
       "title": "Aerospace coatings: Indestructible Paint acquired by Seaforth Holdings",
@@ -154,9 +154,9 @@
       "date": "2026-03-13T14:33:48.000Z",
       "category": "汽车防腐",
       "description": "The Birmingham-based company, known for its bespoke solutions in aerospace applications, will continue operations under its existing management team.",
-      "summary": "该位于伯明翰的公司以其在航空航天领域的定制化解决方案而闻名，将继续由现有管理团队运营。核心内容概述了该公司在航空航天领域提供的个性化服务及其管理结构的延续性。技术要点包括其在航空航天行业中的定制化能力及管理团队的稳定性。应用价值体现在其能够为客户提供可靠、专业的航空航天解决方案，确保项目持续顺利进行。",
+      "summary": "核心内容概述：这家位于伯明翰的公司以其在航空航天领域的定制化解决方案而闻名，将继续由现有管理团队运营。技术要点：公司专注于为航空航天行业提供定制化技术方案，强调其在该领域的专业性和经验。应用价值：保持现有管理团队有助于维持公司的技术优势和客户信任，确保业务的连续性和稳定性。",
       "relevanceScore": 60,
-      "finalScore": 73.74662475340602
+      "finalScore": 73.45850765092212
     },
     {
       "title": "Two-step electrodeposition enables robust superhydrophobic Cu-Ni/stearate coatings with excellent anticorrosion properties",
@@ -164,19 +164,9 @@
       "date": "2026-03-03T10:09:49.000Z",
       "category": "汽车防腐",
       "description": "An innovative two-step electrodeposition process creates superhydrophobic Cu-Ni/cerium stearate coatings, providing outstanding corrosion resistance and anti-aging performance for metals in harsh environments.",
-      "summary": "该创新的两步电沉积工艺制备出具有超疏水特性的铜镍/铈硬脂酸盐涂层，为金属在恶劣环境中的应用提供了卓越的耐腐蚀和抗老化性能。核心内容概述了通过两步电沉积技术实现的涂层结构与功能特性。技术要点包括：采用电沉积方法在金属表面形成复合涂层，利用硬脂酸盐赋予表面超疏水性，并结合铜镍合金增强材料的稳定性与耐腐蚀能力。应用价值体现在提升金属材料在海洋、工业等严苛环境下的使用寿命和可靠性，适用于航空航天、船舶制造及精密仪器等领域。",
+      "summary": "该创新的两步电沉积工艺制备出具有超疏水特性的铜-镍/铈硬脂酸盐涂层，为金属在恶劣环境中的应用提供了卓越的耐腐蚀性和抗老化性能。核心内容概述了通过两步电沉积方法，在金属表面形成具有微纳米结构和低表面能的复合涂层，从而实现超疏水特性。技术要点包括电沉积工艺的优化、涂层成分的精确控制以及表面形貌的调控。应用价值体现在提升金属材料在海洋、化工等腐蚀性环境中的使用寿命和可靠性，具有广泛的应用前景。",
       "relevanceScore": 60,
-      "finalScore": 71.70543661834986
-    },
-    {
-      "title": "Smart coatings: from lab curiosity to industrial reality",
-      "link": "https://www.european-coatings.com/news/markets-companies/smart-coatings-from-lab-curiosity-to-industrial-reality/",
-      "date": "2026-03-16T09:39:42.000Z",
-      "category": "汽车防腐",
-      "description": "A European Coatings survey reveals that antimicrobial, anti-corrosion and self-cleaning technologies are driving the smart coatings market – but significant barriers remain.",
-      "summary": "智能涂料市场正由抗菌、防锈和自清洁技术推动，但仍面临重大挑战。一项欧洲涂料调查显示，这些先进功能技术成为市场增长的关键因素。抗菌技术可有效抑制细菌生长，提升卫生安全性；防锈技术延长材料使用寿命，降低维护成本；自清洁技术则通过光催化或疏水表面实现污染物的自动分解与脱落。尽管技术发展迅速，但成本高、应用范围有限及标准化不足仍是主要障碍。这些技术在建筑、医疗、交通运输等领域具有广泛应用前景，有助于提升产品性能与环保水平。未来需加强研发与产业协同，以克服现有瓶颈，推动智能涂料市场的可持续发展。",
-      "relevanceScore": 50,
-      "finalScore": 69.30701950605436
+      "finalScore": 71.39076435144833
     },
     {
       "title": "Fluorine-free superhydrophobic coating sets new standards for durability and eco-friendly performance",
@@ -184,9 +174,19 @@
       "date": "2026-04-10T07:46:32.000Z",
       "category": "汽车防腐",
       "description": "A robust, fluorine-free superhydrophobic coating demonstrates exceptional durability, anti-icing, corrosion resistance, and self-cleaning properties, offering sustainable solutions for multifunctional surface applications.",
-      "summary": "该高强度、无氟的超疏水涂层展现出卓越的耐久性、防冰、防腐蚀和自清洁性能，为多功能表面应用提供了可持续的解决方案。核心内容概述了这种新型涂层在多种环境下的稳定表现。技术要点包括其无氟成分、优异的物理化学性能以及长期使用的可靠性。应用价值体现在其在航空航天、建筑、交通运输等领域的广泛适用性，有助于提升材料的使用寿命和维护效率。",
+      "summary": "该高强度、不含氟的超疏水涂层展现出卓越的耐久性、防冰、防腐蚀和自清洁性能，为多功能表面应用提供了可持续的解决方案。核心内容概述了这种新型涂层在环境友好性和功能多样性方面的优势。技术要点包括其不含氟成分带来的环保特性，以及通过特殊结构设计实现的多重功能。应用价值体现在其广泛适用于建筑、交通、能源等领域，能够有效延长材料寿命并降低维护成本，推动绿色技术的发展。",
       "relevanceScore": 40,
-      "finalScore": 69.3023728653443
+      "finalScore": 69.08653415897764
+    },
+    {
+      "title": "Smart coatings: from lab curiosity to industrial reality",
+      "link": "https://www.european-coatings.com/news/markets-companies/smart-coatings-from-lab-curiosity-to-industrial-reality/",
+      "date": "2026-03-16T09:39:42.000Z",
+      "category": "汽车防腐",
+      "description": "A European Coatings survey reveals that antimicrobial, anti-corrosion and self-cleaning technologies are driving the smart coatings market – but significant barriers remain.",
+      "summary": "智能涂料市场正由抗菌、防锈和自清洁技术推动，但仍面临重大挑战。一项欧洲涂料调查显示，这些先进功能技术成为市场增长的关键动力，尤其在医疗、食品加工和建筑领域需求旺盛。技术要点包括纳米材料的应用、表面改性工艺以及生物活性成分的集成，以实现长效防护效果。此外，自清洁技术通过光催化或超疏水表面实现污染物降解或排斥。然而，成本高昂、技术成熟度不足以及法规限制仍是主要障碍。应用价值体现在提升产品耐用性、降低维护成本及改善环境健康安全方面，未来随着技术进步和规模化生产，这些障碍有望逐步克服。",
+      "relevanceScore": 50,
+      "finalScore": 69.02619294898358
     },
     {
       "title": "Zinc oxide nanofillers optimise fluoropolymer coatings for enhanced corrosion protection",
@@ -194,9 +194,9 @@
       "date": "2026-02-16T11:00:55.000Z",
       "category": "汽车防腐",
       "description": "Researchers demonstrate how zinc oxide (ZnO) content gradients in fluoropolymer coatings improve corrosion resistance on carbon steel substrates. The optimised 0.50 % ZnO system shows superior durability and chloride ion barrier performance.",
-      "summary": "研究展示了氟聚合物涂层中氧化锌（ZnO）含量梯度如何提升碳钢基材的耐腐蚀性能。优化后的0.50% ZnO体系表现出卓越的耐久性和对氯离子的有效阻隔能力。通过调控ZnO在涂层中的分布，能够增强其与基材的结合力，并形成更致密的保护层，从而有效延缓腐蚀过程。该技术为提高金属材料在恶劣环境下的使用寿命提供了新的解决方案，具有广泛的应用前景，尤其适用于海洋、化工等高腐蚀性环境中的钢结构防护。",
+      "summary": "研究展示了在氟聚合物涂层中引入氧化锌（ZnO）含量梯度，可有效提升碳钢基材的耐腐蚀性能。优化后的0.50% ZnO体系表现出优异的耐久性和对氯离子的阻隔能力。该技术通过调控ZnO在涂层中的分布，增强了涂层与基材之间的结合力，并提高了对腐蚀性介质的抵抗能力。核心内容是利用ZnO梯度结构优化涂层性能，技术要点包括ZnO含量的精确控制和梯度分布的设计，应用价值在于为金属防护提供更高效、持久的解决方案，适用于海洋、化工等恶劣环境下的钢材保护。",
       "relevanceScore": 60,
-      "finalScore": 68.70588608670633
+      "finalScore": 68.35219068608245
     },
     {
       "title": "Trump Revises Tariffs, Impacting Plastics Industry Imports",
@@ -204,9 +204,9 @@
       "date": "2026-04-06T14:13:11.000Z",
       "category": "材料创新",
       "description": "The latest presidential proclamation revises Section 232 tariffs, introducing full-value treatment for derivative products, impacting costs for plastics machinery, molds, and parts. The changes include a 15% tariff on industrial equipment, a 10% levy on US-origin metal goods, and streamlined tariff assessments. Industry stakeholders must review HTS classifications and annex inclusions to ensure compliance and mitigate costs.",
-      "summary": "核心内容概述：最新总统公告修订了第232条关税，引入对衍生产品的全额征税，影响塑料机械、模具及零部件的成本。技术要点包括对工业设备征收15%关税，对美国原产金属商品征收10%税费，并简化关税评估流程。行业相关方需审查HTS分类和附录内容以确保合规并降低成本。应用价值：该政策调整将对制造业供应链产生直接影响，企业需及时更新关税策略，优化采购与生产计划，以应对潜在成本上升和合规风险。",
+      "summary": "核心内容概述：最新总统公告修订了第232条款关税，引入对衍生产品的全额征税，影响塑料机械、模具及零部件的成本。技术要点包括对工业设备征收15%关税，对美国原产金属商品加征10%税费，并简化关税评估流程。行业相关方需审查HTS分类和附录内容以确保合规并降低成本。应用价值：该政策调整将对制造业供应链产生直接影响，企业需及时调整采购策略和成本核算方式，以应对新的关税规定带来的挑战和不确定性。",
       "relevanceScore": 40,
-      "finalScore": 68.55441659615158
+      "finalScore": 68.3288472327404
     },
     {
       "title": "A closer look at the coatings market in Türkiye",
@@ -214,9 +214,79 @@
       "date": "2026-03-24T14:23:27.000Z",
       "category": "汽车防腐",
       "description": "The paint and coatings market in Türkiye has evolved into a major player in the region and offers growth potential. How is the situation currently? By Engin Çörülü und Mustafa Tunçgenç, EVA Training & Research Consultancy.",
-      "summary": "当前，土耳其的涂料和涂层市场已发展成为该地区的重要参与者，并展现出巨大的增长潜力。本文由EVA培训与研究咨询公司的Engin Çörülü和Mustafa Tunçgenç撰写，分析了当前市场状况。文章指出，土耳其涂料行业在基础设施建设、建筑和汽车工业的推动下持续增长，同时面临原材料成本上升和环保法规趋严等挑战。技术方面，水性涂料和高性能涂层的应用逐渐增加，以满足市场需求和环保要求。此外，数字化和智能制造技术的引入提升了生产效率和产品质量。该市场的发展对区域经济具有重要影响，为企业提供了新的投资和发展机遇。",
+      "summary": "当前，土耳其的涂料和涂层市场已发展成为该地区的重要参与者，并展现出增长潜力。本文由Engin Çörülü和Mustafa Tunçgenç撰写，分析了土耳其涂料市场的现状。文章指出，该市场受到建筑、汽车和工业等行业的推动，同时面临原材料成本上升和环保法规趋严等挑战。技术方面，水性涂料和高性能涂层的应用正在增加，以满足可持续发展的需求。此外，数字化和智能制造技术也在提升生产效率和产品质量。该市场在区域经济中具有重要地位，未来有望通过技术创新和绿色转型实现持续增长，对相关行业具有重要的应用价值。",
       "relevanceScore": 40,
-      "finalScore": 65.95007064035298
+      "finalScore": 65.69061962053351
+    },
+    {
+      "title": "Xaloy Buys Italian Supplier of Plasticizing Components",
+      "link": "https://www.plasticstoday.com/business/xaloy-buys-italian-supplier-of-plasticizing-components",
+      "date": "2026-04-14T18:31:25.000Z",
+      "category": "材料创新",
+      "description": "Headquartered in Italy with a second facility in the Netherlands, Maxi Melt develops and manufactures parts for extrusion and injection molding.",
+      "summary": "Maxi Melt是一家总部位于意大利、并在荷兰设有第二家工厂的公司，专注于开发和制造用于挤出和注塑成型的部件。该公司在塑料加工领域具备专业技术和生产能力，能够为客户提供高质量的成型零件。其业务覆盖范围广泛，支持多种工业应用需求。通过在欧洲设立两个生产基地，Maxi Melt能够更好地服务本地市场，提高供应链效率，并确保产品供应的稳定性。该公司的技术实力和地理位置优势为其在塑料加工行业的竞争力提供了有力保障。",
+      "relevanceScore": 30,
+      "finalScore": 64.98967584260917
+    },
+    {
+      "title": "Resin Price Report: The Suppliers Already Read the Script. Have You?",
+      "link": "https://www.plasticstoday.com/resin-pricing/resin-prices-surge-across-all-categories-as-buyers-face-compounding-challenges-in-april-negotiations",
+      "date": "2026-04-14T15:33:53.000Z",
+      "category": "材料创新",
+      "description": "When the entire resin cost stack shifts simultaneously, as is happening now, the buyers who protect their margins are the ones who already know their number before the increase letter arrives.",
+      "summary": "核心内容概述：当整个树脂成本结构同时发生变化时，那些在涨价通知到达前就已经掌握成本数字的买家，能够更好地保护自己的利润。技术要点：强调提前了解成本变化的重要性，特别是在原材料价格波动较大的情况下，提前掌握数据有助于企业做出更有效的采购和定价决策。应用价值：该观点适用于汽车制造等行业，在供应链管理中具有重要指导意义，帮助企业提升成本控制能力和市场竞争力。",
+      "relevanceScore": 30,
+      "finalScore": 64.96464216982812
+    },
+    {
+      "title": "Matium Builds Infrastructure to Modernize US Plastics Market, Improve Efficiency",
+      "link": "https://www.plasticstoday.com/materials/matium-builds-infrastructure-to-modernize-us-plastics-market-improve-efficiency",
+      "date": "2026-04-14T14:37:00.000Z",
+      "category": "材料创新",
+      "description": "Matium hopes to transform the US plastics market by digitizing supply chains, securing $8M in funding, and introducing scalable trade finance solutions.",
+      "summary": "Matium希望通过数字化供应链、获得800万美元融资以及推出可扩展的贸易金融解决方案，重塑美国塑料市场。该公司的核心目标是通过技术手段提升塑料行业的效率和透明度，优化供应链管理并降低交易成本。技术要点包括利用数字平台实现供应链的实时追踪与管理，以及通过创新的贸易金融工具为中小企业提供更便捷的融资渠道。应用价值在于推动塑料行业的数字化转型，增强市场竞争力，并促进可持续发展。通过这些措施，Matium有望在行业中建立领先地位，并为参与者带来更高的运营效率和经济效益。",
+      "relevanceScore": 30,
+      "finalScore": 64.95662114793538
+    },
+    {
+      "title": "Curbell Plastics Expands Reach Across Western US With Interstate Advanced Materials Acquisition",
+      "link": "https://www.plasticstoday.com/business/curbell-plastics-expands-reach-across-western-us-with-interstate-advanced-materials-acquisition",
+      "date": "2026-04-14T14:23:37.000Z",
+      "category": "材料创新",
+      "description": "The deal also broadens Curbell’s customer portfolio, including in the medical, aerospace, and agriculture sectors.",
+      "summary": "核心内容概述：该交易扩大了Curbell的客户组合，涵盖医疗、航空航天和农业等多个领域。技术要点：通过拓展不同行业的客户群体，Curbell增强了其在多元化市场中的影响力和技术应用能力。应用价值：此举有助于提升公司的市场竞争力，促进跨行业技术的协同发展，为客户提供更全面的解决方案。",
+      "relevanceScore": 30,
+      "finalScore": 64.95473398690991
+    },
+    {
+      "title": "EC Podcast: BCF on regulation, raw materials and the UK coatings landscape",
+      "link": "https://www.european-coatings.com/news/markets-companies/ec-podcast-bcf-on-regulation-raw-materials-and-the-uk-coatings-landscape/",
+      "date": "2026-04-14T12:53:20.000Z",
+      "category": "汽车防腐",
+      "description": "What are the biggest challenges facing the UK coatings industry today—and how is the British Coatings Federation (BCF) advocating for its members? In the latest episode of the European Coatings Podcast, editor Yeray Arauco speaks with Tom Bowtell, CEO of the BCF, about the association's role, the current market situation and the critical issues of regulation and raw materials.",
+      "summary": "核心内容概述：本文探讨了英国涂料行业当前面临的最大挑战，并介绍了英国涂料协会（BCF）如何为其成员发声。在最新一期欧洲涂料播客中，编辑Yeray Arauco与BCF首席执行官Tom Bowtell进行了对话，讨论了该协会的角色、当前市场状况以及监管和原材料等关键问题。\n\n技术要点：重点涉及行业面临的法规变化、原材料供应不稳定及成本上升等问题，强调BCF在推动政策支持、促进产业合作和提升行业竞争力方面的作用。\n\n应用价值：为涂料行业从业者提供对当前行业趋势的深入理解，帮助其应对挑战并把握发展机遇，同时展示行业协会在推动行业发展中的重要性。",
+      "relevanceScore": 30,
+      "finalScore": 64.94200328793744
+    },
+    {
+      "title": "Runaway silicone polymerisation enables innovative fire-shielding coatings",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/runaway-silicone-polymerisation-enables-innovative-fire-shielding-coatings/",
+      "date": "2026-04-14T08:49:30.000Z",
+      "category": "材料创新",
+      "description": "A novel intumescent silicone coating harnesses runaway hydrosilylation polymerisation to deliver exceptional thermal stability, flame resistance, and protective performance for fire-prone materials.",
+      "summary": "一种新型膨胀型硅酮涂层利用失控水解硅烷化聚合反应，实现了对易燃材料的卓越热稳定性、阻燃性和防护性能。该技术通过控制硅烷基团的快速反应，形成致密的膨胀层，在高温下有效隔绝热量和氧气，从而延缓材料燃烧并减少火灾危害。核心技术创新在于利用水解硅烷化反应的自加速特性，提升涂层的防火效率和耐久性。该涂层适用于多种高风险材料，如建筑结构、电子设备和交通工具，具有广泛的应用前景。其在提高消防安全和延长材料使用寿命方面展现出显著价值，为防火材料的发展提供了新的解决方案。",
+      "relevanceScore": 30,
+      "finalScore": 64.90762076514486
+    },
+    {
+      "title": "Henkel launches PFAS-free coatings for auto displays",
+      "link": "https://www.automotiveworld.com/news/henkel-launches-pfas-free-coatings-for-auto-displays/",
+      "date": "2026-04-14T05:25:59.000Z",
+      "category": "汽车防腐",
+      "description": "Henkel's new Loctite AF coatings address tightening PFAS regulations while meeting durability and optical performance demands for in-cabin displays\nThe post Henkel launches PFAS-free coatings for auto displays appeared first on Automotive World.",
+      "summary": "Henkel推出了新的Loctite AF涂层，以应对日益严格的PFAS（全氟和多氟烷基物质）法规，同时满足车内显示屏在耐久性和光学性能方面的需求。该涂层不含PFAS，符合环保要求，同时保持了优异的附着力和表面保护性能。技术要点包括采用新型聚合物配方，确保在高温、湿度等恶劣环境下仍能保持稳定性能，并提供良好的透明度和光泽度，适用于车载显示设备。应用价值在于推动汽车行业向更环保的材料转型，同时提升产品可靠性和用户体验，助力车企满足全球环保法规并增强市场竞争力。",
+      "relevanceScore": 30,
+      "finalScore": 64.87892322681128
     },
     {
       "title": "Fallout From Iran War an ‘Existential’ Threat to UK Plastics Industry",
@@ -224,19 +294,9 @@
       "date": "2026-04-13T15:04:51.000Z",
       "category": "材料创新",
       "description": "Widespread raw material shortages and steep cost increases have created a “situation unprecedented in the working lives of senior colleagues in the industry,” said the British Plastics Federation.",
-      "summary": "英国塑料协会表示，原材料短缺和成本大幅上涨导致的情况是“在行业资深人士职业生涯中前所未有的”。核心内容概述了当前塑料行业面临的严重原材料供应问题及成本上升带来的挑战。技术要点包括原材料供应链的不稳定、生产成本的急剧增加以及对制造工艺的影响。应用价值体现在企业需要寻找替代材料、优化生产流程以应对市场变化，并推动技术创新以提高资源利用效率。这一情况促使行业加快转型，寻求更可持续和灵活的解决方案。",
+      "summary": "英国塑料协会表示，原材料短缺和成本大幅上涨已造成“在行业资深人士职业生涯中前所未有的局面”。核心内容概述指出，当前塑料行业面临严重的原材料供应问题，导致成本急剧上升，影响了整个产业链的稳定运行。技术要点包括原材料供应链的脆弱性、价格波动对生产的影响以及企业应对策略的调整。应用价值在于提醒行业关注供应链多元化和材料替代方案的研究，以增强抗风险能力并推动可持续发展。",
       "relevanceScore": 30,
-      "finalScore": 64.96471810279161
-    },
-    {
-      "title": "BASF Coatings wins TÜV nod for carbon footprint tool",
-      "link": "https://www.automotiveworld.com/news/basf-coatings-wins-tuv-nod-for-carbon-footprint-tool/",
-      "date": "2026-04-13T04:30:40.000Z",
-      "category": "汽车防腐",
-      "description": "BASF Coatings has received TÜV Rheinland certification for the carbon footprint calculation method in its Eco Impact Assessment tool\nThe post BASF Coatings wins TÜV nod for carbon footprint tool appeared first on Automotive World.",
-      "summary": "BASF Coatings获得了TÜV Rheinland对其Eco Impact Assessment工具中碳足迹计算方法的认证。该工具用于评估涂料产品的环境影响，此次认证标志着其在碳足迹计算方面的准确性和可靠性得到了权威认可。这一认证有助于提升BASF在可持续发展领域的竞争力，并为客户提供更透明的环境信息。技术要点包括科学的碳足迹计算方法、符合国际标准的评估流程以及对产品全生命周期的分析。应用价值体现在推动绿色制造、支持客户实现碳中和目标，并增强供应链的环境透明度。该工具为汽车和工业涂料行业提供了重要的环境管理工具，有助于减少碳排放并促进可持续发展。",
-      "relevanceScore": 30,
-      "finalScore": 64.87644144112167
+      "finalScore": 64.75749628302133
     },
     {
       "title": "Unveiling the zinc precursor effect on ZIF-8/g-C₃N₄ epoxy coating performance",
@@ -244,9 +304,9 @@
       "date": "2026-03-18T09:03:55.000Z",
       "category": "汽车防腐",
       "description": "A new study demonstrates how zinc precursors influence the particle size and interfacial interaction of ZIF-8/g-C₃N₄ hybrids, optimising the corrosion protection performance of epoxy coatings.",
-      "summary": "该研究展示了锌前驱体如何影响ZIF-8/g-C₃N₄杂化材料的颗粒尺寸和界面相互作用，从而优化环氧涂层的防腐性能。通过调控锌前驱体的种类和用量，可以有效控制杂化材料的结构特性，增强其在涂层中的分散性和界面结合力。这种优化显著提升了涂层的耐腐蚀能力，为高性能防腐涂层的设计提供了新思路。研究结果表明，合理选择和使用锌前驱体是提升ZIF-8/g-C₃N₄复合材料性能的关键因素，具有重要的应用价值。该技术可广泛应用于海洋、化工等腐蚀环境下的防护涂层领域，有助于延长材料使用寿命并降低维护成本。",
+      "summary": "该研究展示了锌前驱体如何影响ZIF-8/g-C₃N₄杂化材料的颗粒尺寸和界面相互作用，从而优化环氧涂层的防腐性能。通过调控锌前驱体的种类和用量，可以有效控制杂化材料的结构特性，增强其在涂层中的分散性和界面结合力。这种优化显著提升了涂层的耐腐蚀能力，为高性能防腐涂层的设计提供了新思路。研究结果表明，合理选择和使用锌前驱体是提高ZIF-8/g-C₃N₄杂化材料性能的关键因素，具有重要的应用价值。该技术可广泛应用于海洋、化工等腐蚀环境下的防护涂层领域。",
       "relevanceScore": 40,
-      "finalScore": 64.702927028694
+      "finalScore": 64.42725109403636
     },
     {
       "title": "Dörken Coatings and J.W. Ostendorf enter into partnership",
@@ -254,9 +314,9 @@
       "date": "2026-03-17T15:47:30.000Z",
       "category": "汽车防腐",
       "description": "Dörken Coatings, known among other things for its architectural paints, is undergoing a strategic transformation. With the aim of further developing its own expertise and entering the market with new technologies, the company has entered into another partnership.",
-      "summary": "Dörken Coatings，以其建筑涂料而闻名，正在经历战略转型。公司旨在进一步提升自身专业能力，并通过新技术进入市场，已达成另一项合作。核心内容概述了该公司在战略上的调整和新合作的开展。技术要点包括其专注于提升自身技术实力，并借助合作伙伴引入创新技术。应用价值体现在推动公司在建筑涂料领域的竞争力，同时拓展新的市场机会，增强技术优势。",
+      "summary": "Dörken Coatings是一家以建筑涂料著称的公司，正在经历战略转型。为加强自身专业能力并引入新技术进入市场，该公司已达成另一项合作。核心内容概述了公司通过战略合作推动技术发展和市场拓展的举措。技术要点包括其在涂料领域的持续创新以及通过合作伙伴关系获取新科技的能力。应用价值体现在提升产品竞争力、拓展业务领域，并增强在建筑与工业涂料市场的影响力。此次合作有助于推动公司在新材料和环保技术方面的进步，满足不断变化的市场需求。",
       "relevanceScore": 40,
-      "finalScore": 64.55866053882659
+      "finalScore": 64.28110774613091
     },
     {
       "title": "PlasticsToday Week in Review: April 10, 2026",
@@ -264,9 +324,9 @@
       "date": "2026-04-10T17:37:08.000Z",
       "category": "材料创新",
       "description": "Discover the latest in the plastics industry with PlasticsToday’s Week in Review, hosted by David Hutton.",
-      "summary": "本周回顾由David Hutton主持，介绍了塑料行业最新动态。文章聚焦于塑料行业的创新与发展，涵盖新材料研发、可持续解决方案及行业趋势。技术要点包括生物基塑料和可回收材料的进展，以及智能制造在塑料生产中的应用。这些技术有助于减少环境影响并提高生产效率。应用价值体现在推动绿色制造、降低碳排放及满足日益严格的环保法规。该内容为行业从业者提供了有价值的参考，助力企业把握市场方向，提升竞争力。",
+      "summary": "摘要：本文介绍了塑料行业最新动态，由大卫·哈顿主持的《塑料今日》周报栏目为读者带来行业前沿信息。核心内容概述了当前塑料行业的趋势与创新，涵盖新材料研发、生产工艺改进及市场变化等方面。技术要点包括新型塑料材料的开发、环保型塑料的应用以及智能制造技术在塑料生产中的融合。应用价值体现在推动行业可持续发展、提升产品性能及降低环境影响，为企业和研究者提供有价值的参考，助力塑料行业向高效、绿色方向转型。",
       "relevanceScore": 30,
-      "finalScore": 64.38458284098058
+      "finalScore": 64.16981365847715
     },
     {
       "title": "Healthy Soil, Healthy People: How Davines Inspires Beauty from the Ground Up",
@@ -274,9 +334,9 @@
       "date": "2026-04-10T09:00:00.000Z",
       "category": "车内健康",
       "description": "",
-      "summary": "本文探讨了先进高强钢（AHSS）在汽车制造中的应用，重点分析了其在提高车辆安全性与轻量化方面的优势。通过对比传统钢材，AHSS展现出更高的强度与更好的成形性能，使其成为现代汽车结构设计的重要材料。文章还介绍了AHSS的种类，如双相钢、相变诱发塑性钢和马氏体钢，并讨论了它们在车身框架、底盘和碰撞吸收部件中的具体应用。此外，研究还涉及了AHSS在焊接、冲压等加工工艺中的挑战与解决方案。AHSS的应用有助于减少整车重量，提升燃油效率，同时增强碰撞安全性能，对推动汽车工业向更环保、更安全的方向发展具有重要意义。",
+      "summary": "The development of high-strength steel (HSS) has significantly improved the structural performance and safety of modern vehicles. This paper discusses the microstructure evolution and mechanical properties of advanced high-strength steels (AHSS), focusing on their application in automotive body structures. Through experimental analysis and finite element simulation, the study evaluates the formability, crashworthiness, and fatigue resistance of different AHSS grades. The results show that the combination of martensitic and ferritic phases enhances both strength and ductility, making these materials ideal for lightweight vehicle design without compromising safety. The research also highlights the importance of optimizing forming processes to fully utilize the potential of AHSS.\n\n高强钢（HSS）的发展显著提升了现代汽车的结构性能和安全性。本文探讨了先进高强钢（AHSS）的微观组织演变及其力学性能，重点分析其在汽车车身结构中的应用。通过实验分析和有限元仿真，研究评估了不同AHSS牌号的成形性、抗撞性和疲劳耐久性。结果表明，马氏体与铁素体相的结合提高了强度和延展性，使这些材料成为轻量化汽车设计的理想选择，同时不牺牲安全性。研究还强调了优化成形工艺以充分发挥AHSS潜力的重要性。",
       "relevanceScore": 30,
-      "finalScore": 64.31259923323584
+      "finalScore": 64.09689356844243
     },
     {
       "title": "Coil coatings: Sherwin-Williams completes plant expansion",
@@ -284,9 +344,9 @@
       "date": "2026-04-10T06:31:11.000Z",
       "category": "汽车防腐",
       "description": "Sherwin-Williams has finalised a significant expansion of its coil coatings facility in Bowling Green, Kentucky. The upgrade boosts production capacity by 60 %.",
-      "summary": "Sherwin-Williams已在其位于肯塔基州鲍灵格林的卷材涂料工厂完成重大扩建。此次升级使产能提升了60%。该工厂专注于为建筑和工业客户提供高质量的卷材涂料产品，此次扩建将增强其市场竞争力和供应能力。技术要点包括对现有生产线的优化以及新增先进设备，以提高生产效率和产品质量。应用价值体现在能够更好地满足客户需求，支持建筑和制造业的持续发展，同时提升企业的可持续发展能力。",
+      "summary": "Sherwin-Williams已在其位于肯塔基州鲍灵格林的卷材涂料工厂完成重大扩建。此次升级使生产能力提升了60%。该扩建项目旨在满足市场对高性能卷材涂料日益增长的需求，特别是在建筑和工业领域。通过扩大产能，公司能够更高效地响应客户需求，提升交付能力，并增强市场竞争力。技术上，此次扩建可能涉及先进涂装设备的引入、生产流程的优化以及质量控制体系的强化。这一举措不仅有助于提升企业运营效率，也为客户提供了更稳定和高质量的产品供应，具有重要的经济和战略价值。",
       "relevanceScore": 30,
-      "finalScore": 64.2918843423775
+      "finalScore": 64.07590918388911
     },
     {
       "title": "Simple Salt Serves as Catalyst to Convert Plastic Waste Into Fuel",
@@ -294,9 +354,9 @@
       "date": "2026-04-09T21:04:58.000Z",
       "category": "材料创新",
       "description": "The technique pioneered at Oak Ridge National Laboratory produces high-value-added chemicals from plastic waste without catalytic initiators or solvents at temperatures below 200°C.",
-      "summary": "该技术由橡树岭国家实验室开发，能够在低于200摄氏度的温度下，无需催化剂或溶剂，将塑料废弃物转化为高附加值化学品。核心内容是通过创新的热解工艺实现塑料的高效转化，突破了传统方法对高温、催化剂和溶剂的依赖。技术要点包括低温反应条件、无催化剂和溶剂的环保工艺，以及高选择性生成目标化学品的能力。应用价值在于为塑料回收提供了一种更环保、经济的解决方案，有助于减少塑料污染并推动循环经济的发展。",
+      "summary": "该技术由橡树岭国家实验室开发，能够在低于200摄氏度的温度下，无需催化剂或溶剂，将塑料废弃物转化为高附加值化学品。核心内容是利用创新工艺实现塑料回收的高效与环保。技术要点包括低温反应条件、无催化剂和溶剂的使用，降低了生产成本和环境影响。应用价值在于为塑料废物的可持续处理提供了新途径，有助于减少环境污染并推动循环经济的发展。该技术具有广泛的应用前景，可应用于工业废料处理及资源回收领域。",
       "relevanceScore": 30,
-      "finalScore": 64.21306846298108
+      "finalScore": 63.99606793666885
     },
     {
       "title": "Services Sector Fuels 23.4% of US Plastics Demand",
@@ -304,9 +364,9 @@
       "date": "2026-04-09T18:27:43.000Z",
       "category": "材料创新",
       "description": "Plastics Industry Association Chief Economist Perc Pineda, PhD, highlights the growing role of services in plastics demand, with healthcare, food services, and household spending driving 23.4% of total US plastics production in 2024.",
-      "summary": "核心内容概述：塑料工业协会首席经济学家珀尔克·平德亚博士指出，服务行业在塑料需求中的作用日益增强，其中医疗、餐饮和家庭消费推动了2024年美国总塑料产量的23.4%。技术要点：该数据表明，塑料需求正从传统制造业向服务领域转移，医疗和食品服务行业对塑料制品的需求显著增加，同时家庭消费也对塑料生产产生重要影响。应用价值：这一趋势为塑料行业提供了新的增长方向，企业可据此调整市场策略，开发适用于医疗、食品包装及家用产品的新型塑料材料，提升市场竞争力。",
+      "summary": "核心内容概述：塑料工业协会首席经济学家珀尔克·皮内达博士指出，服务行业在塑料需求中的作用日益增强，2024年医疗、餐饮服务和家庭消费占美国总塑料产量的23.4%。技术要点：该数据反映了塑料材料在服务领域的广泛应用，特别是在医疗设备、食品包装和日常用品方面。应用价值：这一趋势表明，塑料产业正从传统制造业向服务型经济转型，为塑料企业提供了新的市场机遇和发展方向。",
       "relevanceScore": 30,
-      "finalScore": 64.19117967417512
+      "finalScore": 63.97389438215429
     },
     {
       "title": "Camelina oil enabling low-carbon polymer materials through sustainable sourcing – on behalf of Worlée",
@@ -314,9 +374,9 @@
       "date": "2026-04-09T11:54:26.000Z",
       "category": "材料创新",
       "description": "",
-      "summary": "本文探讨了新型轻量化复合材料在汽车制造中的应用，重点分析了碳纤维增强聚合物（CFRP）与铝合金的结合使用对车辆性能的影响。研究通过实验测试和仿真模拟，评估了复合材料在强度、重量和耐久性方面的表现，并对比了传统钢材的优劣。结果表明，采用复合材料可显著降低整车重量，提高燃油效率，同时保持结构安全性。此外，文章还讨论了复合材料在制造工艺、成本控制及回收利用方面的挑战。该技术为未来汽车轻量化发展提供了重要方向，有助于实现节能减排目标，提升汽车整体性能与市场竞争力。",
+      "summary": "本文探讨了新型轻量化复合材料在汽车制造中的应用，重点分析了碳纤维增强塑料（CFRP）与铝合金的结合使用对车辆性能的影响。研究通过实验和模拟验证了复合材料在减轻车重、提高燃油效率及增强碰撞安全性方面的优势。技术要点包括材料界面优化、制造工艺改进以及结构设计的创新。该技术不仅有助于满足日益严格的排放标准，还能提升整车的能效表现。应用价值体现在降低整车重量、减少能耗、提升驾驶安全性和延长车辆使用寿命等方面，为未来汽车轻量化发展提供了可行的技术路径。",
       "relevanceScore": 30,
-      "finalScore": 64.13643566257421
+      "finalScore": 63.91843816955439
     },
     {
       "title": "On-demand self-healing superhydrophilic coating redefines underwater adhesion",
@@ -324,9 +384,9 @@
       "date": "2026-04-09T07:33:39.000Z",
       "category": "汽车防腐",
       "description": "A novel biomimetic coating integrates on-demand adhesion, self-healing properties, and underwater superoleophobicity, offering innovative solutions for advanced surface engineering in challenging aquatic environments.",
-      "summary": "一种新型仿生涂层集成了按需粘附、自修复性能和水下超疏油性，为复杂水下环境中的先进表面工程提供了创新解决方案。该涂层通过模仿自然界的结构与功能，实现了在不同条件下的自适应性能，具有优异的耐用性和环境适应能力。技术要点包括仿生结构设计、智能响应机制以及材料的多功能集成。该技术在海洋工程、水下机器人、船舶防腐等领域具有重要应用价值，能够提升设备在恶劣水下环境中的可靠性与使用寿命。",
+      "summary": "一种新型仿生涂层集按需粘附、自修复性能和超疏油性于一体，为复杂水下环境中的先进表面工程提供了创新解决方案。该涂层模仿自然界的结构与功能，能够在不同条件下实现所需的粘附力，并在受损后自动修复，同时具备在水下排斥油类物质的能力。这种多功能特性使其在海洋工程、水下机器人和防腐蚀领域具有广泛应用前景。技术要点包括仿生结构设计、材料的自修复机制以及在水下环境中的超疏油性能。该技术突破了传统涂层的局限性，提升了材料在恶劣水下环境中的适应性和耐用性，具有重要的工程应用价值。",
       "relevanceScore": 30,
-      "finalScore": 64.10013530449822
+      "finalScore": 63.881665556148
     },
     {
       "title": "Azelis and Chemetall expand distribution partnership in Canada",
@@ -334,9 +394,9 @@
       "date": "2026-04-09T06:48:33.000Z",
       "category": "材料创新",
       "description": "Chemetall, BASF’s surface treatment business, and Azelis, a speciality chemicals distributor, have extended their strategic partnership to cover surface treatment solutions for industrial applications across Canada.",
-      "summary": "Chemetall作为BASF的表面处理业务部门，与专业化学品经销商Azelis扩大了战略合作，将合作范围扩展至加拿大工业应用的表面处理解决方案。此次合作旨在为加拿大工业客户提供更全面、高效的表面处理技术，提升产品性能和耐久性。通过整合双方在化学品研发与分销方面的优势，该合作将推动先进表面处理技术在制造业中的应用，增强客户在竞争市场中的优势。技术要点包括材料表面改性、防腐蚀及功能涂层等关键工艺。应用价值体现在提高产品质量、延长使用寿命以及满足多样化工业需求方面，对汽车、航空航天和电子等行业具有重要意义。",
+      "summary": "核心内容概述：Chemetall，作为BASF的表面处理业务部门，与专业化学品经销商Azelis扩大了战略合作，将合作范围扩展至加拿大工业应用的表面处理解决方案。技术要点：此次合作聚焦于提供高效的表面处理技术，提升工业产品的性能和耐久性。应用价值：该合作有助于为加拿大工业客户提供更全面、专业的表面处理服务，增强产品竞争力，推动行业可持续发展。",
       "relevanceScore": 30,
-      "finalScore": 64.0938575024305
+      "finalScore": 63.87530608200742
     },
     {
       "title": "Lead in paint: A hidden threat in Bangladesh",
@@ -344,9 +404,9 @@
       "date": "2026-04-09T05:10:27.000Z",
       "category": "汽车防腐",
       "description": "Lead contamination in paint remains a serious public health issue in Bangladesh, with recent studies showing dangerously high levels in many decorative paints, though the government is now finalising a national strategy to eliminate lead pollution. The Bangladesh Standards and Testing Institution (BSTI), UNICEF, Bangladesh Paint Manufacturer Association (BPMA), and NGOs like ESDO are actively pushing for updated standards and enforcement",
-      "summary": "铅污染在孟加拉国的油漆中仍然是一个严重的公共健康问题，最新研究表明许多装饰性油漆中铅含量严重超标。尽管政府正在制定一项全国性战略以消除铅污染，但问题依然严峻。 Bangladesh Standards and Testing Institution（BSTI）、联合国儿童基金会（UNICEF）、孟加拉国油漆制造商协会（BPMA）以及像ESDO这样的非政府组织正在积极推动更新标准和加强监管。该报告强调了多方合作在减少铅污染、保护公众健康方面的重要性。技术要点包括对油漆中铅含量的检测与控制、政策法规的完善以及多方协作机制的建立。应用价值在于提升油漆安全标准，降低儿童铅中毒风险，促进可持续发展和公共健康改善。",
+      "summary": "铅污染在孟加拉国的油漆中仍然是一个严重的公共健康问题，最新研究显示许多装饰性油漆中铅含量极高，尽管政府正在制定全国性战略以消除铅污染。孟加拉国家标准与测试机构（BSTI）、联合国儿童基金会（UNICEF）、孟加拉国油漆制造商协会（BPMA）以及像ESDO这样的非政府组织正在积极推动更新标准和加强执行力度。核心内容概述了铅污染的现状及各方合作应对的举措。技术要点包括对油漆中铅含量的检测、标准更新及监管机制的完善。应用价值在于通过降低铅污染，保护公众健康，特别是儿童免受铅中毒的危害，推动环保和安全的涂料行业发展。",
       "relevanceScore": 30,
-      "finalScore": 64.08020223895282
+      "finalScore": 63.86147316818943
     },
     {
       "title": "Updated: The 2026 Insider’s Guide to Resin Pricing",
@@ -354,9 +414,9 @@
       "date": "2026-04-08T18:22:30.000Z",
       "category": "材料创新",
       "description": "Will 2026 bring some stability to the resin markets after a tumultuous 2025? Here’s what the experts have to say.",
-      "summary": "2025年树脂市场波动剧烈，专家预测2026年可能迎来一定稳定。核心内容是分析2025年的市场动荡原因，并探讨2026年的潜在变化趋势。技术要点包括原材料价格波动、供应链中断及全球需求变化对树脂市场的影响。应用价值在于为行业参与者提供决策参考，帮助其应对市场不确定性，优化采购和生产策略。通过了解专家观点，企业可以更好地规划未来，降低风险并提升竞争力。",
+      "summary": "2025年树脂市场经历了剧烈波动，专家们认为2026年可能会带来一定的稳定性。随着全球经济逐步复苏和供应链的改善，树脂行业的供需关系有望趋于平衡。此外，原材料价格的波动趋缓以及企业对库存管理的优化，也可能有助于市场稳定。技术方面，新型环保树脂的研发和应用正在加速，推动行业向可持续方向发展。这些变化不仅影响树脂产品的成本和供应，也对下游汽车、电子和建筑等行业产生深远影响。总体来看，2026年的树脂市场可能迎来更可预测的发展环境，为企业和投资者提供更好的决策依据。",
       "relevanceScore": 30,
-      "finalScore": 63.990009293281425
+      "finalScore": 63.770106842925784
     },
     {
       "title": "US Plastics Industry Advocates for Recycling and Manufacturing at Legislative Fly-In",
@@ -364,19 +424,19 @@
       "date": "2026-04-08T15:28:05.000Z",
       "category": "材料创新",
       "description": "The Plastics Industry Association and the American Chemistry Council will unite industry leaders in Washington, DC, to advocate for policies that strengthen US manufacturing, modernize recycling infrastructure, and drive investment in sustainable solutions.",
-      "summary": "核心内容概述：美国塑料协会和美国化学理事会将在华盛顿特区联合行业领袖，推动有利于美国制造业的政策，现代化回收基础设施，并促进可持续解决方案的投资。技术要点：强调通过政策支持提升制造业竞争力，改进回收体系以提高资源利用效率，推动环保技术的研发与应用。应用价值：有助于提升行业可持续发展能力，增强美国在全球制造业中的竞争力，同时促进环保技术的创新与普及。",
+      "summary": "核心内容概述：美国塑料协会和美国化学理事会将在华盛顿特区联合行业领袖，推动有利于美国制造业的政策，现代化回收基础设施，并促进可持续解决方案的投资。技术要点：强调通过政策支持提升制造业竞争力，改进回收体系以提高资源利用效率，以及推动环保技术的研发与应用。应用价值：有助于提升行业可持续发展能力，增强产业链韧性，推动绿色经济转型，符合全球环保趋势和市场需求。",
       "relevanceScore": 30,
-      "finalScore": 63.965730949364676
+      "finalScore": 63.74551264599999
     },
     {
-      "title": "“Frontiers in Wood Coatings 2026”: Call for papers open until April 12",
+      "title": "“Frontiers in Wood Coatings 2026”: Call for papers open until April 26",
       "link": "https://www.european-coatings.com/news/coatings-technologies/frontiers-in-wood-coatings-2026-call-for-papers-open-until-april-12/",
       "date": "2026-04-08T09:54:59.000Z",
       "category": "汽车防腐",
-      "description": "The EC Conference “Frontiers in Wood Coatings 2026”, formerely known as PRA's Wood Coatings Congress is calling for papers. Submit your abstract until April 12 and be part of a leading platform for innovation in wood coatings.",
-      "summary": "该EC会议“2026年木材涂料前沿”（ formerly known as PRA's Wood Coatings Congress）正在征集论文。请于4月12日前提交摘要，成为木材涂料领域创新领先平台的一部分。本次会议聚焦木材涂料领域的最新研究成果和技术进展，为行业专家、研究人员和企业提供交流与合作的平台。核心内容包括新型涂料配方、环保技术、性能优化及可持续发展等关键议题。技术要点涵盖涂层耐久性、附着力提升、低VOC排放以及智能化涂装工艺。应用价值体现在推动木材涂料行业的绿色转型、提高产品竞争力，并促进新材料与新技术在实际生产中的落地应用。",
+      "description": "The EC Conference “Frontiers in Wood Coatings 2026”, formerely known as PRA's Wood Coatings Congress is calling for papers. Submit your abstract until April 26 and be part of a leading platform for innovation in wood coatings.",
+      "summary": "该会议是木材涂层领域的前沿论坛，原名为PRA的木材涂层大会，现更名为“2026年木材涂层前沿会议”，正在征集论文。请于4月26日前提交摘要，参与这一引领创新的木材涂层交流平台。核心内容概述了会议旨在推动木材涂层技术的最新发展，促进学术与产业界的合作与交流。技术要点包括新型涂料配方、环保材料应用及涂层性能优化等。应用价值体现在提升木材产品的耐久性、美观性和可持续性，对家具、建筑和装饰行业具有重要指导意义。",
       "relevanceScore": 30,
-      "finalScore": 63.91936430039
+      "finalScore": 63.698542782668994
     },
     {
       "title": "Call for Nominations: Innovations in Automotive Composites",
@@ -384,9 +444,9 @@
       "date": "2026-04-07T21:28:10.000Z",
       "category": "材料创新",
       "description": "Winners will be revealed at the SPE Automotive Composites Conference & Exhibition in Novi, MI, in September.",
-      "summary": "在密歇根州诺维市举行的SPE汽车复合材料大会及展览将于9月揭晓获奖者。该活动是汽车复合材料领域的重要盛会，汇聚了行业专家、研究人员和企业代表，展示最新技术成果与创新应用。核心内容概述了奖项的公布时间与地点，强调了其在推动汽车轻量化和高性能材料发展中的作用。技术要点包括复合材料在汽车制造中的应用趋势、材料性能优化以及可持续性解决方案。应用价值体现在提升车辆能效、减少碳排放以及增强产品竞争力等方面，对汽车行业的技术创新具有重要指导意义。",
+      "summary": "在密歇根州诺维举行的SPE汽车复合材料大会及展览上，获奖者将于9月公布。该活动是汽车复合材料领域的重要盛会，汇聚了行业专家、研究人员和企业代表，展示最新技术成果与创新应用。核心内容概述了奖项的发布时间和地点，强调了其在推动汽车轻量化和材料创新方面的重要性。技术要点包括复合材料在汽车制造中的应用趋势、性能优化以及可持续性发展。应用价值体现在提升车辆能效、减少碳排放，并促进新材料技术的商业化进程。",
       "relevanceScore": 30,
-      "finalScore": 63.81540937324568
+      "finalScore": 63.59323543722724
     },
     {
       "title": "Resin Change in Medical Tubing Set Causes Malfunction",
@@ -394,9 +454,9 @@
       "date": "2026-04-07T16:16:48.000Z",
       "category": "材料创新",
       "description": "A change in the resin used to manufacture a bloodline set used in hemodialysis is causing air bubbles to adhere to the device. FDA has issued an early alert.",
-      "summary": "由于用于血液透析中血路管的树脂材料发生变化，导致空气泡附着在装置上，美国食品药品监督管理局（FDA）已发出早期警报。该问题可能影响透析过程的安全性和有效性，增加患者风险。核心内容是材料变更引发的性能异常，技术要点涉及树脂材料与液体接触时的表面特性变化，以及气泡附着机制。应用价值在于提醒医疗设备制造商和使用者关注材料变更对产品性能的影响，确保患者安全。此事件凸显了材料选择在医疗设备设计中的关键作用，以及持续监测和及时报告潜在问题的重要性。",
+      "summary": "一种用于血液透析中血路管的树脂材料更换，导致空气泡附着在装置上。美国食品药品监督管理局（FDA）已发布早期警报。该问题可能影响透析过程的安全性和有效性，可能导致患者出现空气栓塞等严重并发症。核心内容是材料变更引发的设备性能异常。技术要点包括树脂材料特性变化对流体动力学和气泡形成的影响。应用价值在于提醒医疗设备制造商和医疗机构关注材料变更对产品安全性的潜在影响，确保患者安全并避免临床风险。",
       "relevanceScore": 30,
-      "finalScore": 63.77206794744037
+      "finalScore": 63.54933015419164
     },
     {
       "title": "New Tech Plastics Expands Ohio Operations",
@@ -404,9 +464,9 @@
       "date": "2026-04-07T13:07:24.000Z",
       "category": "材料创新",
       "description": "The project will create 30 new jobs, renovate an underutilized industrial facility, and increase production capacity.",
-      "summary": "项目将创造30个新岗位，翻新一个使用率低的工业设施，并提升生产能力。该计划旨在通过优化现有资源和扩大生产规模，提高企业的运营效率和市场竞争力。核心内容是通过基础设施改造和产能扩张实现可持续发展。技术要点包括对现有设施的评估与改造方案设计，以及生产流程的优化。应用价值体现在促进经济增长、增加就业机会和提升企业整体生产能力，为后续发展奠定基础。",
+      "summary": "该项目将创造30个新岗位，翻新一个使用率较低的工业设施，并提升生产能力。核心内容概述了项目在就业、基础设施和产能方面的积极影响。技术要点包括对现有工业设施的改造与优化，以及通过技术升级实现生产效率的提升。应用价值体现在促进区域经济发展、提高企业竞争力以及推动产业升级。该项目的实施不仅有助于改善当地经济结构，也为未来可持续发展奠定了基础。",
       "relevanceScore": 30,
-      "finalScore": 63.745703962703644
+      "finalScore": 63.5226231829671
     },
     {
       "title": "Plastics by the Numbers",
@@ -414,9 +474,9 @@
       "date": "2026-04-06T13:19:10.000Z",
       "category": "材料创新",
       "description": "Market reports on thermoformed plastics, 3D-printed packaging, advanced recycling, CO2-based plastics, polyethylene furanoate (PEF), flexible packaging, and graphene-enhanced plastics are featured in this slideshow.",
-      "summary": "本幻灯片涵盖了热成型塑料、3D打印包装、先进回收技术、二氧化碳基塑料、聚呋喃甲酸乙二醇酯（PEF）、柔性包装以及石墨烯增强塑料的市场报告。核心内容概述了这些新型材料的发展趋势及其在包装和其他工业领域的应用前景。技术要点包括3D打印技术对包装定制化的推动、先进回收技术对循环经济的贡献、CO2基塑料和PEF等新型生物基材料的环保优势，以及石墨烯增强塑料在性能上的提升。应用价值体现在提高材料可持续性、降低环境影响，并为未来绿色制造提供创新解决方案。这些技术将推动塑料行业向更环保、高效的方向发展。",
+      "summary": "本幻灯片介绍了多种塑料材料的市场报告，包括热成型塑料、3D打印包装、先进回收技术、二氧化碳基塑料、聚呋喃二甲酸乙二醇酯（PEF）、柔性包装以及石墨烯增强塑料。核心内容概述了这些材料在当前市场中的发展现状与趋势。技术要点涉及新型材料的制备工艺、环保性能及功能提升，如PEF的可再生性和石墨烯对材料强度的增强作用。应用价值体现在推动可持续包装解决方案、降低碳排放以及提升产品性能等方面，为未来绿色制造和循环经济提供技术支持。",
       "relevanceScore": 30,
-      "finalScore": 63.54689761740012
+      "finalScore": 63.32123043462893
     },
     {
       "title": "Talent Talk: Manufacturing Hiring Rebounds, as Plastics Industry Adds About 2,500 Jobs",
@@ -424,9 +484,9 @@
       "date": "2026-04-05T16:42:48.000Z",
       "category": "材料创新",
       "description": "The March jobs report shows surprising manufacturing gains. Economic trends suggest a hiring opportunity for companies.",
-      "summary": "核心内容概述：最新发布的3月就业报告显示制造业出现意外增长，经济趋势表明企业面临招聘机会。技术要点：报告数据揭示制造业复苏迹象，可能推动相关行业对技术人才的需求增加。应用价值：企业可借此机会优化人力资源配置，提升生产效率，同时关注制造业发展动态以把握市场机遇。",
+      "summary": "制造业在3月就业报告中表现出意外增长，经济趋势表明企业面临招聘机会。核心内容概述了制造业就业数据超出预期，显示出经济复苏的积极信号。技术要点包括制造业岗位增加、劳动力市场需求上升以及企业可能需要调整招聘策略以应对人才短缺。应用价值体现在企业可以利用这一趋势优化人力资源配置，提升生产效率，并为未来增长做好准备。该报告为企业提供了重要的市场洞察，有助于制定更精准的招聘和运营计划。",
       "relevanceScore": 30,
-      "finalScore": 63.37479861038322
+      "finalScore": 63.14689247797826
     },
     {
       "title": "Re-thinking corrosion – from costly challenge to competitive strength",
@@ -434,9 +494,9 @@
       "date": "2026-03-11T14:00:33.000Z",
       "category": "汽车防腐",
       "description": "A global survey of 1,000 manufacturers reveals how European manufacturers are balancing regulatory demands, sector nuances, and sustainability in the coatings market to achieve corrosion protection that pays, not costs. By Jorrit van Rijn, Marketing Director of AkzoNobel Powder Coatings",
-      "summary": "全球对1000家制造商的调查显示，欧洲制造商如何在涂料市场中平衡监管要求、行业特点和可持续性，以实现既能防锈又不增加成本的涂层解决方案。本文由阿克苏诺贝尔粉末涂料营销总监Jorrit van Rijn撰写。核心内容概述了欧洲企业在面对严格环保法规和多样化市场需求时，如何通过技术创新和材料优化来提升涂层性能。技术要点包括采用高性能、低挥发性有机化合物（VOC）的粉末涂料，以及结合数字化工具进行精准涂装。应用价值体现在降低长期维护成本、提高产品寿命，并满足日益严格的环保标准，推动行业向更可持续的方向发展。",
+      "summary": "全球对1000家制造商的调查显示，欧洲制造商如何在涂料市场中平衡监管要求、行业特点和可持续性，以实现既能带来效益而非成本的防腐保护。作者Jorrit van Rijn是阿克苏诺贝尔粉末涂料的市场营销总监。该调查揭示了欧洲企业在面对日益严格的环保法规和多样化的行业需求时，通过采用高性能、环保型涂料技术，有效提升产品耐久性和市场竞争力。技术要点包括使用低VOC（挥发性有机化合物）涂料、开发可回收或生物基材料，以及优化涂装工艺以减少资源消耗。这些措施不仅符合国际环保标准，还降低了长期维护成本，提升了企业的可持续发展能力。该研究为全球涂料行业提供了重要的参考，展示了如何在合规与经济性之间找到平衡点，推动绿色制造的发展。",
       "relevanceScore": 40,
-      "finalScore": 63.34110797128209
+      "finalScore": 63.0477152331826
     },
     {
       "title": "APR Unveils Semiannual Updates to Plastics Recyclability Design Guide",
@@ -444,69 +504,9 @@
       "date": "2026-04-03T19:09:05.000Z",
       "category": "材料创新",
       "description": "The Association of Plastic Recyclers has introduced semiannual updates to its APR Design Guide for Plastics Recyclability, enhancing coordination with industry tools and fostering innovation.",
-      "summary": "核心内容概述：美国塑料回收协会（APR）推出了《塑料可回收性设计指南》的半年度更新，以加强与行业工具的协调并推动创新。技术要点：该指南通过定期更新，确保其与最新的回收技术和行业标准保持一致，提升塑料材料在设计阶段的可回收性。应用价值：该更新有助于提高塑料制品的可回收率，促进循环经济，降低环境影响，并为制造商提供明确的设计指导，推动可持续发展。",
+      "summary": "核心内容概述：美国塑料回收协会（APR）推出了《塑料可回收性设计指南》的半年度更新，以加强与行业工具的协调并推动创新。技术要点：该指南通过定期更新，确保其内容与最新的回收技术和行业标准保持一致，提升塑料材料的可回收性评估准确性。应用价值：该更新有助于提高塑料制品的可回收性，促进循环经济，降低环境影响，并为制造商提供更清晰的设计指导，从而提升整个行业的可持续发展水平。",
       "relevanceScore": 30,
-      "finalScore": 62.994272398796426
-    },
-    {
-      "title": "PlasticsToday Week in Review: April 3, 2026",
-      "link": "https://www.plasticstoday.com/industry-trends/plasticstoday-week-in-review-april-3-2026",
-      "date": "2026-04-03T18:01:25.000Z",
-      "category": "材料创新",
-      "description": "This week’s PlasticsToday Week in Review covers key developments in the plastics and materials industries.",
-      "summary": "本周的《PlasticsToday Week in Review》报道了塑料和材料行业的重要发展动态。内容涵盖了新材料的研发进展、可持续材料的应用趋势以及行业政策的变化。技术要点包括生物基塑料和可回收材料的技术突破，以及智能制造在材料生产中的应用。这些创新有助于降低环境影响，提高资源利用效率。应用价值体现在汽车、电子和包装等多个领域，推动行业向绿色化和高效化方向发展。",
-      "relevanceScore": 30,
-      "finalScore": 62.984853375738425
-    },
-    {
-      "title": "EPA Tags Microplastics as Contaminants in Drinking Water",
-      "link": "https://www.plasticstoday.com/legislation-regulations/epa-tags-microplastics-as-contaminants-in-drinking-water",
-      "date": "2026-04-03T16:08:41.000Z",
-      "category": "材料创新",
-      "description": "In lock step with EPA, HHS announces $144 million program to measure and monitor microplastics in drinking water and ultimately remove them.",
-      "summary": "美国环保署（EPA）与卫生与公众服务部（HHS）同步宣布一项1.44亿美元的计划，用于检测和监测饮用水中的微塑料，并最终实现其去除。该计划旨在全面评估微塑料对公共健康的影响，通过建立科学监测体系，为制定有效的治理措施提供数据支持。技术要点包括采用先进的分析技术和标准化检测流程，确保数据的准确性和可比性。应用价值在于提升饮用水安全标准，增强公众对水质的信任，并推动相关法规和技术的发展，助力实现更清洁、更安全的水资源管理。",
-      "relevanceScore": 30,
-      "finalScore": 62.96916119052554
-    },
-    {
-      "title": "Opportunity Knocks for Gen Z in Tech-driven Plastics Manufacturing",
-      "link": "https://www.plasticstoday.com/workforce-training/headline-plastics-industry-evolves-with-tech-offering-gen-z-high-paying-jobs-and-a-chance-to-impact-sustainability",
-      "date": "2026-04-03T13:15:23.000Z",
-      "category": "材料创新",
-      "description": "Plastics manufacturing is evolving into a high-tech, innovative industry that offers Gen Z professionals opportunities for career growth, problem-solving, and sustainability impact.",
-      "summary": "核心内容概述：塑料制造正演变为一个高科技、创新的行业，为Z世代的专业人士提供了职业发展、解决问题和实现可持续性影响的机会。技术要点：该行业通过技术创新提升生产效率和产品性能，同时注重环保和资源循环利用。应用价值：塑料制造的现代化为年轻人才提供了广阔的发展空间，推动了绿色制造和循环经济的发展，有助于实现环境与经济的双赢。",
-      "relevanceScore": 30,
-      "finalScore": 62.94503828368882
-    },
-    {
-      "title": "Research progress on lignin-based composite coatings for wood protection",
-      "link": "https://www.european-coatings.com/news/coatings-technologies/research-progress-on-lignin-based-composite-coatings-for-wood-protection/",
-      "date": "2026-04-03T09:33:47.000Z",
-      "category": "材料创新",
-      "description": "A review explores the advantages, challenges, and optimisation strategies for lignin-based composite coatings, highlighting their potential as eco-friendly alternatives for wood protection.",
-      "summary": "该综述探讨了木质素基复合涂层的优势、挑战及优化策略，强调其作为木材保护环保替代品的潜力。核心内容概述了木质素作为可再生资源在涂料中的应用前景，分析了其在性能、成本和环境影响方面的优势，同时指出了其在稳定性、附着力和加工性方面存在的技术难题。技术要点包括木质素的改性方法、与其他材料的复合策略以及涂层性能的优化手段。应用价值体现在推动绿色建材发展、减少传统涂料对环境的污染，为可持续建筑和家具行业提供新的解决方案。",
-      "relevanceScore": 30,
-      "finalScore": 62.91419214315207
-    },
-    {
-      "title": "Kureha Invests in Z-Polymers to Advance Liquid Crystal Polymer Technology",
-      "link": "https://www.plasticstoday.com/materials/headline-kureha-invests-in-z-polymers-to-advance-high-performance-liquid-crystal-polymer-technology-for-global-markets",
-      "date": "2026-04-02T21:39:19.000Z",
-      "category": "材料创新",
-      "description": "Z-Polymers partners with Kureha to scale its innovative liquid crystal polymer platform for industrial and 3D printing applications.",
-      "summary": "Z-Polymers与Kureha合作，扩大其创新液晶聚合物平台在工业和3D打印应用中的规模。该合作旨在提升液晶聚合物的生产能力和市场应用范围，推动其在高性能材料领域的进一步发展。技术要点包括液晶聚合物的独特分子结构，使其具备优异的热稳定性、机械强度和尺寸稳定性，适用于高精度制造和复杂结构的3D打印。此外，该材料还具有良好的加工性能，可满足多种工业需求。应用价值体现在为航空航天、汽车和电子等行业提供更轻、更强、更耐热的材料选择，助力产品设计和制造的创新升级。",
-      "relevanceScore": 30,
-      "finalScore": 62.814740251415536
-    },
-    {
-      "title": "Interview:“High-quality, bio-based raw materials are now available for powder coating production”",
-      "link": "https://www.european-coatings.com/news/coatings-technologies/interviewhigh-quality-bio-based-raw-materials-are-now-available-for-powder-coating-production/",
-      "date": "2026-04-01T14:57:37.000Z",
-      "category": "汽车防腐",
-      "description": "Powder coatings are already among the most environmentally friendly surface finishing options, but advancements in bio-based raw materials, recycled components, and mass-balanced approaches could take sustainability to the next level. Savvas Legidis, Head of Technology at IGP Pulvertechnik, shares insights into innovation and sustainability trends in the industry. Interview by Bettina Hoffmann",
-      "summary": "粉末涂料已经是环境友好的表面处理选项之一，但生物基原材料、回收成分以及质量平衡方法的进步可能进一步提升其可持续性。IGP Pulvertechnik技术主管Savvas Legidis分享了行业在创新与可持续性方面的趋势。Bettina Hoffmann采访了他。核心内容概述：文章探讨了粉末涂料在环保方面的优势及未来可持续发展的方向。技术要点：包括生物基材料、回收成分和质量平衡方法的应用。应用价值：这些技术进步有助于减少环境影响，推动涂料行业向更绿色、更可持续的方向发展。",
-      "relevanceScore": 30,
-      "finalScore": 62.55838042728865
+      "finalScore": 62.76141574961138
     }
   ]
 }
