@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-14T05:34:24.533Z",
-  "updateTime": "2026/10/14 05:34:24",
+  "lastUpdated": "2026-10-15T05:23:04.671Z",
+  "updateTime": "2026/10/15 05:23:04",
   "totalArticles": 50,
   "categories": [
     "材料创新",
@@ -16,7 +16,7 @@
       "description": "Researchers have developed fully lignin-based epoxy resin systems for metal coating applications that deliver reliable adhesion, impact resistance and durability – positioning depolymerised lignin as a scalable, bio-based alternative to bisphenol-derived resins.",
       "summary": "Researchers have developed fully lignin-based epoxy resin systems for metal coating applications that deliver reliable adhesion, impact resistance and...",
       "relevanceScore": 70,
-      "finalScore": 48.78378844110171
+      "finalScore": 48.43173345389103
     },
     {
       "title": "US Plastic Resin Production Rises in August",
@@ -26,7 +26,7 @@
       "description": "US plastic resin production reached 9.1 billion pounds in August 2026, up 1.7% from July, while recycled markets face pricing challenges and import dependency.",
       "summary": "US plastic resin production reached 9.1 billion pounds in August 2026, up 1.7% from July, while recycled markets face pricing challenges and import de...",
       "relevanceScore": 60,
-      "finalScore": 78.28601352050623
+      "finalScore": 78.06929437647742
     },
     {
       "title": "Functionalised aluminium oxide enhances corrosion resistance of epoxy coatings on mild steel",
@@ -36,7 +36,7 @@
       "description": "A study demonstrates how functionalised aluminium oxide nanoparticles (Al₂O₃F) improve the corrosion resistance of epoxy coatings, paving the way for advanced protective applications in aggressive environments.",
       "summary": "A study demonstrates how functionalised aluminium oxide nanoparticles (Al₂O₃F) improve the corrosion resistance of epoxy coatings, paving the way for ...",
       "relevanceScore": 60,
-      "finalScore": 33.41809688749855
+      "finalScore": 33.02538221519969
     },
     {
       "title": "Nippon Paint Holdings to reacquire European automotive coatings business",
@@ -46,7 +46,7 @@
       "description": "Nippon Paint Holdings has announced the reacquisition of its European automotive coatings business from the Wuthelam Group. The transaction, valued at approximately EUR 47 million, follows a restructuring period during which the business was held by the controlling shareholder and has since returned to profitability.",
       "summary": "Nippon Paint Holdings has announced the reacquisition of its European automotive coatings business from the Wuthelam Group. The transaction, valued at...",
       "relevanceScore": 90,
-      "finalScore": 81.52063909687186
+      "finalScore": 81.25776997659344
     },
     {
       "title": "Multifunctional superamphiphobic coating enhances corrosion and icing resistance on aluminium alloy",
@@ -56,7 +56,7 @@
       "description": "A new superamphiphobic coating for 5083 aluminium alloy combines water and oil repellency with anti-corrosion and anti-icing performance, promising broad industrial applications.",
       "summary": "A new superamphiphobic coating for 5083 aluminium alloy combines water and oil repellency with anti-corrosion and anti-icing performance, promising br...",
       "relevanceScore": 70,
-      "finalScore": 45.95820852943951
+      "finalScore": 45.59507013416044
     },
     {
       "title": "Machine vision detects and grades chipping in automotive coatings",
@@ -66,7 +66,7 @@
       "description": "Researchers have developed an automated machine vision system for the objective detection and grading of chipping defects on automotive coatings. The method delivers consistent results, correlates strongly with expert inspectors and cuts inspection time roughly sevenfold.",
       "summary": "Researchers have developed an automated machine vision system for the objective detection and grading of chipping defects on automotive coatings. The ...",
       "relevanceScore": 60,
-      "finalScore": 74.0740557942757
+      "finalScore": 73.84081514043082
     },
     {
       "title": "Bio-based methacrylates yield selective antimicrobial polymers",
@@ -76,7 +76,7 @@
       "description": "Researchers have developed 15 amphiphilic random copolymers from amino acid-derived and terpene-based methacrylates, demonstrating that lysine-rich compositions deliver the highest antimicrobial activity and selectivity. The findings open new pathways for sustainable alternatives to conventional antibiotics.",
       "summary": "Researchers have developed 15 amphiphilic random copolymers from amino acid-derived and terpene-based methacrylates, demonstrating that lysine-rich co...",
       "relevanceScore": 60,
-      "finalScore": 54.07239633536489
+      "finalScore": 53.76069867065539
     },
     {
       "title": "Lignin–zein adhesive enables fully bio-based, debondable plywood",
@@ -86,7 +86,7 @@
       "description": "Researchers have developed a water-borne wood adhesive combining zein protein and lignin that avoids formaldehyde and synthetic cross-linkers. The fully bio-based system delivers competitive bonding performance for plywood and can be debonded on demand, enabling adhesive recovery and reuse.",
       "summary": "Researchers have developed a water-borne wood adhesive combining zein protein and lignin that avoids formaldehyde and synthetic cross-linkers. The ful...",
       "relevanceScore": 40,
-      "finalScore": 59.81602965590532
+      "finalScore": 59.56608678774236
     },
     {
       "title": "Cheminformatics approach to predict VOC release from coatings",
@@ -96,7 +96,7 @@
       "description": "Miles Brockbank and Erik Sapper (Cal Poly) are developing structure-property models that link molecular structure to the volatility and transport of small molecules in coatings systems. The approach combines thermogravimetric analysis with quantitative structure-property relationship (QSAR/QSPR) modelling and aims to predict how volatile additives behave in evolving polymer matrices, supporting the development of lower-emission coatings.",
       "summary": "Miles Brockbank and Erik Sapper (Cal Poly) are developing structure-property models that link molecular structure to the volatility and transport of s...",
       "relevanceScore": 40,
-      "finalScore": 50.563896289993735
+      "finalScore": 50.277661696661596
     },
     {
       "title": "Nacre-inspired coating combines cooling and corrosion protection",
@@ -106,7 +106,7 @@
       "description": "Researchers have developed a nacre-inspired composite coating for aluminium alloys that combines passive radiative cooling with strong corrosion protection. The layer-by-layer assembled system achieves a 12.7 °C temperature drop outdoors and maintains high impedance after 60 days in saline conditions.",
       "summary": "Researchers have developed a nacre-inspired composite coating for aluminium alloys that combines passive radiative cooling with strong corrosion prote...",
       "relevanceScore": 60,
-      "finalScore": 72.12769526357955
+      "finalScore": 71.88681996173872
     },
     {
       "title": "Physics-informed AI models tackle coating corrosion prediction",
@@ -116,7 +116,7 @@
       "description": "A critical review evaluates scientific machine learning approaches for predicting coating degradation and corrosion, identifying five persistent limitations of current data-driven models. The authors propose a new framework that combines physics-based constraints with data-driven learning to enable more reliable digital twins for asset management.",
       "summary": "A critical review evaluates scientific machine learning approaches for predicting coating degradation and corrosion, identifying five persistent limit...",
       "relevanceScore": 60,
-      "finalScore": 71.11051717445346
+      "finalScore": 70.86565196604745
     },
     {
       "title": "Dutch AI Startup polySCOUT Designs Custom Polymers in Weeks",
@@ -126,7 +126,7 @@
       "description": "polySCOUT, a Dutch AI company spun out of TNO, designs custom polymers to specification in weeks rather than years, addressing urgent regulatory substitution challenges in the plastics industry.",
       "summary": "polySCOUT, a Dutch AI company spun out of TNO, designs custom polymers to specification in weeks rather than years, addressing urgent regulatory subst...",
       "relevanceScore": 40,
-      "finalScore": 69.06537650542856
+      "finalScore": 68.85171443225434
     },
     {
       "title": "Aluminium beverage can corrosion: challenges and mitigation",
@@ -136,7 +136,7 @@
       "description": "A new review examines corrosion mechanisms in aluminium beverage cans and evaluates coating-based mitigation strategies. The authors highlight the challenges posed by the shift to BPA-non-intent liners and the rising demand for corrosive \"hard-to-hold\" beverages such as energy drinks, hard seltzers and kombuchas.",
       "summary": "A new review examines corrosion mechanisms in aluminium beverage cans and evaluates coating-based mitigation strategies. The authors highlight the cha...",
       "relevanceScore": 40,
-      "finalScore": 68.39870432715367
+      "finalScore": 68.18242721564019
     },
     {
       "title": "Syensqo Launches Natural Polymer for Laundry Detergents",
@@ -146,7 +146,7 @@
       "description": "Syensqo introduces Jaguar Care, a natural, non-microplastic polymer that enhances fragrance delivery, fabric softness, and garment longevity in modern laundry detergents.",
       "summary": "Syensqo introduces Jaguar Care, a natural, non-microplastic polymer that enhances fragrance delivery, fabric softness, and garment longevity in modern...",
       "relevanceScore": 40,
-      "finalScore": 68.21572806468743
+      "finalScore": 67.99873322419542
     },
     {
       "title": "PPG breaks ground on automotive coatings expansion in Ohio",
@@ -156,17 +156,7 @@
       "description": "PPG has begun construction on a new advanced manufacturing facility at its existing site in Delaware, Ohio. The investment of more than USD 280 million is aimed at expanding automotive coatings production capacity for North American OEMs and parts suppliers.",
       "summary": "PPG has begun construction on a new advanced manufacturing facility at its existing site in Delaware, Ohio. The investment of more than USD 280 millio...",
       "relevanceScore": 60,
-      "finalScore": 67.63767856241054
-    },
-    {
-      "title": "Renowned Polymer Scientist Raymond Pearson Passes Away",
-      "link": "https://www.plasticstoday.com/workforce-training/renowned-polymer-scientist-raymond-pearson-passes-away",
-      "date": "2026-10-02T17:45:03.000Z",
-      "category": "材料创新",
-      "description": "Raymond Pearson, PhD, a leading polymer scientist at Lehigh University and Society of Plastics Engineers Fellow, passed away September 27, 2026, at age 68.",
-      "summary": "Raymond Pearson, PhD, a leading polymer scientist at Lehigh University and Society of Plastics Engineers Fellow, passed away September 27, 2026, at ag...",
-      "relevanceScore": 40,
-      "finalScore": 67.60923119340495
+      "finalScore": 67.3791910574508
     },
     {
       "title": "AI framework guides design of erosion-resistant coatings",
@@ -176,7 +166,7 @@
       "description": "Researchers propose a machine learning methodology to accelerate the design of erosion-resistant paint coatings. Their work focuses on building a specialised dataset of molecular, compositional and process parameters, laying the groundwork for predictive models that could reduce reliance on empirical testing.",
       "summary": "Researchers propose a machine learning methodology to accelerate the design of erosion-resistant paint coatings. Their work focuses on building a spec...",
       "relevanceScore": 40,
-      "finalScore": 67.30001254056884
+      "finalScore": 67.07942578296755
     },
     {
       "title": "New click polymerisation delivers stimuli-responsive polyethers",
@@ -186,7 +176,7 @@
       "description": "A transition-metal-free click polymerisation of aldehyde-activated internal diynes and diphenols has produced a new family of regioregular poly(formyl ether)s. The polymers exhibit multiple stimuli-responsive behaviour, aggregation-induced emission and potential in sensing and information encoding.",
       "summary": "A transition-metal-free click polymerisation of aldehyde-activated internal diynes and diphenols has produced a new family of regioregular poly(formyl...",
       "relevanceScore": 40,
-      "finalScore": 67.08145154245511
+      "finalScore": 66.86000747385725
     },
     {
       "title": "Nanoflower additive extends life of zinc-rich epoxy coatings",
@@ -196,7 +186,47 @@
       "description": "Researchers have developed zinc phosphate nanoflowers loaded with 8-hydroxyquinoline as a multifunctional additive for zinc-rich epoxy coatings. At just 3 wt.-% loading, the composite significantly improves corrosion resistance while helping to reduce zinc consumption in protective coatings.",
       "summary": "Researchers have developed zinc phosphate nanoflowers loaded with 8-hydroxyquinoline as a multifunctional additive for zinc-rich epoxy coatings. At ju...",
       "relevanceScore": 40,
-      "finalScore": 66.02052838327165
+      "finalScore": 65.7949228169742
+    },
+    {
+      "title": "Biodegradable Plastics Enzyme Linked to Antibiotic Resistance",
+      "link": "https://www.plasticstoday.com/biopolymers/biodegradable-plastics-enzyme-linked-to-antibiotic-resistance",
+      "date": "2026-10-14T15:31:29.000Z",
+      "category": "材料创新",
+      "description": "A study finds that microbes degrading biodegradable polyesters carry an enzyme resistant to penicillin, raising fresh antibiotic-resistance concerns for plastics.",
+      "summary": "A study finds that microbes degrading biodegradable polyesters carry an enzyme resistant to penicillin, raising fresh antibiotic-resistance concerns f...",
+      "relevanceScore": 30,
+      "finalScore": 64.96177323013131
+    },
+    {
+      "title": "Plastics Deserve Credit the Public Narrative Denies",
+      "link": "https://www.plasticstoday.com/industry-trends/plastics-deserve-credit-the-public-narrative-denies",
+      "date": "2026-10-14T13:26:08.000Z",
+      "category": "材料创新",
+      "description": "Advancing well-researched data help the industry, human health and the planet",
+      "summary": "Advancing well-researched data help the industry, human health and the planet...",
+      "relevanceScore": 30,
+      "finalScore": 64.9429710892522
+    },
+    {
+      "title": "EC Podcast: Phasing out Solvent-borne Wood coatings with Hesse Lignal",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/ec-podcast-phasing-out-solvent-borne-wood-coatings-with-hesse-lignal/",
+      "date": "2026-10-14T13:00:32.000Z",
+      "category": "汽车防腐",
+      "description": "Can wood coatings formulators completely eliminate solvent-borne systems without sacrificing mechanical performance or chemical resistance? In the latest episode of the European Coatings Podcast, editor Yeray López discusses the sustainable transformation of industrial wood finishes with Dr. Sven Thomsen, Head of Research & Development at German coatings manufacturer Hesse Lignal.",
+      "summary": "Can wood coatings formulators completely eliminate solvent-borne systems without sacrificing mechanical performance or chemical resistance? In the lat...",
+      "relevanceScore": 30,
+      "finalScore": 64.9391311625948
+    },
+    {
+      "title": "Castor Oil-based Self-healing Coating Protects Wind Turbine Blades",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/castor-oil-based-self-healing-coating-protects-wind-turbine-blades/",
+      "date": "2026-10-14T08:27:04.000Z",
+      "category": "汽车防腐",
+      "description": "Researchers have developed a bio-based water-borne polyurethane coating with dynamic thiocarbamate bonds that achieves over 99 % self-healing efficiency and exceptional toughness. Applied to wind turbine blade models, the castor oil-derived coating repaired up to 74.6 % of scratches under natural sunlight within three days.",
+      "summary": "Researchers have developed a bio-based water-borne polyurethane coating with dynamic thiocarbamate bonds that achieves over 99 % self-healing efficien...",
+      "relevanceScore": 30,
+      "finalScore": 64.89811194606183
     },
     {
       "title": "Self-Stratified Bio-Based Coatings Tune Moisture Barrier Performance",
@@ -206,17 +236,7 @@
       "description": "Researchers have shown that processing-induced self-stratification in bio-based GelMA/AESO coatings enables morphology-controlled water vapour transport without changing the formulation. By tuning curing parameters, an optimised architecture achieved approximately 90 % reduction in water vapour transmission rate compared with neat GelMA while retaining breathability and surface hydrophobicity.",
       "summary": "Researchers have shown that processing-induced self-stratification in bio-based GelMA/AESO coatings enables morphology-controlled water vapour transpo...",
       "relevanceScore": 30,
-      "finalScore": 64.89046425703803
-    },
-    {
-      "title": "Ricardo reaches 2,000 vehicles tested at UK emissions site",
-      "link": "https://www.automotiveworld.com/topics/e-mobility/ricardo-emissions-centre-passes-2000-vehicle-milestone/",
-      "date": "2026-10-13T05:05:32.000Z",
-      "category": "车内健康",
-      "description": "Ricardo’s milestone shows how emissions testing now spans two jobs at once: policing tailpipe pollutants and verifying electric range\nThe post Ricardo reaches 2,000 vehicles tested at UK emissions site appeared first on Automotive World.",
-      "summary": "Ricardo’s milestone shows how emissions testing now spans two jobs at once: policing tailpipe pollutants and verifying electric range\nThe post Ricardo...",
-      "relevanceScore": 30,
-      "finalScore": 64.86242229005927
+      "finalScore": 64.68003861126252
     },
     {
       "title": "LYB Supplies Advanced Polymers for Wearable Support Device",
@@ -226,7 +246,7 @@
       "description": "LyondellBasell and exoIQ are collaborating on material solutions for the B900 active back exoskeleton, a wearable system designed to ease physical strain during demanding tasks.",
       "summary": "LyondellBasell and exoIQ are collaborating on material solutions for the B900 active back exoskeleton, a wearable system designed to ease physical str...",
       "relevanceScore": 30,
-      "finalScore": 64.77818682100764
+      "finalScore": 64.5673207641734
     },
     {
       "title": "Frontiers in Wood Coatings: Innovation and Collaboration",
@@ -236,7 +256,7 @@
       "description": "The conference brought together coatings manufacturers, end users, laboratories and research institutions to discuss how to improve the sustainability, performance and service life of wood coatings. By Yeray López Arauco.",
       "summary": "The conference brought together coatings manufacturers, end users, laboratories and research institutions to discuss how to improve the sustainability...",
       "relevanceScore": 30,
-      "finalScore": 64.6958513626837
+      "finalScore": 64.48466234294925
     },
     {
       "title": "AIMPLAS Develops Sustainable Flame-retardant Coatings and Varnishes",
@@ -246,7 +266,7 @@
       "description": "The Spanish Plastics Technology Centre AIMPLAS has reported progress on sustainable flame retardants and eco-friendly fire-retardant wood varnishes that reduce heat release and smoke generation. Developments from the PHOSFIRE and REFUGI projects cut combustion heat by up to 50 % and peak fire intensity by up to 46 %, while a new EU initiative, HEFESTOS, will investigate alternatives to brominated flame retardants.",
       "summary": "The Spanish Plastics Technology Centre AIMPLAS has reported progress on sustainable flame retardants and eco-friendly fire-retardant wood varnishes th...",
       "relevanceScore": 30,
-      "finalScore": 64.67384062241862
+      "finalScore": 64.46256526500343
     },
     {
       "title": "Plastic Ingenuity’s Paige Greenberg Highlights Sustainable Packaging Innovation for Pack Expo",
@@ -256,7 +276,7 @@
       "description": "Paige Greenberg, a packaging specialist at Plastic Ingenuity, discusses the company's plans for Pack Expo with PlasticsToday.",
       "summary": "Paige Greenberg, a packaging specialist at Plastic Ingenuity, discusses the company's plans for Pack Expo with PlasticsToday....",
       "relevanceScore": 30,
-      "finalScore": 64.09174506846364
+      "finalScore": 63.87818642663925
     },
     {
       "title": "Hyperbranched coating combines three antifouling mechanisms",
@@ -266,7 +286,7 @@
       "description": "Researchers have developed a degradable crosslinked marine antifouling coating that integrates passive defence, active biocide release and controlled surface degradation. Based on two hyperbranched polymers, the system combines sustained isothiazolinone release with an adjustable degradation rate for long-lasting resistance to microalgae attachment.",
       "summary": "Researchers have developed a degradable crosslinked marine antifouling coating that integrates passive defence, active biocide release and controlled ...",
       "relevanceScore": 30,
-      "finalScore": 64.04162014587101
+      "finalScore": 63.82786488778064
     },
     {
       "title": "Fakuma 2026 Celebrates 30 Years of Plastics Innovation",
@@ -276,7 +296,7 @@
       "description": "The 30th Fakuma international trade fair returns to Friedrichshafen, Germany, October 12 to 16, 2026, featuring 1,600 exhibitors, new awards, career initiatives, and comprehensive plastics processing innovations.",
       "summary": "The 30th Fakuma international trade fair returns to Friedrichshafen, Germany, October 12 to 16, 2026, featuring 1,600 exhibitors, new awards, career i...",
       "relevanceScore": 30,
-      "finalScore": 63.85771006423978
+      "finalScore": 63.643233414241784
     },
     {
       "title": "Thermoelectric nanocoating enables remote fire warning in 2.1 s",
@@ -286,7 +306,7 @@
       "description": "Researchers have developed a flexible layered nanocoating combining thermoelectric graphene, PEDOT:PSS and an ionic liquid that delivers both flame retardancy and highly sensitive temperature sensing. The system enables remote real-time monitoring and triggers a fire warning within 2.1 s of flame exposure.",
       "summary": "Researchers have developed a flexible layered nanocoating combining thermoelectric graphene, PEDOT:PSS and an ionic liquid that delivers both flame re...",
       "relevanceScore": 30,
-      "finalScore": 63.833562745725175
+      "finalScore": 63.61899137726469
     },
     {
       "title": "DBD device provides large-area hydrophobic coating for insulators",
@@ -296,7 +316,7 @@
       "description": "Researchers have developed a large-area dielectric barrier discharge system with transparent water-tungsten wire mesh electrodes to achieve uniform hydrophobic surface treatment of epoxy insulators. Integrated visual and distributed diagnostics ensure homogeneous plasma processing and reliable coating deposition.",
       "summary": "Researchers have developed a large-area dielectric barrier discharge system with transparent water-tungsten wire mesh electrodes to achieve uniform hy...",
       "relevanceScore": 40,
-      "finalScore": 63.66725428378959
+      "finalScore": 63.43241794081733
     },
     {
       "title": "Ti-MOF hybrid particles enhance epoxy anticorrosion performance",
@@ -306,7 +326,7 @@
       "description": "Researchers have developed a Ti-based metal-organic framework combined with TiO₂ nanoparticles as a hybrid filler for epoxy coatings. At just 0.2 wt.-%, the additive delivers a four-orders-of-magnitude improvement in impedance and preserves corrosion protection of mild steel for 70 days in saline conditions.",
       "summary": "Researchers have developed a Ti-based metal-organic framework combined with TiO₂ nanoparticles as a hybrid filler for epoxy coatings. At just 0.2 wt.-...",
       "relevanceScore": 40,
-      "finalScore": 63.663426870305315
+      "finalScore": 63.42857551420768
     },
     {
       "title": "Trust the Process: How Lean Six Sigma Optimizes Plastics Manufacturing",
@@ -316,7 +336,7 @@
       "description": "Ashlesa Mohapatra shares her experience with using the Lean Six Sigma tool DMAIC to address purge waste, eliminate scrap from defective parts and machine idle time, as well as reduce impact from mold changes.",
       "summary": "Ashlesa Mohapatra shares her experience with using the Lean Six Sigma tool DMAIC to address purge waste, eliminate scrap from defective parts and mach...",
       "relevanceScore": 30,
-      "finalScore": 63.643414752071756
+      "finalScore": 63.42809752333731
     },
     {
       "title": "Water-resilient PVOH coating enables recyclable barrier films",
@@ -326,7 +346,7 @@
       "description": "Researchers have developed a modified polyvinyl alcohol (PVOH) coating treated with sodium bicarbonate that achieves high oxygen barrier performance on PET film while resisting ambient water. The coating can be removed in hot water, enabling mono-material recycling and offering an alternative to complex multi-layer laminates in food packaging.",
       "summary": "Researchers have developed a modified polyvinyl alcohol (PVOH) coating treated with sodium bicarbonate that achieves high oxygen barrier performance o...",
       "relevanceScore": 30,
-      "finalScore": 63.5948437045697
+      "finalScore": 63.37933595468327
     },
     {
       "title": "Delta Tecnic Launches Antimony Trioxide Masterbatch for Safer Plastics",
@@ -336,7 +356,7 @@
       "description": "Delta Tecnic introduces antimony trioxide masterbatch technology that eliminates powder handling risks while improving dispersion consistency in flame-retardant systems for cables and PVC.",
       "summary": "Delta Tecnic introduces antimony trioxide masterbatch technology that eliminates powder handling risks while improving dispersion consistency in flame...",
       "relevanceScore": 30,
-      "finalScore": 63.439052785634864
+      "finalScore": 63.22293394196171
     },
     {
       "title": "Volkswagen, GM Win Top Honors at Composites Conference",
@@ -346,7 +366,7 @@
       "description": "Industry leaders and academic researchers gathered in Michigan to showcase cutting-edge materials innovation, processing techniques, and environmental solutions for next-generation vehicles.",
       "summary": "Industry leaders and academic researchers gathered in Michigan to showcase cutting-edge materials innovation, processing techniques, and environmental...",
       "relevanceScore": 30,
-      "finalScore": 63.42388258202643
+      "finalScore": 63.20770423284915
     },
     {
       "title": "Plastic Ingenuity Showcasing Sustainable Packaging Innovation at Pack Expo",
@@ -356,7 +376,7 @@
       "description": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The company will spotlight its innovations at Pack Expo 2026, being held later this month in Chicago.",
       "summary": "Plastic Ingenuity's Ameristar Award-winning PET medical device reel replaces PVC with recyclable material, converting 236,000 pounds annually. The com...",
       "relevanceScore": 30,
-      "finalScore": 63.41806302099017
+      "finalScore": 63.20186184443877
     },
     {
       "title": "Akzo Nobel sells deco paints business in South East Asia",
@@ -366,7 +386,7 @@
       "description": "Akzo Nobel has agreed to divest its Decorative Paints South East Asia business to Nippon Paint for USD 1.35 billion (approx. EUR 1.26 billion). The transaction marks a significant shift in the regional decorative paints market and reflects Akzo Nobel's ongoing portfolio strategy.",
       "summary": "Akzo Nobel has agreed to divest its Decorative Paints South East Asia business to Nippon Paint for USD 1.35 billion (approx. EUR 1.26 billion). The tr...",
       "relevanceScore": 30,
-      "finalScore": 63.39959830336761
+      "finalScore": 63.18332469849826
     },
     {
       "title": "Plastics Industry Leader Stan Glover Dies at 65",
@@ -376,7 +396,7 @@
       "description": "Stan Glover, sales director at Canton, OH-based Zeiger Industries and a PLASTICS Board of Directors member, died Oct. 2, 2026, at age 65 after battling lymphoma.",
       "summary": "Stan Glover, sales director at Canton, OH-based Zeiger Industries and a PLASTICS Board of Directors member, died Oct. 2, 2026, at age 65 after battlin...",
       "relevanceScore": 30,
-      "finalScore": 63.29068012614677
+      "finalScore": 63.073979286995616
     },
     {
       "title": "Non-invasive AI tool identifies pigments in historical paintings",
@@ -386,7 +406,7 @@
       "description": "Researchers have developed a non-invasive machine learning approach that classifies painting pigments using images acquired under three spectral illumination conditions. A random forest model achieved 99.3 % accuracy, offering a lightweight and accessible alternative to hyperspectral imaging in art conservation.",
       "summary": "Researchers have developed a non-invasive machine learning approach that classifies painting pigments using images acquired under three spectral illum...",
       "relevanceScore": 30,
-      "finalScore": 63.165717690579044
+      "finalScore": 62.94852668314035
     },
     {
       "title": "Nanofiller design combines UV protection and corrosion resistance",
@@ -396,17 +416,7 @@
       "description": "Researchers have developed a hierarchical CeO₂/U66@MXene nanofiller that combines strong UV absorption, free-radical scavenging and barrier effects in a single additive. Incorporated into epoxy coatings, it significantly improves resistance to UV ageing and long-term corrosion protection in saline environments.",
       "summary": "Researchers have developed a hierarchical CeO₂/U66@MXene nanofiller that combines strong UV absorption, free-radical scavenging and barrier effects in...",
       "relevanceScore": 40,
-      "finalScore": 63.010737077660984
-    },
-    {
-      "title": "EU Project Delivers Lightweight Biocomposites for Sustainable Transport",
-      "link": "https://www.plasticstoday.com/automotive-mobility/eu-project-delivers-lightweight-biocomposites-for-sustainable-transport",
-      "date": "2026-10-02T12:14:45.000Z",
-      "category": "材料创新",
-      "description": "The EU-funded Forest project has developed lightweight biocomposites for automotive, aerospace, and bus applications, achieving up to 35% weight reductions while maintaining performance and safety standards.",
-      "summary": "The EU-funded Forest project has developed lightweight biocomposites for automotive, aerospace, and bus applications, achieving up to 35% weight reduc...",
-      "relevanceScore": 30,
-      "finalScore": 62.559880718173176
+      "finalScore": 62.773325529482385
     },
     {
       "title": "Measuring under the coating for a faster digital lab",
@@ -416,7 +426,7 @@
       "description": "Volume solids is on almost every coating datasheet, yet measuring it takes about a week, so many labs calculate it from the recipe instead. Best practice in collaboration with Applied Material Intelligence (AMI) and Yeray López Arauco.",
       "summary": "Volume solids is on almost every coating datasheet, yet measuring it takes about a week, so many labs calculate it from the recipe instead. Best pract...",
       "relevanceScore": 30,
-      "finalScore": 62.53526524498385
+      "finalScore": 62.315601272015705
     },
     {
       "title": "Poly(α-lipoic acid) polymers enable glutathione-responsive drug delivery",
@@ -426,17 +436,7 @@
       "description": "Researchers have synthesised a series of poly(α-lipoic acid derivatives) tailored for glutathione-responsive drug delivery. The polymers form nanoparticles that selectively degrade under conditions characteristic of tumour cells, offering a route to more targeted cancer therapies.",
       "summary": "Researchers have synthesised a series of poly(α-lipoic acid derivatives) tailored for glutathione-responsive drug delivery. The polymers form nanopart...",
       "relevanceScore": 30,
-      "finalScore": 62.519689141311694
-    },
-    {
-      "title": "Plastic Pails of Beer Gain Attention, Traction",
-      "link": "https://www.plasticstoday.com/packaging/plastic-pails-of-beer-gain-attention-traction",
-      "date": "2026-10-01T17:41:18.000Z",
-      "category": "材料创新",
-      "description": "These three beer brands turned to otherwise ordinary 5-gallon pails to turn heads and break out from the boxy sameness of paper packaging multipacks.",
-      "summary": "These three beer brands turned to otherwise ordinary 5-gallon pails to turn heads and break out from the boxy sameness of paper packaging multipacks....",
-      "relevanceScore": 30,
-      "finalScore": 62.39351896629057
+      "finalScore": 62.29996407068625
     },
     {
       "title": "Sherwin-Williams expands architectural coatings plant",
@@ -446,7 +446,7 @@
       "description": "Sherwin-Williams has officially inaugurated its expanded manufacturing facility in Statesville, North Carolina, now the company's largest plant in North America. The investment adds production capacity, automation and rail infrastructure to strengthen supply chain responsiveness across the company's global network.",
       "summary": "Sherwin-Williams has officially inaugurated its expanded manufacturing facility in Statesville, North Carolina, now the company's largest plant in Nor...",
       "relevanceScore": 30,
-      "finalScore": 62.363706478174976
+      "finalScore": 62.14336956164137
     },
     {
       "title": "IGM Resins opens new Shanghai office",
@@ -456,7 +456,7 @@
       "description": "Radiation-curable coatings and inks specialist IGM Resins has inaugurated a new office in Shanghai, strengthening its footprint in the Asia-Pacific region. The facility is set to serve as the company's flagship location for APAC operations.",
       "summary": "Radiation-curable coatings and inks specialist IGM Resins has inaugurated a new office in Shanghai, strengthening its footprint in the Asia-Pacific re...",
       "relevanceScore": 30,
-      "finalScore": 62.36224224972426
+      "finalScore": 62.14189958971783
     },
     {
       "title": "Hybrid sol-gel coatings: tackling pathogens on surfaces",
@@ -466,7 +466,7 @@
       "description": "Sol-gel coatings with antibacterial properties show promise for reducing pathogen transmission on commonly touched surfaces, presenting a safer alternative to conventional antimicrobial systems.",
       "summary": "Sol-gel coatings with antibacterial properties show promise for reducing pathogen transmission on commonly touched surfaces, presenting a safer altern...",
       "relevanceScore": 30,
-      "finalScore": 62.13642236396795
+      "finalScore": 61.91519391979613
     },
     {
       "title": "Swiss Coatings Group Berlac acquires Vernici Caldart",
@@ -476,7 +476,7 @@
       "description": "Swiss surface finishing specialist Berlac has acquired Vernici Caldart, an Italian producer of industrial coatings, special coatings, and tinting systems, from private equity fund Itago IV. The transaction marks the third divestment completed by the Itago IV fund.",
       "summary": "Swiss surface finishing specialist Berlac has acquired Vernici Caldart, an Italian producer of industrial coatings, special coatings, and tinting syst...",
       "relevanceScore": 30,
-      "finalScore": 62.12712401526901
+      "finalScore": 61.90585909809123
     },
     {
       "title": "Neural networks help identify bio-based monomers for latexes",
@@ -486,7 +486,7 @@
       "description": "Researchers have developed an integrated machine learning framework that predicts four key properties of bio-based monomers simultaneously, enabling the systematic selection of sustainable alternatives to petroleum-based monomers in emulsion polymerisation. The tool was validated in coating and adhesive applications.",
       "summary": "Researchers have developed an integrated machine learning framework that predicts four key properties of bio-based monomers simultaneously, enabling t...",
       "relevanceScore": 30,
-      "finalScore": 61.86525621955936
+      "finalScore": 61.64296411938532
     },
     {
       "title": "Packaging coatings: “The key technical challenge is not recyclability itself”",
@@ -496,7 +496,7 @@
       "description": "The packaging industry faces a pressing dilemma: balancing high barrier performance with recyclability to meet modern sustainability demands. Angela Smits and André Garber of Stahl discuss how advanced water-borne barrier coatings are enabling circular packaging solutions while addressing the challenges posed by traditional multilayer structures.",
       "summary": "The packaging industry faces a pressing dilemma: balancing high barrier performance with recyclability to meet modern sustainability demands. Angela S...",
       "relevanceScore": 30,
-      "finalScore": 61.69708659377332
+      "finalScore": 61.474134844024476
     },
     {
       "title": "Sherwin-Williams opens new R&D centre for wood coatings in Sweden",
@@ -506,7 +506,7 @@
       "description": "Sherwin-Williams has inaugurated a new Research & Development Centre in Arlandastad, Sweden. The facility is intended to strengthen the company's innovation capabilities in wood coatings technologies and support product development for customers across Europe and beyond.",
       "summary": "Sherwin-Williams has inaugurated a new Research & Development Centre in Arlandastad, Sweden. The facility is intended to strengthen the company's inno...",
       "relevanceScore": 30,
-      "finalScore": 61.678666699470696
+      "finalScore": 61.455642697224484
     }
   ]
 }
