@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-25T05:26:56.526Z",
-  "updateTime": "2026/10/25 05:26:56",
+  "lastUpdated": "2026-10-26T05:31:03.128Z",
+  "updateTime": "2026/10/26 05:31:03",
   "totalArticles": 50,
   "categories": [
     "材料创新",
@@ -227,6 +227,16 @@
       "summary": "Understanding AI-Powered Formulation, Data-Driven Development and Digital R&D...",
       "relevanceScore": 30,
       "finalScore": 64.73192977908477
+    },
+    {
+      "title": "Nissan Kicks wins Top Safety Pick as RAV4 and Q3 miss out",
+      "link": "https://www.automotiveworld.com/news/nissan-kicks-wins-top-safety-pick-as-rav4-and-q3-miss-out/",
+      "date": "2026-10-23T04:55:30.000Z",
+      "category": "车内健康",
+      "description": "With the Toyota RAV4 missing a Top Safety Pick, mainstream SUVs are being caught out by tougher rear-passenger requirements\nThe post Nissan Kicks wins Top Safety Pick as RAV4 and Q3 miss out appeared first on Automotive World.",
+      "summary": "With the Toyota RAV4 missing a Top Safety Pick, mainstream SUVs are being caught out by tougher rear-passenger requirements\nThe post Nissan Kicks wins...",
+      "relevanceScore": 30,
+      "finalScore": 64.70447993313638
     },
     {
       "title": "PVA/PEI Coating Boosts Barrier and Adhesion for Food Packaging",
@@ -497,16 +507,6 @@
       "summary": "Akzo Nobel has agreed to divest its Decorative Paints South East Asia business to Nippon Paint for USD 1.35 billion (approx. EUR 1.26 billion). The tr...",
       "relevanceScore": 30,
       "finalScore": 61.09941341763975
-    },
-    {
-      "title": "Non-invasive AI tool identifies pigments in historical paintings",
-      "link": "https://www.european-coatings.com/news/coatings-technologies/non-invasive-ai-tool-identifies-pigments-in-historical-paintings/",
-      "date": "2026-10-05T07:49:35.000Z",
-      "category": "汽车防腐",
-      "description": "Researchers have developed a non-invasive machine learning approach that classifies painting pigments using images acquired under three spectral illumination conditions. A random forest model achieved 99.3 % accuracy, offering a lightweight and accessible alternative to hyperspectral imaging in art conservation.",
-      "summary": "Researchers have developed a non-invasive machine learning approach that classifies painting pigments using images acquired under three spectral illum...",
-      "relevanceScore": 30,
-      "finalScore": 60.86603630337171
     }
   ]
 }
