@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-27T09:12:51.494Z",
-  "updateTime": "2026/11/27 09:12:51",
+  "lastUpdated": "2026-11-28T08:33:44.177Z",
+  "updateTime": "2026/11/28 08:33:44",
   "totalArticles": 50,
   "categories": [
     "材料创新",
@@ -16,7 +16,7 @@
       "description": "The Society of Plastics Engineers' Automotive Division honored three innovations — a thermoplastic door seal, a composite tunnel reinforcement, and an advanced coolant seal — for 2026 and 2027 model-year vehicles.",
       "summary": "The Society of Plastics Engineers' Automotive Division honored three innovations — a thermoplastic door seal, a composite tunnel reinforcement, and an...",
       "relevanceScore": 80,
-      "finalScore": 88.02533494985691
+      "finalScore": 87.95843149838632
     },
     {
       "title": "Lignin-based epoxy resins approach viability for metal coatings",
@@ -26,7 +26,7 @@
       "description": "Researchers have developed fully lignin-based epoxy resin systems for metal coating applications that deliver reliable adhesion, impact resistance and durability – positioning depolymerised lignin as a scalable, bio-based alternative to bisphenol-derived resins.",
       "summary": "Researchers have developed fully lignin-based epoxy resin systems for metal coating applications that deliver reliable adhesion, impact resistance and...",
       "relevanceScore": 70,
-      "finalScore": 36.63206505274269
+      "finalScore": 36.612634357502195
     },
     {
       "title": "Fluorine-Free Laser Coating Protects Aluminium Alloy Durably",
@@ -36,7 +36,7 @@
       "description": "Researchers have developed a durable fluorine-free superhydrophobic coating for 7075 aluminium alloy, combining femtosecond laser texturing with a spot-like organic-inorganic reinforcement. The biomimetic cauliflower-like interface delivers a water contact angle of 163.4°, corrosion protection efficiency of 99.86 % and ice adhesion as low as 34 kPa.",
       "summary": "Researchers have developed a durable fluorine-free superhydrophobic coating for 7075 aluminium alloy, combining femtosecond laser texturing with a spo...",
       "relevanceScore": 60,
-      "finalScore": 77.98586206676984
+      "finalScore": 77.91899900664396
     },
     {
       "title": "NIR Curing Enables Thick, Filler-Rich Anti-Corrosion Coatings",
@@ -46,7 +46,7 @@
       "description": "Researchers have developed a near-infrared (NIR) photopolymerisation strategy assisted by upconversion particles that overcomes the depth limitations of conventional UV curing. The approach enables uniform, complete curing of anti-corrosion coatings with up to 20 wt.% zinc molybdate filler and thicknesses above 750 µm.",
       "summary": "Researchers have developed a near-infrared (NIR) photopolymerisation strategy assisted by upconversion particles that overcomes the depth limitations ...",
       "relevanceScore": 90,
-      "finalScore": 91.15502492011885
+      "finalScore": 91.09003529736336
     },
     {
       "title": "Stabilised Zinc Flakes Enable Sustainable Water-borne Anti-corrosion Coatings",
@@ -56,7 +56,7 @@
       "description": "Additive-stabilised zinc flakes offer effective corrosion protection while meeting sustainability demands.",
       "summary": "Additive-stabilised zinc flakes offer effective corrosion protection while meeting sustainability demands....",
       "relevanceScore": 90,
-      "finalScore": 88.46015209558068
+      "finalScore": 88.39792005039956
     },
     {
       "title": "Nippon Paint Holdings to reacquire European automotive coatings business",
@@ -66,7 +66,7 @@
       "description": "Nippon Paint Holdings has announced the reacquisition of its European automotive coatings business from the Wuthelam Group. The transaction, valued at approximately EUR 47 million, follows a restructuring period during which the business was held by the controlling shareholder and has since returned to profitability.",
       "summary": "Nippon Paint Holdings has announced the reacquisition of its European automotive coatings business from the Wuthelam Group. The transaction, valued at...",
       "relevanceScore": 90,
-      "finalScore": 70.65623997029088
+      "finalScore": 70.61222610162848
     },
     {
       "title": "PET-RAFT Delivers Degradable Antimicrobial Polymers for Health Use",
@@ -76,7 +76,7 @@
       "description": "Researchers have used photoinduced electron/energy transfer RAFT (PET-RAFT) polymerisation to synthesise redox-responsive, degradable cationic antimicrobial polymers derived from lipoic acid. Tuning hydrophobicity and degree of polymerisation enabled strong activity against clinically relevant bacteria and fungi, while preserving biocompatibility and end-of-life degradability.",
       "summary": "Researchers have used photoinduced electron/energy transfer RAFT (PET-RAFT) polymerisation to synthesise redox-responsive, degradable cationic antimic...",
       "relevanceScore": 60,
-      "finalScore": 76.6138596917663
+      "finalScore": 76.54840055799525
     },
     {
       "title": "Bio-based methacrylates yield selective antimicrobial polymers",
@@ -86,7 +86,7 @@
       "description": "Researchers have developed 15 amphiphilic random copolymers from amino acid-derived and terpene-based methacrylates, demonstrating that lysine-rich compositions deliver the highest antimicrobial activity and selectivity. The findings open new pathways for sustainable alternatives to conventional antibiotics.",
       "summary": "Researchers have developed 15 amphiphilic random copolymers from amino acid-derived and terpene-based methacrylates, demonstrating that lysine-rich co...",
       "relevanceScore": 60,
-      "finalScore": 42.503197535073426
+      "finalScore": 42.4726427560289
     },
     {
       "title": "Lignin–zein adhesive enables fully bio-based, debondable plywood",
@@ -96,7 +96,7 @@
       "description": "Researchers have developed a water-borne wood adhesive combining zein protein and lignin that avoids formaldehyde and synthetic cross-linkers. The fully bio-based system delivers competitive bonding performance for plywood and can be debonded on demand, enabling adhesive recovery and reuse.",
       "summary": "Researchers have developed a water-borne wood adhesive combining zein protein and lignin that avoids formaldehyde and synthetic cross-linkers. The ful...",
       "relevanceScore": 40,
-      "finalScore": 49.138210292850275
+      "finalScore": 49.09063343479976
     },
     {
       "title": "Hybrid Nanoparticles Boost Epoxy Anti-Corrosion and Wet Adhesion",
@@ -106,7 +106,7 @@
       "description": "Researchers have developed an epoxy nanocomposite coating containing GPMS-functionalised SiO₂/Al₂O₃ hybrid nanoparticles that cuts corrosion current density by more than two orders of magnitude on carbon steel. The 1:1 hybrid system also preserves 9.3 MPa wet adhesion after 40 days of salt-water immersion.",
       "summary": "Researchers have developed an epoxy nanocomposite coating containing GPMS-functionalised SiO₂/Al₂O₃ hybrid nanoparticles that cuts corrosion current d...",
       "relevanceScore": 70,
-      "finalScore": 81.84242983933153
+      "finalScore": 81.77673681700463
     },
     {
       "title": "Eggshell-Reinforced Coating Offers Fluorine-Free Corrosion Defence",
@@ -116,7 +116,7 @@
       "description": "Researchers have developed a fluorine-free superhydrophobic coating using discarded eggshells as a microscale skeleton, delivering strong mechanical durability and six orders of magnitude improvement in corrosion resistance. The coating retained its superhydrophobicity after 250 sandpaper abrasion cycles and 120 days of outdoor atmospheric exposure.",
       "summary": "Researchers have developed a fluorine-free superhydrophobic coating using discarded eggshells as a microscale skeleton, delivering strong mechanical d...",
       "relevanceScore": 60,
-      "finalScore": 79.56436166464741
+      "finalScore": 79.49588337613204
     },
     {
       "title": "Surventis and NIO Sign Automotive Coatings MOU",
@@ -126,7 +126,7 @@
       "description": "Surventis and NIO have signed a memorandum of understanding to extend and deepen their decade-long strategic partnership in automotive coatings. The agreement covers color design, color development, digital and sustainable solutions, and the optimization of coating processes across NIO's full vehicle lineup.",
       "summary": "Surventis and NIO have signed a memorandum of understanding to extend and deepen their decade-long strategic partnership in automotive coatings. The a...",
       "relevanceScore": 60,
-      "finalScore": 78.22272041468997
+      "finalScore": 78.15561498495667
     },
     {
       "title": "HOF-Based Self-Healing Coating Boosts Anticorrosion Performance",
@@ -136,7 +136,7 @@
       "description": "Researchers have developed a smart self-healing anticorrosion coating by encapsulating 8-hydroxyquinoline inside hydrogen-bonded organic framework (HOF) nanocontainers and incorporating them into a water-borne epoxy matrix. The pH-responsive system achieved 99.97 % anticorrosion efficiency on Q235 steel after 36 days of immersion in salt solution.",
       "summary": "Researchers have developed a smart self-healing anticorrosion coating by encapsulating 8-hydroxyquinoline inside hydrogen-bonded organic framework (HO...",
       "relevanceScore": 60,
-      "finalScore": 73.41855585449792
+      "finalScore": 73.35636637342617
     },
     {
       "title": "Bio-based Epoxy Coating Resists Marine Corrosion for 2,640 h",
@@ -146,7 +146,7 @@
       "description": "A new vanillin-derived epoxy coating with Schiff base linkages combines intrinsic flame retardancy, antibacterial activity, thermal self-healing and long-term marine corrosion protection. The system withstood 2,640 h of continuous salt spray testing without visible corrosion and achieved a glass transition temperature of 197 °C.",
       "summary": "A new vanillin-derived epoxy coating with Schiff base linkages combines intrinsic flame retardancy, antibacterial activity, thermal self-healing and l...",
       "relevanceScore": 60,
-      "finalScore": 70.48590113971437
+      "finalScore": 70.42671255085588
     },
     {
       "title": "BOSAD Chairman Tolga Kayalar on the Future of Turkish Coatings",
@@ -156,7 +156,7 @@
       "description": "Rising costs, shifting supply chains and sustainability demands are testing Türkiye’s paint and coatings manufacturers. For Tolga Kayalar, newly-elected Chairman of the Turkish paints and coatings industry association BOSAD, they also create an opportunity to compete on innovation, quality and reliability rather than price alone. In this interview with European Coatings, he outlines BOSAD’s priorities for R&D, digitalisation and exports - and how Turkish manufacturers can have a stronger...",
       "summary": "Rising costs, shifting supply chains and sustainability demands are testing Türkiye’s paint and coatings manufacturers. For Tolga Kayalar, newly-elect...",
       "relevanceScore": 40,
-      "finalScore": 69.42009172380307
+      "finalScore": 69.35176106212555
     },
     {
       "title": "Berger Paints Acquires Industrial Flooring Maker Rocland",
@@ -166,7 +166,7 @@
       "description": "Indian paint and coatings manufacturer Berger Paints India has agreed to acquire Rocland, a Pune-based maker of industrial and chemical-resistant flooring, for up to EUR 2.07 million. The deal adds an industrial flooring segment to Berger Paints' existing paints and coatings business.",
       "summary": "Indian paint and coatings manufacturer Berger Paints India has agreed to acquire Rocland, a Pune-based maker of industrial and chemical-resistant floo...",
       "relevanceScore": 40,
-      "finalScore": 69.33631512085064
+      "finalScore": 69.26807018510404
     },
     {
       "title": "Microplastic Ocean-Color Study Fails Basic Scrutiny",
@@ -176,7 +176,7 @@
       "description": "A widely reported study linking microplastics to ocean color change relies on flawed sampling methods, unrepresentative polymer selection, and fabricated data inputs.",
       "summary": "A widely reported study linking microplastics to ocean color change relies on flawed sampling methods, unrepresentative polymer selection, and fabrica...",
       "relevanceScore": 40,
-      "finalScore": 69.16319434924708
+      "finalScore": 69.09512656247503
     },
     {
       "title": "Inside the End-of-Life Case for Fluoropolymers",
@@ -186,7 +186,7 @@
       "description": "As Europe considers how PFAS should be regulated under REACH, the question of what happens to fluoropolymers once they reach the end of their life deserves closer attention. By Caroline Andersson, ­Director Fluoropolymers Product Group, Plastics Europe.",
       "summary": "As Europe considers how PFAS should be regulated under REACH, the question of what happens to fluoropolymers once they reach the end of their life des...",
       "relevanceScore": 40,
-      "finalScore": 69.08277775640678
+      "finalScore": 69.01479225737427
     },
     {
       "title": "TPE Solutions Launches XPM Plastics Compounding Plant",
@@ -196,7 +196,7 @@
       "description": "TPE Solutions launches XPM Plastics Compounding, a $12 million Massachusetts facility expanding twin-screw extrusion capabilities for engineered thermoplastic formulations and domestic manufacturing.",
       "summary": "TPE Solutions launches XPM Plastics Compounding, a $12 million Massachusetts facility expanding twin-screw extrusion capabilities for engineered therm...",
       "relevanceScore": 40,
-      "finalScore": 68.26010151387794
+      "finalScore": 68.1929578332558
     },
     {
       "title": "Lotus-Inspired Superhydrophobic Coating Self-Heals in 15 Seconds",
@@ -206,7 +206,17 @@
       "description": "Inspired by the microstructure of lotus leaves, researchers have developed a shape-memory superhydrophobic epoxy coating with micro-pillar arrays and dual-scale ZIF-8 particles that recovers from mechanical damage in 15 s under near-infrared light. The system delivers a self-healing efficiency of 95.2 % and strong corrosion protection for metal components.",
       "summary": "Inspired by the microstructure of lotus leaves, researchers have developed a shape-memory superhydrophobic epoxy coating with micro-pillar arrays and ...",
       "relevanceScore": 40,
-      "finalScore": 67.74288097528596
+      "finalScore": 67.67626654997608
+    },
+    {
+      "title": "PFAS-free Hydrophilic Coating Cuts Aircraft Ice Adhesion to 20 kPa",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/pfas-free-hydrophilic-coating-cuts-aircraft-ice-adhesion-to-20-kpa/",
+      "date": "2026-11-27T10:01:43.000Z",
+      "category": "汽车防腐",
+      "description": "Researchers at TU Delft have developed PFAS-free hydrophilic coating strategies that reduce ice adhesion on aerospace substrates to below 20 kPa through the formation of a non-freezing surface water layer. A UV-curable cationic DMC spray coating delivered consistently low ice adhesion across cyclic testing.",
+      "summary": "Researchers at TU Delft have developed PFAS-free hydrophilic coating strategies that reduce ice adhesion on aerospace substrates to below 20 kPa throu...",
+      "relevanceScore": 30,
+      "finalScore": 64.96122462883727
     },
     {
       "title": "Uta Holzenkamp Appointed New CEO of Heraeus Precious Metals",
@@ -216,7 +226,7 @@
       "description": "Starting December 1, 2026, Heraeus Precious Metals will welcome Uta Holzenkamp as its new CEO. The seasoned manager from the coatings and chemical industries is set to drive the company’s continued growth and strategic transformation.",
       "summary": "Starting December 1, 2026, Heraeus Precious Metals will welcome Uta Holzenkamp as its new CEO. The seasoned manager from the coatings and chemical ind...",
       "relevanceScore": 30,
-      "finalScore": 64.78017850836495
+      "finalScore": 64.71147938134358
     },
     {
       "title": "Feedstock Tightness Reshapes Recycled Resin Pricing Trends",
@@ -226,7 +236,7 @@
       "description": "Seasonal bale tightness is reshaping US rPET, rHDPE, and rPP pricing as ICIS experts weigh in on supply, trade, and demand trends.",
       "summary": "Seasonal bale tightness is reshaping US rPET, rHDPE, and rPP pricing as ICIS experts weigh in on supply, trade, and demand trends....",
       "relevanceScore": 30,
-      "finalScore": 64.63692683213563
+      "finalScore": 64.56837428999435
     },
     {
       "title": "Growing Opportunities in Packaging Coatings",
@@ -236,7 +246,7 @@
       "description": "Barrier coatings continue to dominate the global packaging coatings market, which is projected to be worth nearly EUR 13.4 in 2026, according to new research from Smithers. By Adam Page, Smithers.",
       "summary": "Barrier coatings continue to dominate the global packaging coatings market, which is projected to be worth nearly EUR 13.4 in 2026, according to new r...",
       "relevanceScore": 30,
-      "finalScore": 64.61413033439757
+      "finalScore": 64.54560111918674
     },
     {
       "title": "Sustainable Polypropylene Packaging in Healthcare",
@@ -246,7 +256,7 @@
       "description": "Europe is advancing circular packaging strategies that could serve as a roadmap for US pharmaceutical manufacturers and some medical device manufacturers.",
       "summary": "Europe is advancing circular packaging strategies that could serve as a roadmap for US pharmaceutical manufacturers and some medical device manufactur...",
       "relevanceScore": 30,
-      "finalScore": 64.59817752209543
+      "finalScore": 64.52966463088958
     },
     {
       "title": "Plastic Alternatives Could Generate More GHGs",
@@ -256,7 +266,7 @@
       "description": "Replacing single-use polyethylene packaging could increase greenhouse gas emissions by 190% in the US and 50% in Europe, according to new research.",
       "summary": "Replacing single-use polyethylene packaging could increase greenhouse gas emissions by 190% in the US and 50% in Europe, according to new research....",
       "relevanceScore": 30,
-      "finalScore": 64.40409681270546
+      "finalScore": 64.3357825181113
     },
     {
       "title": "Plastics Industry Groups React to Permitting Reform Bill",
@@ -266,7 +276,7 @@
       "description": "The US Senate passed federal permitting reform legislation that industry groups say could speed up water, energy, broadband and transportation projects nationwide.",
       "summary": "The US Senate passed federal permitting reform legislation that industry groups say could speed up water, energy, broadband and transportation project...",
       "relevanceScore": 30,
-      "finalScore": 64.39391679772987
+      "finalScore": 64.32561292002096
     },
     {
       "title": "Shalimar Paints and Infra Market Plan Merger",
@@ -276,7 +286,7 @@
       "description": "India's oldest paint company, Shalimar Paints, is set to merge with its promoter Infra Market in a deal valuing the combined business at approx. EUR 2.1 billion. The transaction would transform the historic paint manufacturer into a diversified building-materials platform, bringing major institutional investors onto the shareholder register of the merged listed company.",
       "summary": "India's oldest paint company, Shalimar Paints, is set to merge with its promoter Infra Market in a deal valuing the combined business at approx. EUR 2...",
       "relevanceScore": 30,
-      "finalScore": 64.36651311306437
+      "finalScore": 64.29823727667363
     },
     {
       "title": "Zwitterionic Coating Cuts Toilet Water Consumption by 88.6 %",
@@ -286,7 +296,7 @@
       "description": "Researchers have developed a zwitterionic polymer coating for ceramic sanitary ware that reduces the water needed to flush synthetic faeces by 88.6 % and cuts bacterial adhesion by 98.7 %. The approach offers a durable, lubricant-free alternative to slippery coatings for addressing global water scarcity.",
       "summary": "Researchers have developed a zwitterionic polymer coating for ceramic sanitary ware that reduces the water needed to flush synthetic faeces by 88.6 % ...",
       "relevanceScore": 30,
-      "finalScore": 64.33563101542453
+      "finalScore": 64.26738677970121
     },
     {
       "title": "Mussel-Inspired Self-Healing Coating Protects Concrete Structures",
@@ -296,7 +306,7 @@
       "description": "Researchers have developed a bio-inspired self-healing acrylic coating that combines mussel-inspired catechol chemistry with dynamic disulfide bonds for the protection of cement-based materials. The dual-dynamic system achieves adhesion of 4.76 MPa, 93.8 % thermal self-healing efficiency and a 74 % reduction in chloride migration.",
       "summary": "Researchers have developed a bio-inspired self-healing acrylic coating that combines mussel-inspired catechol chemistry with dynamic disulfide bonds f...",
       "relevanceScore": 30,
-      "finalScore": 64.1009460178197
+      "finalScore": 64.03294192778361
     },
     {
       "title": "Machine vision detects and grades chipping in automotive coatings",
@@ -306,7 +316,7 @@
       "description": "Researchers have developed an automated machine vision system for the objective detection and grading of chipping defects on automotive coatings. The method delivers consistent results, correlates strongly with expert inspectors and cuts inspection time roughly sevenfold.",
       "summary": "Researchers have developed an automated machine vision system for the objective detection and grading of chipping defects on automotive coatings. The ...",
       "relevanceScore": 60,
-      "finalScore": 63.63731908766227
+      "finalScore": 63.585138434803966
     },
     {
       "title": "Thermally Conductive Plastics Help Meet Challenges of Hotter Electronics",
@@ -316,7 +326,7 @@
       "description": "As electronic components become smaller and lighter yet more powerful, effective heat dissipation has grown in importance. If not removed efficiently, excessive heat generated during operation could affect part reliability and performance and shorten useful life. Thermally conductive plastics may provide solutions.",
       "summary": "As electronic components become smaller and lighter yet more powerful, effective heat dissipation has grown in importance. If not removed efficiently,...",
       "relevanceScore": 30,
-      "finalScore": 63.54435784312926
+      "finalScore": 63.476923292054245
     },
     {
       "title": "Transparent Coating Delivers Winter De-Icing and Summer Cooling",
@@ -326,7 +336,7 @@
       "description": "Researchers have developed a transparent solid slippery coating that combines passive anti-icing with photothermal de-icing in winter and summer thermal management. Based on a phenyl/methylsiloxane network with CsₓWO₃ nanoparticles, the coating reaches 86.5 °C under sunlight while maintaining above 83 % visible transparency.",
       "summary": "Researchers have developed a transparent solid slippery coating that combines passive anti-icing with photothermal de-icing in winter and summer therm...",
       "relevanceScore": 30,
-      "finalScore": 63.42087418254006
+      "finalScore": 63.353565988364025
     },
     {
       "title": "PureCycle, WM Forge Major Plastic Recycling Deal",
@@ -336,7 +346,7 @@
       "description": "PureCycle Technologies and WM announced a long-term feedstock deal, supplying nearly 25 million pounds of recycled polypropylene yearly to boost circular plastic production.",
       "summary": "PureCycle Technologies and WM announced a long-term feedstock deal, supplying nearly 25 million pounds of recycled polypropylene yearly to boost circu...",
       "relevanceScore": 30,
-      "finalScore": 63.2962827973955
+      "finalScore": 63.22910209361771
     },
     {
       "title": "PET Plastic Bottles Can Advance Circularity and Reduce Emissions by 50%, According to New Report",
@@ -346,17 +356,7 @@
       "description": "",
       "summary": "...",
       "relevanceScore": 30,
-      "finalScore": 63.23965728633585
-    },
-    {
-      "title": "Fire-Safe Coating Delays Lithium-Ion Battery Thermal Runaway",
-      "link": "https://www.european-coatings.com/news/coatings-technologies/fire-safe-coating-delays-lithium-ion-battery-thermal-runaway/",
-      "date": "2026-11-19T07:59:54.000Z",
-      "category": "汽车防腐",
-      "description": "Researchers have developed a composite flame-retardant epoxy coating combining modified magnesium hydroxide with pentaerythritol phosphate (PEPA) that achieves UL-94 V-0 classification and reduces smoke production by up to 76 %. Applied to lithium-ion batteries, the coating delayed thermal runaway onset by 465 s and cut peak temperature of adjacent cells by 272 °C.",
-      "summary": "Researchers have developed a composite flame-retardant epoxy coating combining modified magnesium hydroxide with pentaerythritol phosphate (PEPA) that...",
-      "relevanceScore": 30,
-      "finalScore": 63.19228035440239
+      "finalScore": 63.17253452564095
     },
     {
       "title": "Remmers Acquires Rustins Group",
@@ -366,7 +366,17 @@
       "description": "German coatings manufacturer Remmers has completed the acquisition of the Rustins Group, a British manufacturer of wood coatings and specialty products founded in 1924. The move expands Remmers' UK portfolio into the DIY and trade retail segments, complementing its existing industrial flooring and wood coatings business.",
       "summary": "German coatings manufacturer Remmers has completed the acquisition of the Rustins Group, a British manufacturer of wood coatings and specialty product...",
       "relevanceScore": 40,
-      "finalScore": 63.18809389231202
+      "finalScore": 63.12614023562978
+    },
+    {
+      "title": "Fire-Safe Coating Delays Lithium-Ion Battery Thermal Runaway",
+      "link": "https://www.european-coatings.com/news/coatings-technologies/fire-safe-coating-delays-lithium-ion-battery-thermal-runaway/",
+      "date": "2026-11-19T07:59:54.000Z",
+      "category": "汽车防腐",
+      "description": "Researchers have developed a composite flame-retardant epoxy coating combining modified magnesium hydroxide with pentaerythritol phosphate (PEPA) that achieves UL-94 V-0 classification and reduces smoke production by up to 76 %. Applied to lithium-ion batteries, the coating delayed thermal runaway onset by 465 s and cut peak temperature of adjacent cells by 272 °C.",
+      "summary": "Researchers have developed a composite flame-retardant epoxy coating combining modified magnesium hydroxide with pentaerythritol phosphate (PEPA) that...",
+      "relevanceScore": 30,
+      "finalScore": 63.12520607301377
     },
     {
       "title": "PLASTICS Opens Nominations for Carteaux Award",
@@ -376,7 +386,7 @@
       "description": "PLASTICS seeks nominees for the 2027 William R. Carteaux Leadership Award, honoring professionals who exemplify unity, dedication, and perseverance in the plastics industry.",
       "summary": "PLASTICS seeks nominees for the 2027 William R. Carteaux Leadership Award, honoring professionals who exemplify unity, dedication, and perseverance in...",
       "relevanceScore": 30,
-      "finalScore": 63.080468584852674
+      "finalScore": 63.01350871688848
     },
     {
       "title": "Plastics World Expos Strikes Right Chord in Cleveland",
@@ -386,7 +396,7 @@
       "description": "AMI's Plastics World Expos North America united four specialist exhibitions in Cleveland, featuring 90-plus speakers on regulation, EPR, M&A, and industry trends.",
       "summary": "AMI's Plastics World Expos North America united four specialist exhibitions in Cleveland, featuring 90-plus speakers on regulation, EPR, M&A, and indu...",
       "relevanceScore": 30,
-      "finalScore": 62.86667511449162
+      "finalScore": 62.799934014579875
     },
     {
       "title": "US Plastics Industry Nears Full Trade Surplus",
@@ -396,7 +406,7 @@
       "description": "The US plastics industry logged $147.5 billion in trade in 2025, ranking second globally as imports fell faster than exports, narrowing the trade deficit, a new report shows.",
       "summary": "The US plastics industry logged $147.5 billion in trade in 2025, ranking second globally as imports fell faster than exports, narrowing the trade defi...",
       "relevanceScore": 30,
-      "finalScore": 62.78451931516416
+      "finalScore": 62.717862282666566
     },
     {
       "title": "Polyester Resins: Synthomer and BATF Group Form Joint Venture",
@@ -406,7 +416,7 @@
       "description": "Synthomer plc and BATF Group have signed an agreement to establish a strategic partnership targeting the specialty coatings market in China. The joint venture will focus on coalescing agents and high-performance polyester resins for powder coatings - key materials in the global transition toward water-based and low-VOC coating technologies.",
       "summary": "Synthomer plc and BATF Group have signed an agreement to establish a strategic partnership targeting the specialty coatings market in China. The joint...",
       "relevanceScore": 30,
-      "finalScore": 62.72715181283465
+      "finalScore": 62.66055348267599
     },
     {
       "title": "“Paint formulation must be specifically designed to cope with dynamic interfaces.”",
@@ -416,7 +426,7 @@
       "description": "Modern substrates and multi-material systems are introducing complex challenges for paint adhesion and corrosion protection. In this interview, Dr. Jun Liu, Head of R&D Competence Center Resins & Modifiers at Rain Carbon, explains why traditional tests like salt spray remain relevant but require supplementation with advanced methods. She also delves into how innovative formulations and data-driven models can address dynamic interfaces and enhance service life predictions.",
       "summary": "Modern substrates and multi-material systems are introducing complex challenges for paint adhesion and corrosion protection. In this interview, Dr. Ju...",
       "relevanceScore": 40,
-      "finalScore": 62.717468826762875
+      "finalScore": 62.655996745728615
     },
     {
       "title": "Chitosan and eggshell coating cuts wood fire risk sustainably",
@@ -426,7 +436,7 @@
       "description": "Researchers have developed a bio-based intumescent flame-retardant coating for wood that combines chitosan and waste eggshell powder with conventional intumescent additives. The coating raised the limiting oxygen index of wood from 27 % to 46 % and reduced the peak heat release rate by 42 %.",
       "summary": "Researchers have developed a bio-based intumescent flame-retardant coating for wood that combines chitosan and waste eggshell powder with conventional...",
       "relevanceScore": 30,
-      "finalScore": 62.51223746204465
+      "finalScore": 62.4458590468997
     },
     {
       "title": "EC Podcast: How consolidation and niche strategies are reshaping the coatings market",
@@ -436,7 +446,7 @@
       "description": "How can coatings manufacturers successfully navigate the intensifying wave of global consolidation—and where do the greatest strategic opportunities lie for mid-sized players? In the latest episode of the European Coatings Podcast, editor Yeray López discusses market shifts, M&A dynamics and competitive strategy with Trevor Matayi, Senior Advisor at consulting firm Orr & Boss.",
       "summary": "How can coatings manufacturers successfully navigate the intensifying wave of global consolidation—and where do the greatest strategic opportunities l...",
       "relevanceScore": 30,
-      "finalScore": 61.841895710864215
+      "finalScore": 61.77620323509398
     },
     {
       "title": "Michael Addition Coatings Protect Aluminium Formwork from Alkaline Attack",
@@ -446,7 +456,7 @@
       "description": "Researchers have developed a Michael addition-cured high-solid coating system for aluminium alloy formwork, based on a β-ketoester-functionalised epoxy donor. The TMPTA-crosslinked variant delivered a tensile strength of 41.5 MPa, strong corrosion resistance and effective cement-release performance, offering a lower-energy alternative to powder coatings.",
       "summary": "Researchers have developed a Michael addition-cured high-solid coating system for aluminium alloy formwork, based on a β-ketoester-functionalised epox...",
       "relevanceScore": 40,
-      "finalScore": 61.643949542699204
+      "finalScore": 61.58357595977455
     },
     {
       "title": "Nacre-inspired coating combines cooling and corrosion protection",
@@ -456,7 +466,7 @@
       "description": "Researchers have developed a nacre-inspired composite coating for aluminium alloys that combines passive radiative cooling with strong corrosion protection. The layer-by-layer assembled system achieves a 12.7 °C temperature drop outdoors and maintains high impedance after 60 days in saline conditions.",
       "summary": "Researchers have developed a nacre-inspired composite coating for aluminium alloys that combines passive radiative cooling with strong corrosion prote...",
       "relevanceScore": 60,
-      "finalScore": 61.58075872448859
+      "finalScore": 61.53068248438261
     },
     {
       "title": "PPG Comex Invests USD 118 Million in New Mexican Resin Plant",
@@ -466,7 +476,7 @@
       "description": "PPG Comex has announced plans to build a new resin manufacturing plant in Acolman, Estado de México, representing an investment of approximately 2,400 million Mexican pesos (approx. USD 118 million / EUR 112 million). The facility is expected to create 500 jobs and strengthen the domestic supply of raw materials for Mexico's paint and coatings industry.",
       "summary": "PPG Comex has announced plans to build a new resin manufacturing plant in Acolman, Estado de México, representing an investment of approximately 2,400...",
       "relevanceScore": 30,
-      "finalScore": 61.19951808456374
+      "finalScore": 61.13448293336945
     },
     {
       "title": "Coatings Community Mourns Prof. Socrates Peter Pappas",
@@ -476,7 +486,7 @@
       "description": "Prof. Socrates Peter Pappas passed away on 16 October 2026 after a long illness, surrounded by his closest family. The coatings chemist and photochemist had a distinguished career spanning academia and industry across multiple decades.",
       "summary": "Prof. Socrates Peter Pappas passed away on 16 October 2026 after a long illness, surrounded by his closest family. The coatings chemist and photochemi...",
       "relevanceScore": 30,
-      "finalScore": 61.197947273258386
+      "finalScore": 61.13291372942529
     },
     {
       "title": "Astorg to Sell IGM Resins to Chinese Photoinitiator Manufacturer Jiuri",
@@ -486,7 +496,7 @@
       "description": "Private equity firm Astorg has signed an agreement to sell IGM Resins to a consortium led by Tianjin Jiuri New Materials. The deal is set to create a global platform for energy-curing solutions, combining complementary expertise in photoinitiators, resins, and coatings applications.",
       "summary": "Private equity firm Astorg has signed an agreement to sell IGM Resins to a consortium led by Tianjin Jiuri New Materials. The deal is set to create a ...",
       "relevanceScore": 30,
-      "finalScore": 61.171830233028935
+      "finalScore": 61.106823413931714
     },
     {
       "title": "Sustainable Coatings: Connecting Materials, Data and the Value Chain",
@@ -496,17 +506,7 @@
       "description": "The EC Conference Sustainable Coatings brought together coatings manufacturers, raw material suppliers and researchers in Amsterdam on 3–4 November 2026. Its central question was how to reduce environmental impact while maintaining the performance, processability and cost efficiency that customers expect. By Yeray López Arauco.",
       "summary": "The EC Conference Sustainable Coatings brought together coatings manufacturers, raw material suppliers and researchers in Amsterdam on 3–4 November 20...",
       "relevanceScore": 30,
-      "finalScore": 60.988458404732455
-    },
-    {
-      "title": "Physics-informed AI models tackle coating corrosion prediction",
-      "link": "https://www.european-coatings.com/news/coatings-technologies/physics-informed-ai-models-tackle-coating-corrosion-prediction/",
-      "date": "2026-09-02T12:49:31.000Z",
-      "category": "汽车防腐",
-      "description": "A critical review evaluates scientific machine learning approaches for predicting coating degradation and corrosion, identifying five persistent limitations of current data-driven models. The authors propose a new framework that combines physics-based constraints with data-driven learning to enable more reliable digital twins for asset management.",
-      "summary": "A critical review evaluates scientific machine learning approaches for predicting coating degradation and corrosion, identifying five persistent limit...",
-      "relevanceScore": 60,
-      "finalScore": 60.50598963243489
+      "finalScore": 60.92363922418978
     }
   ]
 }
